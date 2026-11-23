@@ -1,0 +1,117 @@
+import type {Course} from './types';
+import bank from '../../../content/number-and-quantity-draft.json';
+
+export const numberAndQuantity:Course={
+  slug:'number-and-quantity',subject:'MATH',domain:'Number & Quantity',topic:'Number and quantity',
+  overview:'Build the arithmetic behind ACT ratios, equations, and expressions. Start with signs and exact quantities, then combine them to solve and check multi-step problems.',
+  draftPracticeCount:bank.items.length,
+  concepts:[
+    {id:'signed-numbers',level:'beginner',prerequisites:[]},
+    {id:'fraction-operations',level:'intermediate',prerequisites:['signed-numbers']},
+    {id:'decimal-representations',level:'standard',prerequisites:['fraction-operations']},
+    {id:'operation-order',level:'standard',prerequisites:['signed-numbers','fraction-operations']},
+    {id:'exact-and-estimated',level:'advanced',prerequisites:['decimal-representations','operation-order']},
+  ],
+  lessons:[
+    {
+      id:'signed-numbers',title:'Read signs, positions, and changes',minutes:18,
+      objectives:['Compare signed quantities.','Use opposites to explain subtraction.','Distinguish a position, distance, and change.'],
+      prerequisites:['Count forward and backward by whole numbers.'],
+      instruction:[
+        {title:'Separate location and distance',body:'A signed number can describe a location relative to zero. Numbers increase as you move right. Absolute value measures distance from zero, so $|-7|=7$. A value of −7 is below −4 even though its distance from zero is larger.'},
+        {title:'Adding a negative is moving left',body:'Adding positive 5 moves right five units. Adding negative 5 moves left five. Subtracting a quantity adds its opposite, because removing a change reverses its effect. Thus $3-(-5)=3+5$.'},
+        {title:'Track the sign of products',body:'A nonzero product with an odd number of negative factors is negative. Pairing negative factors makes positive products. Division follows the same sign rule because quotient times divisor must recover the dividend. Zero has no positive or negative sign, and division by zero is undefined.'},
+      ],
+      examples:[
+        {title:'Order readings below zero',prompt:'Order −9, −3, and 2 from least to greatest.',steps:['Both negative readings lie left of zero.','−9 is farther left than −3.','The order is −9, −3, 2.'],table:{caption:'Location versus distance from zero',headings:['Location','Distance'],rows:[['−9','9'],['−3','3'],['2','2']]}},
+        {title:'Find a signed change',prompt:'A sensor rises from −6 to 4. What is the change?',steps:['Use final minus initial.','Compute $4-(-6)=4+6$.','The increase is 10 units.']},
+        {title:'Count negative factors',prompt:'Find $(-2)(-3)(-4)$.',steps:['Pair the first two negatives to get 6.','Multiply 6 by −4.','The magnitude is 24 and the unmatched negative gives −24.']},
+      ],
+      pitfalls:['Ordering negative numbers by distance alone.','Subtracting the magnitude of a negative.','Treating distance as negative.'],
+      timing:'For a change, write final minus initial with the initial value in parentheses.',
+      guided:{prompt:'A balance changes from −8 to −2. What is the signed change?',hint:'Subtract the initial balance from the new balance.',choices:['−10','−6','6','10'],answer:2,feedback:['Adding the two readings does not measure change.','This reverses final and initial.','The balance rises by $-2-(-8)=6$.','The two readings are on the same side of zero.']},
+      summary:'Order by position, use absolute value for distance, and compute change as final minus initial.',
+      sources:['act-math','openstax-algebra-essentials'],
+    },
+    {
+      id:'fraction-operations',title:'Compute with fractions and common units',minutes:24,dependsOn:'signed-numbers',
+      objectives:['Find equivalent fractions.','Add or subtract using like-sized parts.','Multiply and divide fractions and interpret the result.'],
+      prerequisites:['Multiply integers and use the sign of a product.'],
+      instruction:[
+        {title:'A denominator specifies the unit',body:'The fraction $a/b$ measures $a$ copies of a $1/b$ unit when $b$ is positive. Multiplying numerator and denominator by the same nonzero number multiplies the fraction by 1. That changes its representation while preserving its value.'},
+        {title:'Add only after matching units',body:'To add fifths to thirds, express both in fifteenths or another shared unit. Add the numerators and keep the shared denominator. When multiplying fractions, the denominators multiply because you are taking a fraction of a fraction.'},
+        {title:'Division asks how many groups fit',body:'To evaluate $a/b$ divided by $c/d$, solve for the number that gives $a/b$ when multiplied by $c/d$. Multiply the dividend by $d/c$, provided $c$ is nonzero. Dividing a positive quantity by a positive fraction less than 1 increases the numeric result.'},
+      ],
+      examples:[
+        {title:'Subtract unlike fractions',prompt:'Compute $3/4-1/6$.',steps:['Use denominator 12.','$3/4=9/12$ and $1/6=2/12$.','Subtract the numerators to get $7/12$.']},
+        {title:'Multiply after cancellation',prompt:'Compute $(14/15)(-9/7)$.',steps:['Cancel a factor of 7 between 14 and 7.','Reduce $9/15$ to $3/5$.','Multiply $2$ by $-3/5$ for $-6/5$.']},
+        {title:'Count fractional servings',prompt:'A tank has $9/4$ liters. Each serving takes $3/8$ liter. How many servings fit?',steps:['Divide the amount by the serving size.','Multiply $9/4$ by $8/3$ to get 6.','Check six servings use $18/8=9/4$ liters.']},
+      ],
+      pitfalls:['Adding denominators.','Canceling across a sum.','Taking the reciprocal of the dividend instead of the divisor.'],
+      timing:'Cancel factors before multiplication. For addition, look for the smallest easy common unit.',
+      guided:{prompt:'What is $5/6-1/4$?',hint:'Express each quantity in twelfths.',choices:['$4/2$','$4/12$','$7/12$','$9/12$'],answer:2,feedback:['Subtraction needs a common denominator.','Equivalent fractions change both numerator and denominator.','$10/12-3/12=7/12$.','One fourth is three twelfths.']},
+      summary:'Match denominators for addition or subtraction, cancel factors in products, and invert only the divisor.',
+      sources:['act-math','openstax-fraction-products','openstax-fraction-sums'],
+    },
+    {
+      id:'decimal-representations',title:'Compare and convert rational quantities',minutes:21,dependsOn:'fraction-operations',
+      objectives:['Read decimal place values.','Switch between fractions and decimals exactly when possible.','Explain when a reduced fraction has a terminating decimal.'],
+      prerequisites:['Reduce fractions and find equivalent fractions.'],
+      instruction:[
+        {title:'Place value gives denominators',body:'In $0.406$, the digits represent four tenths, zero hundredths, and six thousandths. Thus $0.406=406/1000$. Adding trailing zeros after the decimal preserves value because their contribution is zero.'},
+        {title:'Compare at equal precision',body:'Write 0.8 as 0.800 when comparing it with 0.798. Compare the digits from largest place value to smallest. For negative numbers the greater positive magnitude corresponds to the smaller signed value.'},
+        {title:'Test the reduced denominator',body:'A fraction terminates in base ten when its reduced positive denominator divides some power of 10. The only prime factors allowed are 2 and 5 because $10=2×5$. A reduced denominator containing another prime produces a repeating decimal. A rational number has a terminating or repeating decimal. A nonterminating, nonrepeating decimal is irrational.'},
+      ],
+      examples:[
+        {title:'Convert a decimal to lowest terms',prompt:'Write 0.072 as a reduced fraction.',steps:['The last digit is in the thousandths place.','Write $72/1000$.','Divide by 8 to obtain $9/125$.']},
+        {title:'Compare mixed representations',prompt:'Which is larger, $7/16$ or 0.44?',steps:['Divide 7 by 16 to get 0.4375.','Write 0.44 as 0.4400.','The second is larger because 4400 ten-thousandths exceeds 4375.']},
+        {title:'Reduce before testing termination',prompt:'Does $14/35$ have a terminating decimal?',steps:['Cancel the common factor 7.','The reduced denominator is 5, which divides 10.','$2/5=4/10=0.4$, so it terminates.']},
+      ],
+      pitfalls:['Comparing decimals by digit count.','Testing prime factors before reducing.','Using an approximation as exact equality.'],
+      timing:'Use a common denominator when convenient. If choices involve termination, factor only the reduced denominator.',
+      guided:{prompt:'Which fraction has a terminating decimal?',hint:'Reduce before checking for prime factors other than 2 and 5.',choices:['$5/12$','$6/15$','$4/14$','$7/30$'],answer:1,feedback:['The reduced denominator contains 3.','$6/15=2/5=0.4$.','$4/14=2/7$ and 7 does not divide a power of 10.','The reduced denominator contains 3.']},
+      summary:'Convert using powers of ten. A reduced denominator with only factors 2 and 5 gives a terminating decimal.',
+      sources:['act-math','openstax-algebra-essentials','openstax-decimal-place'],
+    },
+    {
+      id:'operation-order',title:'Use grouping, signs, and operation order',minutes:23,dependsOn:'fraction-operations',
+      objectives:['Evaluate nested groups and whole fraction bars.','Handle equally ranked operations left to right.','Identify whether a minus sign belongs to the base.'],
+      prerequisites:['Use signed products and compute with fractions.'],
+      instruction:[
+        {title:'Work from structure',body:'Evaluate grouped expressions from the inside out. Then evaluate powers, multiplication and division, and finally addition and subtraction. A fraction bar groups the entire numerator and denominator even when they contain several terms.'},
+        {title:'Equal precedence means left to right',body:'Multiplication and division share one rank. In $18÷3×2$, divide 18 by 3 first and then multiply by 2. Similarly, $10-4+3$ starts with the subtraction. Parentheses can intentionally change the order.'},
+        {title:'Find the base before applying a power',body:'In $-4^2$, the power acts on 4 before the leading negative, giving −16. In $(-4)^2$, the signed quantity is the base, giving 16. When substituting a negative number for a variable, use parentheses to preserve the original structure.'},
+      ],
+      examples:[
+        {title:'Evaluate a chain of equal-rank operations',prompt:'Evaluate $36÷6×3-2$.',steps:['Divide 36 by 6 to get 6.','Multiply 6 by 3 to get 18.','Subtract 2 for a result of 16.']},
+        {title:'Evaluate an entire fraction bar',prompt:'Evaluate $(18-2^3)/(7-2)$.',steps:['Compute $2^3=8$.','The numerator becomes 10 and the denominator becomes 5.','Divide to get 2.']},
+        {title:'Compare two scopes of a minus sign',prompt:'Evaluate $(-5)^2-5^2-(-5)$.',steps:['The two squares are each 25.','Their difference is zero.','Subtracting −5 adds 5.']},
+      ],
+      pitfalls:['Treating multiplication as always before division.','Letting a fraction bar group only the nearest terms.','Ignoring parentheses around a substituted negative.'],
+      timing:'Mark each numerator and denominator as a group before entering an expression in a calculator.',
+      guided:{prompt:'What is $24÷4×2-3^2$?',hint:'Evaluate the power and handle division and multiplication in reading order.',choices:['−6','3','9','27'],answer:1,feedback:['Division precedes the following multiplication here.','$24÷4×2=12$ and $3^2=9$, giving 3.','Nine is the square, not the whole expression.','The last term is subtracted.']},
+      summary:'Read grouping first, then powers, then operations by rank and left-to-right order.',
+      sources:['act-math','openstax-algebra-essentials'],
+    },
+    {
+      id:'exact-and-estimated',title:'Combine exact computation and estimation',minutes:26,dependsOn:'operation-order',
+      objectives:['Choose an exact representation for a multi-step computation.','Use bounds and benchmark fractions to rule out choices.','Apply estimation without erasing a crucial distinction.'],
+      prerequisites:['Convert rational numbers and evaluate grouped expressions.'],
+      instruction:[
+        {title:'Keep the exact quantity until the decision',body:'Rounded inputs produce rounded outputs. If a decision is close to a threshold, keep the fraction or sufficient decimal places until the end. Subtracting nearly equal rounded values can erase the original difference entirely.'},
+        {title:'Make bounds directional',body:'If each positive factor is increased, their product increases. For a quotient of positive values, increasing the denominator makes the result smaller. Track directions before treating an estimate as an upper or lower bound.'},
+        {title:'Pick benchmarks that simplify comparisons',body:'Near one half, compare the missing or extra fraction rather than dividing both numbers. Cross-products compare fractions with positive denominators because multiplying by their positive product preserves the inequality.'},
+      ],
+      examples:[
+        {title:'Compare by distance from one half',prompt:'Which is greater, $39/80$ or $48/100$?',steps:['$39/80=1/2-1/80$.','$48/100=1/2-2/100$.','Since $1/80<2/100$, $39/80$ is closer to one half and therefore larger.']},
+        {title:'Bracket a positive quotient',prompt:'Is $23.9/5.1$ above or below 5?',steps:['The numerator is below 25.','The denominator is above 5.','Both comparisons make the quotient smaller than $25/5=5$.']},
+        {title:'Keep fraction precision through cancellation',prompt:'Find $(1/3-0.33)/(1/100)$.',steps:['Use denominator 300: $1/3=100/300$ and $0.33=99/300$.','The numerator is $1/300$.','Dividing by $1/100$ gives $1/3$. Rounding early would erase the numerator.']},
+      ],
+      pitfalls:['Rounding before comparing nearly equal values.','Reversing how the denominator affects a quotient.','Using cross-products without positive denominators.'],
+      timing:'Estimate first to reject unreasonable choices. Compute exactly for close choices or thresholds.',
+      guided:{prompt:'Which statement about $18.9/4.1$ is true?',hint:'Compare the numerator with 20 and denominator with 4.',choices:['It equals 5.','It is greater than 5.','It is less than 5.','The comparison needs a calculator.'],answer:2,feedback:['A quotient of 5 would have numerator $5×4.1=20.5$.','Lowering the numerator and raising the denominator decreases a positive quotient.','The quotient is below $20/4=5$.','Benchmarking bounds is enough.']},
+      summary:'Use estimates to locate the answer, and retain exact values for close comparisons.',
+      sources:['act-math','openstax-algebra-essentials','openstax-decimal-place'],
+    },
+  ],
+};

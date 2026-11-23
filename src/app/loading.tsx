@@ -1,0 +1,1 @@
+export default function Loading(){return <main className="shell" aria-busy="true"><p role="status">Loading study workspace…</p><div className="panel" aria-hidden="true"><div className="h-12 rounded bg-[var(--soft)] motion-safe:animate-pulse"/></div></main>}

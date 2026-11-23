@@ -1,0 +1,14 @@
+{
+  "format":"authored-v1",
+  "holdout":false,
+  "items":[
+    ["px-q01","MATH","Quadratics",2,null,"Which expression equals $(x-6)(x+2)$?",["$x^2+4x-12$","$x^2-4x-12$","$x^2-8x+12$","$x^2-12$"],1,"The cross terms are $2x$ and $-6x$, which sum to $-4x$. The constant product is $-12$."],
+    ["px-q02","MATH","Quadratics",2,null,"What are the solutions of $x^2+7x+10=0$?",["2 and 5","−2 and 5","−5 and 2","−5 and −2"],3,"The numbers 5 and 2 add to 7 and multiply to 10. Set $(x+5)(x+2)=0$."],
+    ["px-q03","MATH","Quadratics",3,null,"Which value of $x$ is a solution of $6x^2-15x=0$ other than zero?",["$2/5$","$3/2$","$5/2$","5"],2,"Factor $3x(2x-5)=0$. The second factor gives $2x=5$."],
+    ["px-q04","MATH","Quadratics",3,null,"At which input is $f(x)=3(x+4)^2-9$ minimized?",["−9","−4","3","4"],1,"The square is zero at $x=-4$. It is positive at other inputs, and its coefficient 3 is positive."],
+    ["px-q05","MATH","Quadratics",4,null,"For which value of $c$ does $2x^2+12x+c=0$ have one repeated real root?",["6","9","12","18"],3,"Set the discriminant $144-8c$ to zero, giving $c=18$."],
+    ["px-q06","MATH","Quadratics",4,null,"The product of two consecutive positive integers is 156. What is the smaller integer?",["11","12","13","14"],1,"Write $n(n+1)=156$. Then $(n-12)(n+13)=0$. The positive root is 12."],
+    ["px-q07","MATH","Quadratics",4,null,"What is the greatest value of $-2x^2+16x-21$ over the real numbers?",["4","8","11","21"],2,"The axis is $x=-16/(2(-2))=4$. Substituting 4 gives $-32+64-21=11$. The graph opens downward."],
+    ["px-q08","MATH","Quadratics",5,null,"In a model, profit is $P(x)=-x^2+14x-20$ and production may range only from 0 through 5 units. Where is modeled profit greatest?",["0 units","5 units","7 units","14 units"],1,"The unrestricted maximum is at 7. On the allowed interval up to 5, the graph is still increasing. The greatest permitted input is 5."]
+  ]
+}

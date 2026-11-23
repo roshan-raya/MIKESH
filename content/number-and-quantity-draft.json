@@ -1,0 +1,545 @@
+{
+  "passages": [],
+  "items": [
+    {
+      "slug": "chapter-practice-nq-01",
+      "subject": "MATH",
+      "topic": "Number and quantity",
+      "subtopic": "signed-numbers",
+      "difficulty": 1,
+      "seconds": 35,
+      "prompt": "A temperature changes from −11 to −3 degrees. What is the signed change?",
+      "choices": [
+        "−8",
+        "−14",
+        "8",
+        "14"
+      ],
+      "correctIndex": 2,
+      "explanation": "Compute final minus initial: −3 − (−11) = 8.",
+      "distractors": {
+        "A": "This is initial minus final.",
+        "B": "This is the sum of the readings.",
+        "D": "The readings are both below zero, so subtract their distances from zero."
+      },
+      "objective": "Measure a signed change between two negative readings.",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery question. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "reference:act-math",
+        "reference:openstax-algebra-essentials",
+        "supporting-skill:Exact arithmetic",
+        "skill:signed-numbers",
+        "remediation:A:signed-numbers",
+        "remediation:B:signed-numbers",
+        "remediation:D:signed-numbers"
+      ]
+    },
+    {
+      "slug": "chapter-practice-nq-02",
+      "subject": "MATH",
+      "topic": "Number and quantity",
+      "subtopic": "signed-numbers",
+      "difficulty": 1,
+      "seconds": 35,
+      "prompt": "Which is the smallest number: −2, 0, −9, or 1?",
+      "choices": [
+        "−9",
+        "−2",
+        "0",
+        "1"
+      ],
+      "correctIndex": 0,
+      "explanation": "On the number line −9 lies left of all three alternatives.",
+      "distractors": {
+        "B": "−2 lies seven units to the right of −9.",
+        "C": "Both negative numbers lie left of zero.",
+        "D": "Positive numbers lie right of zero."
+      },
+      "objective": "Order signed integers by position.",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery question. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "reference:act-math",
+        "reference:openstax-algebra-essentials",
+        "supporting-skill:Exact arithmetic",
+        "skill:signed-numbers",
+        "remediation:B:signed-numbers",
+        "remediation:C:signed-numbers",
+        "remediation:D:signed-numbers"
+      ]
+    },
+    {
+      "slug": "chapter-practice-nq-03",
+      "subject": "MATH",
+      "topic": "Number and quantity",
+      "subtopic": "signed-numbers",
+      "difficulty": 2,
+      "seconds": 50,
+      "prompt": "What is the value of the product (−3)(−4)(−5) divided by (−2)?",
+      "choices": [
+        "−30",
+        "30",
+        "60",
+        "−60"
+      ],
+      "correctIndex": 1,
+      "explanation": "The numerator is −60 and division by −2 gives positive 30.",
+      "distractors": {
+        "A": "A negative divided by a negative is positive.",
+        "C": "This keeps the product magnitude without dividing by 2.",
+        "D": "This is the numerator before division."
+      },
+      "objective": "Apply signs to a product and a quotient.",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery question. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "reference:act-math",
+        "reference:openstax-algebra-essentials",
+        "supporting-skill:Exact arithmetic",
+        "skill:signed-numbers",
+        "remediation:A:signed-numbers",
+        "remediation:C:signed-numbers",
+        "remediation:D:signed-numbers"
+      ]
+    },
+    {
+      "slug": "chapter-practice-nq-04",
+      "subject": "MATH",
+      "topic": "Number and quantity",
+      "subtopic": "fraction-operations",
+      "difficulty": 2,
+      "seconds": 50,
+      "prompt": "What is the value of 7/10 + 1/6?",
+      "choices": [
+        "8/16",
+        "11/15",
+        "4/5",
+        "13/15"
+      ],
+      "correctIndex": 3,
+      "explanation": "In thirtieths the sum is 21/30 + 5/30 = 26/30 = 13/15.",
+      "distractors": {
+        "A": "Denominators specify units and cannot be added here.",
+        "B": "One sixth is five thirtieths, so the numerator is 26 before reduction.",
+        "C": "Four fifths is 24/30 and is short by 2/30."
+      },
+      "objective": "Add fractions using equivalent units.",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery question. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "reference:act-math",
+        "reference:openstax-algebra-essentials",
+        "supporting-skill:Exact arithmetic",
+        "skill:fraction-operations",
+        "remediation:A:fraction-operations",
+        "remediation:B:fraction-operations",
+        "remediation:C:fraction-operations"
+      ]
+    },
+    {
+      "slug": "chapter-practice-nq-05",
+      "subject": "MATH",
+      "topic": "Number and quantity",
+      "subtopic": "fraction-operations",
+      "difficulty": 2,
+      "seconds": 50,
+      "prompt": "A ribbon is 3/5 meter long. What fraction of a meter is 5/8 of that length?",
+      "choices": [
+        "8/13",
+        "3/8",
+        "24/25",
+        "1/8"
+      ],
+      "correctIndex": 1,
+      "explanation": "Multiply (5/8)(3/5). The factors of 5 cancel, leaving 3/8.",
+      "distractors": {
+        "A": "Adding numerators and denominators does not take a fraction of a length.",
+        "C": "This divides by 5/8 instead of taking 5/8 of the ribbon.",
+        "D": "Cancel the common factor 5 but retain the numerator 3."
+      },
+      "objective": "Interpret a fraction of a measured quantity.",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery question. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "reference:act-math",
+        "reference:openstax-algebra-essentials",
+        "supporting-skill:Exact arithmetic",
+        "skill:fraction-operations",
+        "remediation:A:fraction-operations",
+        "remediation:C:fraction-operations",
+        "remediation:D:fraction-operations"
+      ]
+    },
+    {
+      "slug": "chapter-practice-nq-06",
+      "subject": "MATH",
+      "topic": "Number and quantity",
+      "subtopic": "fraction-operations",
+      "difficulty": 3,
+      "seconds": 65,
+      "prompt": "A tray holds 7/3 kilograms of clay. Each complete kit needs 5/12 kilogram. How many complete kits can be made?",
+      "choices": [
+        "4",
+        "6",
+        "5",
+        "28/5"
+      ],
+      "correctIndex": 2,
+      "explanation": "The quotient is (7/3)(12/5) = 28/5. Five kits fit and six would need 30/12 kilograms.",
+      "distractors": {
+        "A": "Five kits use 25/12, which is within the available 28/12.",
+        "B": "Six kits use more clay than the tray holds.",
+        "D": "This quotient includes a partial kit. Count only complete kits."
+      },
+      "objective": "Interpret the whole-number part of a fractional quotient.",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery question. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "reference:act-math",
+        "reference:openstax-algebra-essentials",
+        "supporting-skill:Exact arithmetic",
+        "skill:fraction-operations",
+        "remediation:A:fraction-operations",
+        "remediation:B:fraction-operations",
+        "remediation:D:fraction-operations"
+      ]
+    },
+    {
+      "slug": "chapter-practice-nq-07",
+      "subject": "MATH",
+      "topic": "Number and quantity",
+      "subtopic": "decimal-representations",
+      "difficulty": 2,
+      "seconds": 50,
+      "prompt": "Which fraction in lowest terms equals 0.084?",
+      "choices": [
+        "21/250",
+        "84/100",
+        "7/25",
+        "1/12"
+      ],
+      "correctIndex": 0,
+      "explanation": "Write 84/1000 and divide numerator and denominator by 4.",
+      "distractors": {
+        "B": "The last digit occupies the thousandths place.",
+        "C": "Seven twenty-fifths equals 0.28, not 0.084.",
+        "D": "One twelfth is close but has a repeating decimal."
+      },
+      "objective": "Use place value to convert a decimal exactly.",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery question. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "reference:act-math",
+        "reference:openstax-algebra-essentials",
+        "supporting-skill:Exact arithmetic",
+        "skill:decimal-representations",
+        "remediation:B:decimal-representations",
+        "remediation:C:decimal-representations",
+        "remediation:D:decimal-representations"
+      ]
+    },
+    {
+      "slug": "chapter-practice-nq-08",
+      "subject": "MATH",
+      "topic": "Number and quantity",
+      "subtopic": "decimal-representations",
+      "difficulty": 3,
+      "seconds": 65,
+      "prompt": "Which fraction has a terminating base-ten decimal expansion?",
+      "choices": [
+        "10/24",
+        "35/77",
+        "11/60",
+        "21/56"
+      ],
+      "correctIndex": 3,
+      "explanation": "The first fraction reduces to 3/8. Since 8 divides 1000, the decimal terminates.",
+      "distractors": {
+        "A": "This reduces to 5/12, whose denominator has a factor of 3.",
+        "B": "This reduces to 5/11, whose denominator does not divide a power of ten.",
+        "C": "Eleven and 60 share no factor, and 60 has a factor of 3."
+      },
+      "objective": "Reduce fractions before testing decimal termination.",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery question. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "reference:act-math",
+        "reference:openstax-algebra-essentials",
+        "supporting-skill:Exact arithmetic",
+        "skill:decimal-representations",
+        "remediation:A:decimal-representations",
+        "remediation:B:decimal-representations",
+        "remediation:C:decimal-representations"
+      ]
+    },
+    {
+      "slug": "chapter-practice-nq-09",
+      "subject": "MATH",
+      "topic": "Number and quantity",
+      "subtopic": "decimal-representations",
+      "difficulty": 3,
+      "seconds": 65,
+      "prompt": "Which value is greatest: −0.79, −4/5, −81/100, or −0.805?",
+      "choices": [
+        "−4/5",
+        "−0.79",
+        "−81/100",
+        "−0.805"
+      ],
+      "correctIndex": 1,
+      "explanation": "Write each with three decimal places. −0.790 is nearest to zero and therefore greatest.",
+      "distractors": {
+        "A": "This equals −0.800, which lies left of −0.790.",
+        "C": "This equals −0.810, the farthest from zero of the four negative choices.",
+        "D": "−0.805 lies left of −0.790."
+      },
+      "objective": "Compare negative fractions and decimals on a shared scale.",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery question. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "reference:act-math",
+        "reference:openstax-algebra-essentials",
+        "supporting-skill:Exact arithmetic",
+        "skill:decimal-representations",
+        "remediation:A:decimal-representations",
+        "remediation:C:decimal-representations",
+        "remediation:D:decimal-representations"
+      ]
+    },
+    {
+      "slug": "chapter-practice-nq-10",
+      "subject": "MATH",
+      "topic": "Number and quantity",
+      "subtopic": "operation-order",
+      "difficulty": 2,
+      "seconds": 50,
+      "prompt": "What is 42 ÷ 7 × 2 + 1?",
+      "choices": [
+        "13",
+        "4",
+        "7",
+        "19"
+      ],
+      "correctIndex": 0,
+      "explanation": "Evaluate division and multiplication from left to right, yielding 6 × 2 + 1 = 13.",
+      "distractors": {
+        "B": "This treats the multiplication as taking place before division.",
+        "C": "This drops the multiplication by 2.",
+        "D": "The sum with 1 comes after the multiplication."
+      },
+      "objective": "Apply left-to-right order among equally ranked operations.",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery question. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "reference:act-math",
+        "reference:openstax-algebra-essentials",
+        "supporting-skill:Exact arithmetic",
+        "skill:operation-order",
+        "remediation:B:operation-order",
+        "remediation:C:operation-order",
+        "remediation:D:operation-order"
+      ]
+    },
+    {
+      "slug": "chapter-practice-nq-11",
+      "subject": "MATH",
+      "topic": "Number and quantity",
+      "subtopic": "operation-order",
+      "difficulty": 3,
+      "seconds": 65,
+      "prompt": "What is (27 − 3²)/(11 − 5)?",
+      "choices": [
+        "−36/11",
+        "4",
+        "3",
+        "18"
+      ],
+      "correctIndex": 2,
+      "explanation": "The numerator is 27 − 9 = 18, the denominator is 6, and 18/6 = 3.",
+      "distractors": {
+        "A": "The fraction bar groups both differences, so divide only after computing them.",
+        "B": "The numerator is 18, not 24.",
+        "D": "Eighteen is the numerator before division."
+      },
+      "objective": "Evaluate the numerator and denominator as separate groups.",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery question. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "reference:act-math",
+        "reference:openstax-algebra-essentials",
+        "supporting-skill:Exact arithmetic",
+        "skill:operation-order",
+        "remediation:A:operation-order",
+        "remediation:B:operation-order",
+        "remediation:D:operation-order"
+      ]
+    },
+    {
+      "slug": "chapter-practice-nq-12",
+      "subject": "MATH",
+      "topic": "Number and quantity",
+      "subtopic": "operation-order",
+      "difficulty": 4,
+      "seconds": 80,
+      "prompt": "If x = −3, what is −x² + (x − 1)²?",
+      "choices": [
+        "25",
+        "−7",
+        "−25",
+        "7"
+      ],
+      "correctIndex": 3,
+      "explanation": "Substitute (−3) for x. The first term is −9 and the second is 16, so the sum is 7.",
+      "distractors": {
+        "A": "The leading minus is outside the first square.",
+        "B": "The negative applies to the first square only.",
+        "C": "The second square contributes a positive 16."
+      },
+      "objective": "Track a negative input and a leading minus through powers.",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery question. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "reference:act-math",
+        "reference:openstax-algebra-essentials",
+        "supporting-skill:Exact arithmetic",
+        "skill:operation-order",
+        "remediation:A:operation-order",
+        "remediation:B:operation-order",
+        "remediation:C:operation-order"
+      ]
+    },
+    {
+      "slug": "chapter-practice-nq-13",
+      "subject": "MATH",
+      "topic": "Number and quantity",
+      "subtopic": "exact-and-estimated",
+      "difficulty": 4,
+      "seconds": 80,
+      "prompt": "Which fraction is closest to one half: 37/76, 51/100, 23/48, or 19/40?",
+      "choices": [
+        "37/76",
+        "51/100",
+        "23/48",
+        "19/40"
+      ],
+      "correctIndex": 1,
+      "explanation": "The distances from one half are 1/76, 1/100, 1/48, and 1/40, respectively. The smallest distance is 1/100.",
+      "distractors": {
+        "A": "Its distance from one half is 1/76, larger than 1/100.",
+        "C": "Its distance from one half is 1/48.",
+        "D": "Its distance from one half is 1/40."
+      },
+      "objective": "Compare exact distances from a common benchmark.",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery question. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "reference:act-math",
+        "reference:openstax-algebra-essentials",
+        "supporting-skill:Exact arithmetic",
+        "skill:exact-and-estimated",
+        "remediation:A:exact-and-estimated",
+        "remediation:C:exact-and-estimated",
+        "remediation:D:exact-and-estimated"
+      ]
+    },
+    {
+      "slug": "chapter-practice-nq-14",
+      "subject": "MATH",
+      "topic": "Number and quantity",
+      "subtopic": "exact-and-estimated",
+      "difficulty": 5,
+      "seconds": 100,
+      "prompt": "What is (2/7 − 0.28)/(1/50)?",
+      "choices": [
+        "0",
+        "1/175",
+        "2/7",
+        "7/2"
+      ],
+      "correctIndex": 2,
+      "explanation": "Use 0.28 = 7/25. The difference is 50/175 − 49/175 = 1/175. Divide by 1/50 to obtain 2/7.",
+      "distractors": {
+        "A": "Rounding 2/7 to 0.28 erases the nonzero difference.",
+        "B": "This is the numerator before division.",
+        "D": "This is the reciprocal of the result, obtained by reversing the division."
+      },
+      "objective": "Keep values exact until the final quotient.",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery question. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "reference:act-math",
+        "reference:openstax-algebra-essentials",
+        "supporting-skill:Exact arithmetic",
+        "skill:exact-and-estimated",
+        "remediation:A:exact-and-estimated",
+        "remediation:B:exact-and-estimated",
+        "remediation:D:exact-and-estimated"
+      ]
+    },
+    {
+      "slug": "chapter-practice-nq-15",
+      "subject": "MATH",
+      "topic": "Number and quantity",
+      "subtopic": "exact-and-estimated",
+      "difficulty": 5,
+      "seconds": 100,
+      "prompt": "A reservoir meter reports 24.96 usable liters. Filling a bottle requires exactly 0.39 liter. What is the greatest number of whole bottles the reservoir can fill?",
+      "choices": [
+        "62",
+        "63",
+        "65",
+        "64"
+      ],
+      "correctIndex": 3,
+      "explanation": "Divide exactly: 24.96/0.39 = 2496/39 = 64. A 65th bottle would need 25.35 liters in total.",
+      "distractors": {
+        "A": "Rounding the bottle volume to 0.40 can underestimate the number of bottles.",
+        "B": "Sixty-three bottles use 24.57 liters, leaving exactly enough for one more.",
+        "C": "Sixty-five bottles would exceed the reservoir amount."
+      },
+      "objective": "Verify a whole-number threshold with exact decimal arithmetic.",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery question. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "reference:act-math",
+        "reference:openstax-algebra-essentials",
+        "supporting-skill:Exact arithmetic",
+        "skill:exact-and-estimated",
+        "remediation:A:exact-and-estimated",
+        "remediation:B:exact-and-estimated",
+        "remediation:C:exact-and-estimated"
+      ]
+    }
+  ]
+}

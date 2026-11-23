@@ -1,0 +1,100 @@
+import type {Lesson} from './types';
+
+export const quadraticFoundations:Lesson[]=[
+  {
+    id:'variables',title:'Variables, expressions, and equations',minutes:14,
+    objectives:['Treat a variable as a number with a role.','Substitute safely.','Undo a linear operation on both sides of an equation.'],
+    prerequisites:['Add, subtract, multiply, and divide whole numbers.'],
+    instruction:[
+      {title:'Read an algebraic expression',body:'A variable is a symbol for a quantity. In $4x+3$, $4x$ means four times the value of $x$. The 4 is a coefficient. The 3 is a constant. An expression gives a value once you choose an input. An equation makes a claim that the two expressions are equal.'},
+      {title:'Substitution answers a different question from solving',body:'To evaluate, replace each occurrence of the variable by the known number, including its sign. To solve, find which unknown values make the equality true. Keep both sides balanced by performing the same reversible operation on each side.'},
+      {title:'Use the equal sign as a balance',body:'If $x+6=13$, subtracting 6 from both sides isolates $x$. The same principle works in a quadratic. For example, turn $x^2=5x$ into $x^2-5x=0$ before trying to factor. Dividing by a variable is unsafe when that variable might be zero.'},
+    ],
+    examples:[
+      {title:'Evaluate a variable expression',prompt:'Find the value of $4m-7$ when $m=6$.',steps:['Replace $m$ by the known input 6.','Multiply to get $4(6)=24$.','Subtract 7. The value is 17.']},
+      {title:'Keep a negative input intact',prompt:'Evaluate $8-3t$ at $t=-4$.',steps:['Write $8-3(-4)$ so the minus sign stays attached to the input.','The product $3(-4)$ is −12.','Subtracting −12 adds 12, giving 20.']},
+      {title:'Use inverse operations to solve',prompt:'Solve $5x+9=34$.',steps:['Subtract 9 from each side, giving $5x=25$.','Divide both sides by 5, giving $x=5$.','Check that $5(5)+9=34$. The check confirms the original equation.']},
+    ],
+    pitfalls:['Calculating with a variable as though its value were known.','Changing one side of an equation alone.','Dropping the sign when substituting a negative number.'],
+    timing:'Mark whether the question gives the input or asks for it. If solving, undo the outside operation first and verify by substitution.',
+    guided:{prompt:'Which single step is valid for $3x-4=11$?',hint:'Choose an operation that cancels the constant on the left and keeps the two sides equal.',choices:['Add 4 to both sides.','Subtract 4 from both sides.','Add 4 only to the left.','Divide only the right side by 3.'],answer:0,feedback:['This gives $3x=15$ while preserving equality.','This creates a constant of −8 on the left.','The right side must change by the same amount.','Dividing only one side changes the equation.']},
+    summary:'Evaluate by substituting a known input. Solve by reversing operations on both sides and checking the result.',
+    sources:['act-math','openstax-algebra-essentials'],
+  },{
+    id:'multiplication',title:'Signed multiplication and the distributive property',minutes:17,dependsOn:'variables',
+    objectives:['Use multiplication signs correctly.','Distribute a factor to every term.','Track all four products when multiplying binomials.'],
+    prerequisites:['Evaluate simple expressions with a variable.'],
+    instruction:[
+      {title:'Follow the sign of each factor',body:'Products of two numbers with the same sign are positive, and products of numbers with opposite signs are negative. The sign applies to the whole number or term. As a quick check, a factor of −1 changes the sign of every term it multiplies.'},
+      {title:'One outside factor multiplies every inside term',body:'The distributive property says $k(a+b)=ka+kb$. Subtraction is addition of a negative term, so $-3(x-4)$ means $(-3)x+(-3)(-4)$. Reversing this operation pulls out a common factor, the starting point for many quadratic problems.'},
+      {title:'Use an area grid to organize four products',body:'To multiply $(x+a)(x+b)$, distribute each term of one group across the other group. Your grid has four products: $x^2$, $bx$, $ax$, and $ab$. Combine the two first-degree terms only after keeping their signs. The area model is useful as a bookkeeping device even when some values are negative.'},
+    ],
+    examples:[
+      {title:'Distribute a negative factor',prompt:'Expand $-4(2x-3)$.',steps:['Multiply $-4$ by $2x$ to get $-8x$.','Multiply $-4$ by $-3$ to get 12.','Combine the results as $-8x+12$.']},
+      {title:'Build a product grid',prompt:'Expand $(x-4)(x+7)$.',table:{caption:'Each row factor multiplies each column factor',headings:['Factor','$x$','$7$'],rows:[['$x$','$x^2$','$7x$'],['$-4$','$-4x$','$-28$']]},steps:['Compute the two products in each row of the grid.','Add the cross terms, $7x-4x=3x$.','Keep the signed constant $-28$, giving $x^2+3x-28$.']},
+      {title:'Recognize cancellation',prompt:'Expand $(2x-5)(2x+5)$.',steps:['The leading product is $(2x)(2x)=4x^2$.','The cross terms are $10x$ and $-10x$, so they cancel.','The constant is $-25$. The result is $4x^2-25$.']},
+    ],
+    pitfalls:['Distributing to the first term only.','Treating two minus signs in a product as a negative result.','Assuming all cross terms cancel.'],
+    timing:'You usually only need the cross-term sum and constant to distinguish options. Check the signs before expanding further.',
+    guided:{prompt:'What is the coefficient of $x$ after expanding $(x+8)(x-3)$?',hint:'Identify the two products that each contain exactly one $x$.',choices:['−11','−5','5','11'],answer:2,feedback:['The cross terms are $8x$ and $-3x$.','Taking −8 instead of +8 reverses the sign.','The sum $8x-3x=5x$ gives coefficient 5.','The second cross term is negative.']},
+    summary:'Distribute each factor to every term and combine only terms with matching variable powers.',
+    sources:['act-math','openstax-algebra-essentials'],
+  },{
+    id:'exponents',title:'Exponents, squares, and roots',minutes:16,dependsOn:'multiplication',
+    objectives:['Interpret a square as repeated multiplication.','Use parentheses with negative bases.','Distinguish a principal square root from the solutions of a square equation.'],
+    prerequisites:['Multiply signed numbers.','Identify the base and coefficient in a variable term.'],
+    instruction:[
+      {title:'Separate the base from the sign',body:'An exponent tells how many times its base appears as a factor. In $(-3)^2$ the base is −3, so the result is 9. In $-3^2$ the exponent applies to 3 first, giving −9 after the leading minus sign. This is why parentheses matter when evaluating a quadratic at a negative input.'},
+      {title:'Multiply powers with shared bases',body:'Multiplying $x^m$ by $x^n$ combines $m+n$ factors of $x$. Raising $x^m$ to power $n$ repeats that group $n$ times and gives $x^{mn}$. These rules require the bases or operations to match. Adding $x^2+x^3$ cannot create $x^5$.'},
+      {title:'Undo a square with both signs when solving',body:'The square-root symbol chooses the nonnegative root. An equation such as $x^2=25$ has two real solutions because both 5 and −5 square to 25. A square equal to zero has one real solution, and a square cannot equal a negative value over the reals.'},
+    ],
+    examples:[
+      {title:'Compare a negative base with a leading minus',prompt:'Evaluate $(-4)^2$ and $-4^2$.',steps:['In the first expression the whole signed number is the base.','The product $(-4)(-4)$ is 16.','In the second expression, negate the square of 4 to get −16.']},
+      {title:'Combine the powers in a product',prompt:'Simplify $(3x^2)(-2x^3)$.',steps:['Multiply the signed coefficients, giving −6.','Both factors use the base $x$. Add the exponents to obtain 5.','The result is $-6x^5$.']},
+      {title:'Recover both signed values',prompt:'Solve $(x-2)^2=49$.',steps:['A number with square 49 can be 7 or −7.','Set $x-2=7$ or $x-2=-7$.','Add 2 in both cases. The solutions are 9 and −5.']},
+    ],
+    pitfalls:['Multiplying the base by the exponent.','Choosing only the positive root when solving a squared equation.','Applying the product rule to a sum.'],
+    timing:'If an equation is already in squared form, taking the square root often beats expanding it. Keep track of both signs before solving.',
+    guided:{prompt:'What are the real solutions of $(x+3)^2=16$?',hint:'Which two numbers have square 16?',choices:['1 only','1 and −7','7 and −1','4 and −4'],answer:1,feedback:['The negative square root produces a second solution.','Use $x+3=4$ or $x+3=-4$. Subtract 3 in each case.','Adding 3 would undo the shift in the wrong direction.','Those values describe $x+3$, not $x$.']},
+    summary:'Parentheses define the base. When solving a squared equation, choose all real inputs that produce the given square.',
+    sources:['act-math','openstax-algebra-essentials','openstax-quadratics'],
+  },{
+    id:'polynomials',title:'Polynomial terms, degree, and standard form',minutes:17,dependsOn:'exponents',
+    objectives:['Recognize terms, coefficients, and degree.','Combine like terms.','Rewrite an equation in quadratic standard form.'],
+    prerequisites:['Distribute signed factors.','Interpret variables raised to whole-number powers.'],
+    instruction:[
+      {title:'Identify a term by its variable power',body:'A polynomial is a sum of terms whose variables have nonnegative whole-number exponents. A constant counts as degree zero. In $3x^2-7x+5$, the degrees of the terms are 2, 1, and 0. The polynomial is degree 2 because that highest-power term has a nonzero coefficient.'},
+      {title:'Combine only like terms',body:'Terms with matching powers can share their coefficients. For example, $4x^2-9x^2=-5x^2$ by factoring out $x^2$. In contrast, $4x^2$ and $-9x$ represent different powers and cannot be combined that way. Cancellation can lower the polynomial’s degree.'},
+      {title:'Put a quadratic equation into one-side form',body:'A quadratic in standard form is $ax^2+bx+c=0$ with $a$ nonzero. Move every term to one side and combine like terms before identifying the coefficients. Missing powers have coefficient zero. Changing all signs multiplies both sides by −1 and leaves the same solutions.'},
+    ],
+    examples:[
+      {title:'Identify degree after cancellation',prompt:'What is the degree of $6x^3+x^2-6x^3+4$?',steps:['Combine the degree-three terms. They cancel.','The remaining expression is $x^2+4$.','Its largest nonzero power is 2, so its degree is 2.']},
+      {title:'Collect a quadratic equation',prompt:'Write $4x^2+7=3x+2x^2$ in standard form.',steps:['Subtract $2x^2+3x$ from both sides.','Combine the two square terms to get $2x^2$.','The result is $2x^2-3x+7=0$. Its coefficients are 2, −3, and 7.']},
+      {title:'Account for missing terms',prompt:'Identify $a,b,c$ in $9-x^2=0$ without changing any signs.',steps:['Order the terms by degree, giving $-x^2+9=0$.','The coefficient of $x^2$ is −1. There is no linear term, so $b=0$.','The constant is 9. Thus $(a,b,c)=(-1,0,9)$.']},
+    ],
+    pitfalls:['Counting the number of terms as the degree.','Changing a sign on only one side.','Treating an absent term as having coefficient 1.'],
+    timing:'Read coefficients only after everything is on one side. Circle signed coefficients before using them in a formula.',
+    guided:{prompt:'In standard form with positive leading coefficient, what is the linear coefficient of $3x^2-2=x^2-5x$?',hint:'Move all terms to the left before reading the coefficient.',choices:['−5','−2','2','5'],answer:3,feedback:['Subtracting the right-hand term $-5x$ gives $+5x$ on the left.','−2 is the constant, not the coefficient of $x$.','2 is the coefficient of the square term.','The equation becomes $2x^2+5x-2=0$, so $b=5$.']},
+    summary:'Combine like powers, preserve the equality, and identify the signed coefficients from $ax^2+bx+c=0$.',
+    sources:['act-math','openstax-algebra-essentials','openstax-quadratics'],
+  },{
+    id:'zero-product',title:'The zero-product property',minutes:18,dependsOn:'factoring',
+    objectives:['Explain why a product is zero only when some factor is zero.','Solve each branch of a factored equation.','Recognize when zero-product reasoning cannot be used.'],
+    prerequisites:['Factor out a common term and factor a simple trinomial.','Solve a linear equation.'],
+    instruction:[
+      {title:'Zero is the required target',body:'Real nonzero factors always produce a nonzero product. If $AB=0$, at least one factor must equal zero. Either branch can satisfy the original equation. When the product equals a nonzero value, this argument no longer applies.'},
+      {title:'Set each whole factor equal to zero',body:'After you factor, each parenthesized group supplies one equation. In $(x+7)(x-2)=0$, the branches are $x+7=0$ and $x-2=0$. The values 7 and −2 written in the product are not the roots. Solve for the actual inputs that cancel those constants.'},
+      {title:'Retain zero and recognize repeated roots',body:'If $x(x-5)=0$, the factor $x$ produces the root zero. Dividing the equation by $x$ without checking loses it. If $(x-5)^2=0$, both identical factors give $x=5$, so there is one distinct root with multiplicity two.'},
+    ],
+    examples:[
+      {title:'Translate factors into solutions',prompt:'Solve $(x-8)(x+3)=0$.',steps:['The right side is zero, so one factor must vanish.','Set $x-8=0$ or $x+3=0$.','The roots are 8 and −3. Each makes its own factor zero.']},
+      {title:'Preserve the root at zero',prompt:'Solve $2x(x+6)=0$.',steps:['The constant factor 2 is nonzero and does not yield a root.','The remaining branches are $x=0$ and $x+6=0$.','Keep both 0 and −6. Check that the entire product vanishes at each.']},
+      {title:'Recognize a repeated root',prompt:'Solve $9(x+2)^2=0$ and count distinct real roots.',steps:['Divide both sides by the nonzero constant 9.','The square vanishes only when $x+2=0$.','Thus $x=-2$ is the only distinct real root. The repeated factor does not add an extra value.']},
+    ],
+    pitfalls:['Using zero-product reasoning when the right-hand side is nonzero.','Reporting factor constants as roots.','Dividing by a variable and losing an allowable zero.'],
+    timing:'Before separating factors, check the right side. For a list of candidate roots, substitute directly into the factor that looks simplest.',
+    guided:{prompt:'Which list includes every solution of $x(3x-12)=0$?',hint:'Solve $x=0$ and $3x-12=0$ separately.',choices:['4 only','0 and 12','0 and 4','−4 and 4'],answer:2,feedback:['Dividing by $x$ would miss the root at zero.','The second branch requires division by 3.','Either factor may be zero. The solutions are 0 and 4.','Input −4 does not cancel either factor.']},
+    summary:'Factor an equation equal to zero, then solve all zero-factor branches. Keep each distinct solution.',
+    sources:['act-math','openstax-quadratics'],
+  },
+];

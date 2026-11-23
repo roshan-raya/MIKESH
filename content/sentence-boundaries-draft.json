@@ -1,0 +1,460 @@
+{
+  "passages": [
+    {
+      "slug": "repair-cafe",
+      "title": "A Saturday Repair Café",
+      "body": "The first customer of the morning carried a desk lamp wrapped in a tea towel. The volunteers at the far bench [1: repairing] small appliances; they signed each repair into a shared log. Imani tested the switch [2: twice, the] lamp still flickered. [3: Because the cord was frayed. Imani] unplugged it before checking the socket. The owner wanted to keep the lamp, which had belonged to his grandfather. The team needed one replacement [4: part a] cord with a molded plug. The parts drawer was [5: empty however,] a volunteer found the right cord in a box of donated supplies. Imani marked the repair as complete [6: and placed] the lamp beside the sign-out sheet. When the customer returned, he stayed to watch another repair. By noon, the team had filled half a page with similar notes."
+    },
+    {
+      "slug": "shorebird-count",
+      "title": "Counting Birds Before the Tide",
+      "body": "Every October a team visits a tidal flat to count migrating shorebirds. At low tide, the mud looks empty from the road, but groups of birds gather near shallow pools. [7: Carrying binoculars and a clipboard, the tide marker] came into view as Nia walked to the observation point. At the station, the new observers who had practiced judging distance worked independently; the rest were paired with experienced observers. The team carried cards of several colors. Only the blue cards identified observation zones. [8: The cards, that had blue borders,] showed those zones. A drizzle began at [9: sunrise the observers] stayed at their stations despite the rain. The tide began to come in [10: early however, the team] moved the last count forward in response. [11: By writing down the exact start time made] counts from different visits easier to compare. When the birds lifted over the water, Nia wrote one more note. The survey recorded which areas had been observed, so later teams could tell an unvisited site from a site with zero birds. Her team also recorded one important [12: limitation: the far inlet was hidden by fog.]"
+    }
+  ],
+  "items": [
+    {
+      "slug": "chapter-practice-sb-01",
+      "subject": "ENGLISH",
+      "topic": "Sentence boundaries",
+      "subtopic": "clause-foundations",
+      "difficulty": 1,
+      "seconds": 34,
+      "passage": "repair-cafe",
+      "prompt": "Which replacement at [1] gives the first clause a finite verb?",
+      "choices": [
+        "NO CHANGE",
+        "repaired",
+        "to repair",
+        "having repaired"
+      ],
+      "correctIndex": 1,
+      "explanation": "Repaired gives volunteers a finite main verb and makes the group before the semicolon independent.",
+      "distractors": {
+        "A": "Repairing is a participle without an auxiliary here.",
+        "C": "The infinitive does not provide the required finite main verb.",
+        "D": "Having repaired is a nonfinite participial phrase."
+      },
+      "objective": "Give the first clause a finite verb",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery passage and item. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "reference:act-english",
+        "reference:purdue-clauses",
+        "supporting-skill:Passage editing",
+        "skill:clause-foundations",
+        "remediation:A:clause-foundations",
+        "remediation:C:clause-foundations",
+        "remediation:D:clause-foundations"
+      ]
+    },
+    {
+      "slug": "chapter-practice-sb-02",
+      "subject": "ENGLISH",
+      "topic": "Sentence boundaries",
+      "subtopic": "joining-clauses",
+      "difficulty": 2,
+      "seconds": 39,
+      "passage": "repair-cafe",
+      "prompt": "Which replacement at [2] correctly preserves both complete clauses?",
+      "choices": [
+        "NO CHANGE",
+        "twice the",
+        "twice; the",
+        "twice, even though; the"
+      ],
+      "correctIndex": 2,
+      "explanation": "Each side is independent, so the semicolon supplies a valid boundary.",
+      "distractors": {
+        "A": "The comma alone produces a splice.",
+        "B": "Without punctuation or a conjunction the clauses are fused.",
+        "D": "Even though makes the following clause dependent and cannot be separated from its subject with a semicolon."
+      },
+      "objective": "Use a boundary that preserves two complete clauses",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery passage and item. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "reference:act-english",
+        "reference:purdue-clauses",
+        "supporting-skill:Passage editing",
+        "skill:joining-clauses",
+        "remediation:A:joining-clauses",
+        "remediation:B:joining-clauses",
+        "remediation:D:joining-clauses"
+      ]
+    },
+    {
+      "slug": "chapter-practice-sb-03",
+      "subject": "ENGLISH",
+      "topic": "Sentence boundaries",
+      "subtopic": "sentence-fragments",
+      "difficulty": 3,
+      "seconds": 44,
+      "passage": "repair-cafe",
+      "prompt": "Which revision at [3] preserves the reason and fixes the fragment?",
+      "choices": [
+        "Because the cord was frayed, Imani",
+        "NO CHANGE",
+        "Because the cord was frayed; Imani",
+        "The cord was frayed, Imani"
+      ],
+      "correctIndex": 0,
+      "explanation": "The introductory because clause gives the reason for the main action and ends with a comma.",
+      "distractors": {
+        "B": "The period leaves the because clause alone.",
+        "C": "The first group is dependent and cannot stand before a semicolon here.",
+        "D": "Removing because leaves two independent clauses joined by a comma alone."
+      },
+      "objective": "Keep the safety reason attached to the action",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery passage and item. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "reference:act-english",
+        "reference:purdue-clauses",
+        "supporting-skill:Passage editing",
+        "skill:sentence-fragments",
+        "remediation:B:sentence-fragments",
+        "remediation:C:sentence-fragments",
+        "remediation:D:sentence-fragments"
+      ]
+    },
+    {
+      "slug": "chapter-practice-sb-04",
+      "subject": "ENGLISH",
+      "topic": "Sentence boundaries",
+      "subtopic": "boundary-meaning",
+      "difficulty": 3,
+      "seconds": 44,
+      "passage": "repair-cafe",
+      "prompt": "Which replacement at [4] introduces the specific part after a complete clause?",
+      "choices": [
+        "NO CHANGE",
+        ": a part, a",
+        "part; a",
+        "part: a"
+      ],
+      "correctIndex": 3,
+      "explanation": "The first clause can stand alone, and the following noun phrase tells readers what part was needed.",
+      "distractors": {
+        "A": "The explanation follows the introductory clause without a boundary.",
+        "B": "The colon after replacement splits the adjective from the noun it describes.",
+        "C": "The words after the semicolon form a noun phrase without a main verb."
+      },
+      "objective": "Introduce an explanation after a complete clause",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery passage and item. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "reference:act-english",
+        "reference:purdue-clauses",
+        "supporting-skill:Passage editing",
+        "skill:boundary-meaning",
+        "remediation:A:boundary-meaning",
+        "remediation:B:boundary-meaning",
+        "remediation:C:boundary-meaning"
+      ]
+    },
+    {
+      "slug": "chapter-practice-sb-05",
+      "subject": "ENGLISH",
+      "topic": "Sentence boundaries",
+      "subtopic": "joining-clauses",
+      "difficulty": 4,
+      "seconds": 49,
+      "passage": "repair-cafe",
+      "prompt": "Which replacement at [5] keeps however and correctly joins the two clauses in one sentence?",
+      "choices": [
+        "NO CHANGE",
+        "empty; however,",
+        "empty, however,",
+        "empty; however;"
+      ],
+      "correctIndex": 1,
+      "explanation": "A semicolon separates the independent clauses, and a comma sets off however at the start of the second.",
+      "distractors": {
+        "A": "The two complete clauses still lack a boundary before however.",
+        "C": "The comma before however leaves a comma splice.",
+        "D": "However alone is not an independent clause and cannot be isolated with two semicolons."
+      },
+      "objective": "Punctuate a contrasting independent transition",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery passage and item. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "reference:act-english",
+        "reference:purdue-clauses",
+        "supporting-skill:Passage editing",
+        "skill:joining-clauses",
+        "remediation:A:joining-clauses",
+        "remediation:C:joining-clauses",
+        "remediation:D:joining-clauses"
+      ]
+    },
+    {
+      "slug": "chapter-practice-sb-06",
+      "subject": "ENGLISH",
+      "topic": "Sentence boundaries",
+      "subtopic": "clause-foundations",
+      "difficulty": 2,
+      "seconds": 39,
+      "passage": "repair-cafe",
+      "prompt": "Which replacement at [6] joins the two actions without inserting an unnecessary boundary?",
+      "choices": [
+        "; and placed",
+        ". And placed",
+        "NO CHANGE",
+        ", she placed"
+      ],
+      "correctIndex": 2,
+      "explanation": "Marked and placed share the subject Imani. The conjunction alone joins the predicates.",
+      "distractors": {
+        "A": "The group after the semicolon lacks its own subject.",
+        "B": "The new sentence lacks an expressed subject for placed.",
+        "D": "Adding she forms a second independent clause that a comma alone cannot join."
+      },
+      "objective": "Recognize a shared subject in a compound predicate",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery passage and item. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "reference:act-english",
+        "reference:purdue-clauses",
+        "supporting-skill:Passage editing",
+        "skill:clause-foundations",
+        "remediation:A:clause-foundations",
+        "remediation:B:clause-foundations",
+        "remediation:D:clause-foundations"
+      ]
+    },
+    {
+      "slug": "chapter-practice-sb-07",
+      "subject": "ENGLISH",
+      "topic": "Sentence boundaries",
+      "subtopic": "sentence-fragments",
+      "difficulty": 3,
+      "seconds": 44,
+      "passage": "shorebird-count",
+      "prompt": "Which revision at [7] makes it clear that Nia carried the equipment?",
+      "choices": [
+        "Carrying binoculars and a clipboard, Nia spotted the tide marker",
+        "NO CHANGE",
+        "Carrying binoculars and a clipboard, the view of the tide marker",
+        "With binoculars and a clipboard, the tide marker"
+      ],
+      "correctIndex": 0,
+      "explanation": "Nia follows the opening modifier as the subject of spotted. The full sentence says she saw the marker as she walked.",
+      "distractors": {
+        "B": "This makes the tide marker carry the equipment.",
+        "C": "The view cannot carry the equipment, and the resulting sentence is incomplete.",
+        "D": "The main subject is still the marker, so the equipment phrase does not attach to Nia."
+      },
+      "objective": "Attach an opening modifier to the person performing the action",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery passage and item. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "reference:act-english",
+        "reference:purdue-clauses",
+        "supporting-skill:Passage editing",
+        "skill:sentence-fragments",
+        "remediation:B:sentence-fragments",
+        "remediation:C:sentence-fragments",
+        "remediation:D:sentence-fragments"
+      ]
+    },
+    {
+      "slug": "chapter-practice-sb-08",
+      "subject": "ENGLISH",
+      "topic": "Sentence boundaries",
+      "subtopic": "boundary-meaning",
+      "difficulty": 5,
+      "seconds": 55,
+      "passage": "shorebird-count",
+      "prompt": "Which revision at [8] preserves the previous sentence’s restriction to blue cards?",
+      "choices": [
+        "NO CHANGE",
+        "The cards that had blue borders,",
+        "The cards, that had blue borders",
+        "The cards that had blue borders"
+      ],
+      "correctIndex": 3,
+      "explanation": "The unpunctuated modifier restricts the subject to the blue-bordered cards.",
+      "distractors": {
+        "A": "The paired commas make the color supplementary information about all the cards.",
+        "B": "The closing comma separates the entire subject from showed.",
+        "C": "The comma opens a supplementary modifier and leaves it unclosed."
+      },
+      "objective": "Preserve an essential modifier that selects a subset",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery passage and item. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "reference:act-english",
+        "reference:purdue-clauses",
+        "supporting-skill:Passage editing",
+        "skill:boundary-meaning",
+        "remediation:A:boundary-meaning",
+        "remediation:B:boundary-meaning",
+        "remediation:C:boundary-meaning"
+      ]
+    },
+    {
+      "slug": "chapter-practice-sb-09",
+      "subject": "ENGLISH",
+      "topic": "Sentence boundaries",
+      "subtopic": "joining-clauses",
+      "difficulty": 3,
+      "seconds": 44,
+      "passage": "shorebird-count",
+      "prompt": "Which revision at [9] explicitly signals that the team stayed despite the rain and correctly joins the clauses?",
+      "choices": [
+        "NO CHANGE",
+        "sunrise, but the observers",
+        "sunrise, so the observers",
+        "sunrise, the observers"
+      ],
+      "correctIndex": 1,
+      "explanation": "But links the clauses and marks the contrast between the drizzle and the decision to stay.",
+      "distractors": {
+        "A": "The two independent clauses are fused.",
+        "C": "So presents staying as a result of the rain.",
+        "D": "A comma alone cannot join these independent clauses."
+      },
+      "objective": "Choose a coordinator that expresses contrast",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery passage and item. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "reference:act-english",
+        "reference:purdue-clauses",
+        "supporting-skill:Passage editing",
+        "skill:joining-clauses",
+        "remediation:A:joining-clauses",
+        "remediation:C:joining-clauses",
+        "remediation:D:joining-clauses"
+      ]
+    },
+    {
+      "slug": "chapter-practice-sb-10",
+      "subject": "ENGLISH",
+      "topic": "Sentence boundaries",
+      "subtopic": "boundary-meaning",
+      "difficulty": 5,
+      "seconds": 55,
+      "passage": "shorebird-count",
+      "prompt": "Which revision at [10] joins the clauses and makes the schedule change a result of the early tide?",
+      "choices": [
+        "early; however, the team",
+        "early, the team",
+        "early, so the team",
+        "early, because the team"
+      ],
+      "correctIndex": 2,
+      "explanation": "So introduces the team’s response, and the preceding comma supplies the boundary with the coordinator.",
+      "distractors": {
+        "A": "However announces a contrast even though the second clause describes a response.",
+        "B": "The comma by itself produces a splice.",
+        "D": "Because reverses the cause, suggesting the schedule change caused the early tide."
+      },
+      "objective": "Replace an inaccurate transition with a causal connector",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery passage and item. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "reference:act-english",
+        "reference:purdue-clauses",
+        "supporting-skill:Passage editing",
+        "skill:boundary-meaning",
+        "remediation:A:boundary-meaning",
+        "remediation:B:boundary-meaning",
+        "remediation:D:boundary-meaning"
+      ]
+    },
+    {
+      "slug": "chapter-practice-sb-11",
+      "subject": "ENGLISH",
+      "topic": "Sentence boundaries",
+      "subtopic": "sentence-fragments",
+      "difficulty": 4,
+      "seconds": 49,
+      "passage": "shorebird-count",
+      "prompt": "Which replacement at [11] makes recording the time the cause of the improvement?",
+      "choices": [
+        "Writing down the exact start time made",
+        "NO CHANGE",
+        "By writing down the exact start time, made",
+        "Writing down the exact start time, which made"
+      ],
+      "correctIndex": 0,
+      "explanation": "Removing by lets the gerund phrase function as the subject of made.",
+      "distractors": {
+        "B": "The by phrase expresses method but does not provide a subject for made.",
+        "C": "The introductory phrase still leaves made without a subject.",
+        "D": "The resulting group has a relative clause but no independent main predicate."
+      },
+      "objective": "Repair a mixed construction without changing the cause",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery passage and item. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "reference:act-english",
+        "reference:purdue-clauses",
+        "supporting-skill:Passage editing",
+        "skill:sentence-fragments",
+        "remediation:B:sentence-fragments",
+        "remediation:C:sentence-fragments",
+        "remediation:D:sentence-fragments"
+      ]
+    },
+    {
+      "slug": "chapter-practice-sb-12",
+      "subject": "ENGLISH",
+      "topic": "Sentence boundaries",
+      "subtopic": "clause-foundations",
+      "difficulty": 2,
+      "seconds": 39,
+      "passage": "shorebird-count",
+      "prompt": "At [12], which group licenses the colon by functioning as a complete sentence on its own?",
+      "choices": [
+        "One important limitation.",
+        "The far inlet was hidden by fog.",
+        "By fog.",
+        "Her team also recorded one important limitation."
+      ],
+      "correctIndex": 3,
+      "explanation": "The clause immediately before the colon has a subject (team), a main verb (recorded), and its object (limitation).",
+      "distractors": {
+        "A": "This noun phrase has no finite verb.",
+        "B": "This is a complete clause, but it follows the colon and supplies the explanation.",
+        "C": "This is a prepositional phrase with no finite verb."
+      },
+      "objective": "Identify the independent clause that licenses an explanatory colon",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery passage and item. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "reference:act-english",
+        "reference:purdue-clauses",
+        "supporting-skill:Passage editing",
+        "skill:clause-foundations",
+        "remediation:A:clause-foundations",
+        "remediation:B:clause-foundations",
+        "remediation:C:clause-foundations"
+      ]
+    }
+  ]
+}

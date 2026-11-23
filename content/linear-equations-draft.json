@@ -1,0 +1,601 @@
+{
+  "passages": [],
+  "items": [
+    {
+      "slug": "chapter-practice-le-01",
+      "subject": "MATH",
+      "topic": "Linear equations",
+      "subtopic": "balance",
+      "difficulty": 1,
+      "seconds": 35,
+      "prompt": "Solve x − 9 = −14.",
+      "choices": [
+        "5",
+        "−5",
+        "−23",
+        "23"
+      ],
+      "correctIndex": 1,
+      "explanation": "Add 9 to both sides to get x = −5.",
+      "distractors": {
+        "A": "The result keeps its negative sign because 14 exceeds 9.",
+        "C": "This subtracts 9 again instead of undoing subtraction.",
+        "D": "Adding 9 to −14 cannot produce a positive 23."
+      },
+      "objective": "Reverse subtraction with a signed target",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery practice. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "skill:balance",
+        "supporting-skill:Signed arithmetic",
+        "reference:act-math",
+        "reference:openstax-linear-equations",
+        "remediation:A:balance",
+        "remediation:C:balance",
+        "remediation:D:balance"
+      ]
+    },
+    {
+      "slug": "chapter-practice-le-02",
+      "subject": "MATH",
+      "topic": "Linear equations",
+      "subtopic": "balance",
+      "difficulty": 1,
+      "seconds": 35,
+      "prompt": "What is the solution to 7x = −63?",
+      "choices": [
+        "9",
+        "−56",
+        "−441",
+        "−9"
+      ],
+      "correctIndex": 3,
+      "explanation": "Divide both sides by 7. Substitution gives 7 times −9 = −63.",
+      "distractors": {
+        "A": "A positive 9 gives positive 63.",
+        "B": "Subtracting 7 cannot undo multiplication by 7.",
+        "C": "Multiplying by 7 introduces another factor instead of removing one."
+      },
+      "objective": "Undo multiplication by a positive coefficient",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery practice. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "skill:balance",
+        "supporting-skill:Division",
+        "reference:act-math",
+        "reference:openstax-linear-equations",
+        "remediation:A:balance",
+        "remediation:B:balance",
+        "remediation:C:balance"
+      ]
+    },
+    {
+      "slug": "chapter-practice-le-03",
+      "subject": "MATH",
+      "topic": "Linear equations",
+      "subtopic": "balance",
+      "difficulty": 2,
+      "seconds": 50,
+      "prompt": "Solve 16 − 6x = 31.",
+      "choices": [
+        "−5/2",
+        "5/2",
+        "−47/6",
+        "15"
+      ],
+      "correctIndex": 0,
+      "explanation": "Subtract 16 to get −6x = 15. Dividing by −6 gives −5/2.",
+      "distractors": {
+        "B": "This drops the sign of the coefficient.",
+        "C": "This adds 16 to the target instead of subtracting it.",
+        "D": "Fifteen is the product −6x. Divide to isolate x."
+      },
+      "objective": "Isolate a variable with a negative coefficient",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery practice. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "skill:balance",
+        "supporting-skill:Signed division",
+        "reference:act-math",
+        "reference:openstax-linear-equations",
+        "remediation:B:balance",
+        "remediation:C:balance",
+        "remediation:D:balance"
+      ]
+    },
+    {
+      "slug": "chapter-practice-le-04",
+      "subject": "MATH",
+      "topic": "Linear equations",
+      "subtopic": "balance",
+      "difficulty": 2,
+      "seconds": 50,
+      "prompt": "Solve 8(x − 3) = 20.",
+      "choices": [
+        "−1/2",
+        "23/8",
+        "11/2",
+        "5/2"
+      ],
+      "correctIndex": 2,
+      "explanation": "Divide by 8, giving x − 3 = 5/2. Then add 3 to both sides.",
+      "distractors": {
+        "A": "This subtracts 3 rather than adding it.",
+        "B": "Adding 3 before division treats the shift as outside the group.",
+        "D": "This is the value of the group x − 3."
+      },
+      "objective": "Undo operations on a grouped expression",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery practice. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "skill:balance",
+        "supporting-skill:Operation order",
+        "reference:act-math",
+        "reference:openstax-linear-equations",
+        "remediation:A:balance",
+        "remediation:B:balance",
+        "remediation:D:balance"
+      ]
+    },
+    {
+      "slug": "chapter-practice-le-05",
+      "subject": "MATH",
+      "topic": "Linear equations",
+      "subtopic": "equivalent-forms",
+      "difficulty": 2,
+      "seconds": 50,
+      "prompt": "Solve 5x + 2 = 2x + 20.",
+      "choices": [
+        "18",
+        "18/7",
+        "22/3",
+        "6"
+      ],
+      "correctIndex": 3,
+      "explanation": "Subtract 2x and then subtract 2. Solve 3x = 18 to get 6.",
+      "distractors": {
+        "A": "Eighteen is the value of 3x.",
+        "B": "Subtracting 2x leaves 3x, while adding 2x would require changing both sides.",
+        "C": "The left constant is removed by subtraction, leaving 18 on the right."
+      },
+      "objective": "Collect variable terms on one side",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery practice. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "skill:equivalent-forms",
+        "supporting-skill:Equivalent equations",
+        "reference:act-math",
+        "reference:openstax-linear-equations",
+        "prerequisite:balance",
+        "remediation:A:equivalent-forms",
+        "remediation:B:equivalent-forms",
+        "remediation:C:equivalent-forms"
+      ]
+    },
+    {
+      "slug": "chapter-practice-le-06",
+      "subject": "MATH",
+      "topic": "Linear equations",
+      "subtopic": "equivalent-forms",
+      "difficulty": 3,
+      "seconds": 65,
+      "prompt": "Solve −3(x − 2) + 7 = 2x − 2.",
+      "choices": [
+        "3/5",
+        "13/5",
+        "3",
+        "−3"
+      ],
+      "correctIndex": 2,
+      "explanation": "Expanding the left gives −3x + 13. Collecting terms gives 15 = 5x, so x = 3.",
+      "distractors": {
+        "A": "Distributing −3 over −2 produces positive 6.",
+        "B": "The constants 13 and −2 differ by 15.",
+        "D": "The signs in 15 = 5x make x positive."
+      },
+      "objective": "Distribute a negative factor to each term",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery practice. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "skill:equivalent-forms",
+        "supporting-skill:Distribution",
+        "reference:act-math",
+        "reference:openstax-linear-equations",
+        "prerequisite:balance",
+        "remediation:A:equivalent-forms",
+        "remediation:B:equivalent-forms",
+        "remediation:D:equivalent-forms"
+      ]
+    },
+    {
+      "slug": "chapter-practice-le-07",
+      "subject": "MATH",
+      "topic": "Linear equations",
+      "subtopic": "equivalent-forms",
+      "difficulty": 3,
+      "seconds": 65,
+      "prompt": "Solve x/2 + 3 = (x + 5)/3.",
+      "choices": [
+        "4",
+        "−8",
+        "7",
+        "8"
+      ],
+      "correctIndex": 1,
+      "explanation": "Multiply every term by 6 to obtain 3x + 18 = 2x + 10. Subtract to get x = −8.",
+      "distractors": {
+        "A": "The standalone 3 becomes 18 when clearing denominators.",
+        "C": "Use 6 on the whole equation, including the standalone constant.",
+        "D": "The constant difference is 10 minus 18, not 18 minus 10."
+      },
+      "objective": "Clear all constant denominators",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery practice. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "skill:equivalent-forms",
+        "supporting-skill:Common denominators",
+        "reference:act-math",
+        "reference:openstax-linear-equations",
+        "prerequisite:balance",
+        "remediation:A:equivalent-forms",
+        "remediation:C:equivalent-forms",
+        "remediation:D:equivalent-forms"
+      ]
+    },
+    {
+      "slug": "chapter-practice-le-08",
+      "subject": "MATH",
+      "topic": "Linear equations",
+      "subtopic": "equivalent-forms",
+      "difficulty": 3,
+      "seconds": 65,
+      "prompt": "How many real solutions does 6(x − 4) = 2(3x − 12) have?",
+      "choices": [
+        "Infinitely many",
+        "None",
+        "Exactly one",
+        "Exactly two"
+      ],
+      "correctIndex": 0,
+      "explanation": "Both sides expand to 6x − 24. This identity is true for every real input.",
+      "distractors": {
+        "B": "Cancellation leaves −24 = −24, a true statement.",
+        "C": "Any input works, including both 0 and 1.",
+        "D": "The same expression appears on both sides for every real number."
+      },
+      "objective": "Recognize an identity after expansion",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery practice. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "skill:equivalent-forms",
+        "supporting-skill:Solution sets",
+        "reference:act-math",
+        "reference:openstax-linear-equations",
+        "prerequisite:balance",
+        "remediation:B:equivalent-forms",
+        "remediation:C:equivalent-forms",
+        "remediation:D:equivalent-forms"
+      ]
+    },
+    {
+      "slug": "chapter-practice-le-09",
+      "subject": "MATH",
+      "topic": "Linear equations",
+      "subtopic": "linear-graphs",
+      "difficulty": 2,
+      "seconds": 50,
+      "prompt": "What is the slope through (−2, 8) and (4, −1)?",
+      "choices": [
+        "3/2",
+        "−2/3",
+        "−3/2",
+        "−9"
+      ],
+      "correctIndex": 2,
+      "explanation": "The output change is −1 − 8 = −9 and input change is 4 − (−2) = 6. Their quotient is −3/2.",
+      "distractors": {
+        "A": "The line descends as input increases.",
+        "B": "This is run divided by rise.",
+        "D": "This is only the change in output."
+      },
+      "objective": "Calculate signed rise over run",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery practice. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "skill:linear-graphs",
+        "supporting-skill:Ordered pairs",
+        "reference:act-math",
+        "reference:openstax-linear-equations",
+        "prerequisite:balance",
+        "prerequisite:equivalent-forms",
+        "remediation:A:linear-graphs",
+        "remediation:B:linear-graphs",
+        "remediation:D:linear-graphs"
+      ]
+    },
+    {
+      "slug": "chapter-practice-le-10",
+      "subject": "MATH",
+      "topic": "Linear equations",
+      "subtopic": "linear-graphs",
+      "difficulty": 3,
+      "seconds": 65,
+      "prompt": "A table for a line includes (−1, 11) and (3, −1). What is the output when the input is 0?",
+      "choices": [
+        "8",
+        "11",
+        "−3",
+        "14"
+      ],
+      "correctIndex": 0,
+      "explanation": "The output decreases 12 over 4 inputs, a rate of −3. From input −1 to 0, subtract 3 from 11 to obtain 8.",
+      "distractors": {
+        "B": "Eleven is the output at input −1.",
+        "C": "This is the change per unit rather than the output at zero.",
+        "D": "Moving to a greater input decreases the output by 3."
+      },
+      "objective": "Infer the intercept from two observations",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery practice. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "skill:linear-graphs",
+        "supporting-skill:Starting values",
+        "reference:act-math",
+        "reference:openstax-linear-equations",
+        "prerequisite:balance",
+        "prerequisite:equivalent-forms",
+        "remediation:B:linear-graphs",
+        "remediation:C:linear-graphs",
+        "remediation:D:linear-graphs"
+      ]
+    },
+    {
+      "slug": "chapter-practice-le-11",
+      "subject": "MATH",
+      "topic": "Linear equations",
+      "subtopic": "linear-graphs",
+      "difficulty": 3,
+      "seconds": 65,
+      "prompt": "Which rule describes the line through (6, −5) and (6, 4)?",
+      "choices": [
+        "y = 6",
+        "y = −5",
+        "y = 0",
+        "x = 6"
+      ],
+      "correctIndex": 3,
+      "explanation": "Both points share the input 6 and have different outputs. The line is vertical with equation x = 6.",
+      "distractors": {
+        "A": "The value 6 is an input coordinate.",
+        "B": "Only one of the two points has output −5.",
+        "C": "A change in input of zero means undefined slope rather than zero output."
+      },
+      "objective": "Distinguish vertical lines from horizontal lines",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery practice. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "skill:linear-graphs",
+        "supporting-skill:Undefined slope",
+        "reference:act-math",
+        "reference:openstax-linear-equations",
+        "prerequisite:balance",
+        "prerequisite:equivalent-forms",
+        "remediation:A:linear-graphs",
+        "remediation:B:linear-graphs",
+        "remediation:C:linear-graphs"
+      ]
+    },
+    {
+      "slug": "chapter-practice-le-12",
+      "subject": "MATH",
+      "topic": "Linear equations",
+      "subtopic": "linear-graphs",
+      "difficulty": 4,
+      "seconds": 80,
+      "prompt": "A line crosses the axes at (−6, 0) and (0, 9). At what input does it have output 15?",
+      "choices": [
+        "10",
+        "4",
+        "−4",
+        "3/2"
+      ],
+      "correctIndex": 1,
+      "explanation": "Slope is 9/6 = 3/2. The rule y = (3/2)x + 9 reaches 15 at x = (15 − 9)/(3/2) = 4.",
+      "distractors": {
+        "A": "This divides the target by the slope and omits the starting output 9.",
+        "C": "The slope is positive, so an output above 9 requires positive input.",
+        "D": "This is the rate of change, not the requested input."
+      },
+      "objective": "Use intercepts to evaluate an inverse linear model",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery practice. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "skill:linear-graphs",
+        "supporting-skill:Intercepts",
+        "reference:act-math",
+        "reference:openstax-linear-equations",
+        "prerequisite:balance",
+        "prerequisite:equivalent-forms",
+        "remediation:A:linear-graphs",
+        "remediation:C:linear-graphs",
+        "remediation:D:linear-graphs"
+      ]
+    },
+    {
+      "slug": "chapter-practice-le-13",
+      "subject": "MATH",
+      "topic": "Linear equations",
+      "subtopic": "constraints",
+      "difficulty": 4,
+      "seconds": 80,
+      "prompt": "A kit starts with 13 pieces. A refill adds 7. What is the fewest whole refills needed for more than 55 pieces?",
+      "choices": [
+        "7",
+        "6",
+        "8",
+        "9"
+      ],
+      "correctIndex": 0,
+      "explanation": "Six refills give 13 + 7(6) = 55 exactly. The strict condition requires one more refill.",
+      "distractors": {
+        "B": "Six reaches equality, which is excluded.",
+        "C": "Seven already gives 62 pieces.",
+        "D": "Nine meets the target but is not minimal."
+      },
+      "objective": "Enforce a strict whole-number threshold",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery practice. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "skill:constraints",
+        "supporting-skill:Integer thresholds",
+        "reference:act-math",
+        "reference:openstax-linear-equations",
+        "prerequisite:equivalent-forms",
+        "prerequisite:linear-graphs",
+        "remediation:B:constraints",
+        "remediation:C:constraints",
+        "remediation:D:constraints"
+      ]
+    },
+    {
+      "slug": "chapter-practice-le-14",
+      "subject": "MATH",
+      "topic": "Linear equations",
+      "subtopic": "constraints",
+      "difficulty": 4,
+      "seconds": 80,
+      "prompt": "Plan A charges 23 credits plus 3 per delivery. Plan B charges 8 plus 5 per delivery. What is the smallest whole number of deliveries for which A is cheaper?",
+      "choices": [
+        "7",
+        "8",
+        "15",
+        "5"
+      ],
+      "correctIndex": 1,
+      "explanation": "The plans tie when 15 = 2d, at 7.5 deliveries. A has the smaller rate, so 8 is the first eligible integer.",
+      "distractors": {
+        "A": "At 7 deliveries the totals are 44 and 43, so A still costs more.",
+        "C": "Fifteen is the difference in fixed fees. Divide by the rate difference.",
+        "D": "Compare the difference in rates, which is 2 rather than 3."
+      },
+      "objective": "Compare fixed and marginal delivery costs",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery practice. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "skill:constraints",
+        "supporting-skill:Break-even analysis",
+        "reference:act-math",
+        "reference:openstax-linear-equations",
+        "prerequisite:equivalent-forms",
+        "prerequisite:linear-graphs",
+        "remediation:A:constraints",
+        "remediation:C:constraints",
+        "remediation:D:constraints"
+      ]
+    },
+    {
+      "slug": "chapter-practice-le-15",
+      "subject": "MATH",
+      "topic": "Linear equations",
+      "subtopic": "constraints",
+      "difficulty": 5,
+      "seconds": 100,
+      "prompt": "For exactly which value of a is (a − 2)x + 5 = 4(x − 1) inconsistent?",
+      "choices": [
+        "2",
+        "4",
+        "6",
+        "9"
+      ],
+      "correctIndex": 2,
+      "explanation": "The right side expands to 4x − 4. Match the coefficients, a − 2 = 4, to leave the impossible equation 5 = −4.",
+      "distractors": {
+        "A": "At a = 2 only the left variable coefficient vanishes. There is still one solution.",
+        "B": "The coefficient on the left is a − 2, not a.",
+        "D": "Nine is the difference between constants. The variable coefficients must agree."
+      },
+      "objective": "Find a parameter that cancels the unknown",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery practice. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "skill:constraints",
+        "supporting-skill:Coefficient matching",
+        "reference:act-math",
+        "reference:openstax-linear-equations",
+        "prerequisite:equivalent-forms",
+        "prerequisite:linear-graphs",
+        "remediation:A:constraints",
+        "remediation:B:constraints",
+        "remediation:D:constraints"
+      ]
+    },
+    {
+      "slug": "chapter-practice-le-16",
+      "subject": "MATH",
+      "topic": "Linear equations",
+      "subtopic": "constraints",
+      "difficulty": 5,
+      "seconds": 100,
+      "prompt": "A meter begins with 89 liters and loses 3 per minute. A second begins with 12 liters and gains 5 per minute. What is the first whole minute when the second exceeds the first by at least 11 liters?",
+      "choices": [
+        "10",
+        "9",
+        "15",
+        "11"
+      ],
+      "correctIndex": 3,
+      "explanation": "The second-minus-first difference is 8t − 77. Reaching 11 requires 8t ≥ 88, so the first whole minute is 11.",
+      "distractors": {
+        "A": "At minute 10 the difference is only 3 liters.",
+        "B": "Minute 9 occurs before the two amounts even match.",
+        "C": "The gap changes by 8 liters per minute. Minute 11 already reaches 11 liters."
+      },
+      "objective": "Model the difference of changing quantities",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery practice. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "skill:constraints",
+        "supporting-skill:Simultaneous rates",
+        "reference:act-math",
+        "reference:openstax-linear-equations",
+        "prerequisite:equivalent-forms",
+        "prerequisite:linear-graphs",
+        "remediation:A:constraints",
+        "remediation:B:constraints",
+        "remediation:C:constraints"
+      ]
+    }
+  ]
+}
