@@ -1,356 +1,356 @@
-subject,topic,reporting_category,level,live_published_practice,live_published_diagnostic,live_draft,repository_mock_draft,independently_verified,workspace_learning_profiles_for_live_items,new_local_practice_drafts,workspace_textbook_practice_seed,workspace_proportional_reasoning_practice_drafts,workspace_linear_equations_practice_drafts,workspace_sentence_boundaries_practice_drafts
-ENGLISH,Concision,Knowledge of Language,1,0,0,0,0,0,0,0,0,0,0,0
-ENGLISH,Concision,Knowledge of Language,2,2,0,0,0,0,0,0,0,0,0,0
-ENGLISH,Concision,Knowledge of Language,3,3,1,0,5,0,0,0,0,0,0,0
-ENGLISH,Concision,Knowledge of Language,4,3,0,0,0,0,0,0,0,0,0,0
-ENGLISH,Concision,Knowledge of Language,5,0,0,0,0,0,0,0,0,0,0,0
-ENGLISH,Conventions,,1,0,0,0,0,0,0,0,0,0,0,0
-ENGLISH,Conventions,,2,0,0,0,0,0,0,0,0,0,0,0
-ENGLISH,Conventions,,3,0,1,0,0,0,0,0,0,0,0,0
-ENGLISH,Conventions,,4,0,0,0,0,0,0,0,0,0,0,0
-ENGLISH,Conventions,,5,0,0,0,0,0,0,0,0,0,0,0
-ENGLISH,Modifiers,Conventions of Standard English,1,0,0,0,0,0,0,0,0,0,0,0
-ENGLISH,Modifiers,Conventions of Standard English,2,0,0,0,0,0,0,0,0,0,0,0
-ENGLISH,Modifiers,Conventions of Standard English,3,0,0,0,0,0,0,0,0,0,0,0
-ENGLISH,Modifiers,Conventions of Standard English,4,0,0,0,1,0,0,0,0,0,0,0
-ENGLISH,Modifiers,Conventions of Standard English,5,0,0,0,0,0,0,0,0,0,0,0
-ENGLISH,Organization,Production of Writing,1,0,0,0,0,0,0,0,0,0,0,0
-ENGLISH,Organization,Production of Writing,2,0,0,0,0,0,0,0,0,0,0,0
-ENGLISH,Organization,Production of Writing,3,2,0,0,0,0,0,0,0,0,0,0
-ENGLISH,Organization,Production of Writing,4,0,1,0,5,0,0,0,0,0,0,0
-ENGLISH,Organization,Production of Writing,5,0,0,0,0,0,0,0,0,0,0,0
-ENGLISH,Parallel structure,Conventions of Standard English,1,0,0,0,0,0,0,0,0,0,0,0
-ENGLISH,Parallel structure,Conventions of Standard English,2,0,0,0,0,0,0,0,0,0,0,0
-ENGLISH,Parallel structure,Conventions of Standard English,3,0,0,0,0,0,0,0,0,0,0,0
-ENGLISH,Parallel structure,Conventions of Standard English,4,0,0,0,3,0,0,0,0,0,0,0
-ENGLISH,Parallel structure,Conventions of Standard English,5,0,0,0,0,0,0,0,0,0,0,0
-ENGLISH,Pronouns,Conventions of Standard English,1,0,0,0,0,0,0,0,0,0,0,0
-ENGLISH,Pronouns,Conventions of Standard English,2,1,0,0,0,0,0,0,0,0,0,0
-ENGLISH,Pronouns,Conventions of Standard English,3,0,0,0,3,0,0,0,0,0,0,0
-ENGLISH,Pronouns,Conventions of Standard English,4,0,0,0,0,0,0,0,0,0,0,0
-ENGLISH,Pronouns,Conventions of Standard English,5,0,0,0,0,0,0,0,0,0,0,0
-ENGLISH,Punctuation,Conventions of Standard English,1,0,0,0,0,0,0,0,0,0,0,0
-ENGLISH,Punctuation,Conventions of Standard English,2,1,0,0,0,0,1,0,0,0,0,0
-ENGLISH,Punctuation,Conventions of Standard English,3,2,0,0,6,0,2,0,0,0,0,0
-ENGLISH,Punctuation,Conventions of Standard English,4,0,1,0,0,0,1,0,0,0,0,0
-ENGLISH,Punctuation,Conventions of Standard English,5,0,0,0,0,0,0,0,0,0,0,0
-ENGLISH,Purpose and relevance,Production of Writing,1,0,0,0,0,0,0,0,0,0,0,0
-ENGLISH,Purpose and relevance,Production of Writing,2,0,0,0,0,0,0,0,0,0,0,0
-ENGLISH,Purpose and relevance,Production of Writing,3,0,0,0,0,0,0,0,0,0,0,0
-ENGLISH,Purpose and relevance,Production of Writing,4,0,0,0,8,0,0,0,0,0,0,0
-ENGLISH,Purpose and relevance,Production of Writing,5,0,0,0,0,0,0,0,0,0,0,0
-ENGLISH,Sentence boundaries,Conventions of Standard English,1,0,0,0,0,0,0,0,0,0,0,1
-ENGLISH,Sentence boundaries,Conventions of Standard English,2,0,0,0,0,0,0,0,0,0,0,3
-ENGLISH,Sentence boundaries,Conventions of Standard English,3,0,0,0,1,0,0,0,0,0,0,4
-ENGLISH,Sentence boundaries,Conventions of Standard English,4,0,0,0,1,0,0,0,0,0,0,2
-ENGLISH,Sentence boundaries,Conventions of Standard English,5,0,0,0,0,0,0,0,0,0,0,2
-ENGLISH,Subject-verb agreement,Conventions of Standard English,1,0,0,0,0,0,0,0,0,0,0,0
-ENGLISH,Subject-verb agreement,Conventions of Standard English,2,1,0,0,0,0,0,0,0,0,0,0
-ENGLISH,Subject-verb agreement,Conventions of Standard English,3,1,0,0,2,0,0,0,0,0,0,0
-ENGLISH,Subject-verb agreement,Conventions of Standard English,4,0,0,0,0,0,0,0,0,0,0,0
-ENGLISH,Subject-verb agreement,Conventions of Standard English,5,0,0,0,0,0,0,0,0,0,0,0
-ENGLISH,Tone and style,Knowledge of Language,1,0,0,0,0,0,0,0,0,0,0,0
-ENGLISH,Tone and style,Knowledge of Language,2,0,0,0,0,0,0,0,0,0,0,0
-ENGLISH,Tone and style,Knowledge of Language,3,0,0,0,0,0,0,0,0,0,0,0
-ENGLISH,Tone and style,Knowledge of Language,4,0,0,0,1,0,0,0,0,0,0,0
-ENGLISH,Tone and style,Knowledge of Language,5,0,0,0,0,0,0,0,0,0,0,0
-ENGLISH,Transitions,Production of Writing,1,0,0,0,0,0,0,0,0,0,0,0
-ENGLISH,Transitions,Production of Writing,2,0,0,0,0,0,0,0,0,0,0,0
-ENGLISH,Transitions,Production of Writing,3,0,0,0,2,0,0,0,0,0,0,0
-ENGLISH,Transitions,Production of Writing,4,0,0,0,4,0,0,0,0,0,0,0
-ENGLISH,Transitions,Production of Writing,5,0,0,0,0,0,0,0,0,0,0,0
-ENGLISH,Verb tense,Conventions of Standard English,1,0,0,0,0,0,0,0,0,0,0,0
-ENGLISH,Verb tense,Conventions of Standard English,2,0,0,0,0,0,0,0,0,0,0,0
-ENGLISH,Verb tense,Conventions of Standard English,3,0,0,0,2,0,0,0,0,0,0,0
-ENGLISH,Verb tense,Conventions of Standard English,4,0,0,0,0,0,0,0,0,0,0,0
-ENGLISH,Verb tense,Conventions of Standard English,5,0,0,0,0,0,0,0,0,0,0,0
-ENGLISH,Word choice,Knowledge of Language,1,0,0,0,0,0,0,0,0,0,0,0
-ENGLISH,Word choice,Knowledge of Language,2,0,0,0,0,0,0,0,0,0,0,0
-ENGLISH,Word choice,Knowledge of Language,3,1,0,0,5,0,0,0,0,0,0,0
-ENGLISH,Word choice,Knowledge of Language,4,1,0,0,1,0,0,0,0,0,0,0
-ENGLISH,Word choice,Knowledge of Language,5,0,0,0,0,0,0,0,0,0,0,0
-MATH,Circles,Geometry,1,0,0,0,0,0,0,0,0,0,0,0
-MATH,Circles,Geometry,2,0,0,0,0,0,0,0,0,0,0,0
-MATH,Circles,Geometry,3,0,0,0,0,0,0,0,0,0,0,0
-MATH,Circles,Geometry,4,0,0,0,1,0,0,0,0,0,0,0
-MATH,Circles,Geometry,5,0,0,0,0,0,0,0,0,0,0,0
-MATH,Complex numbers,Number & Quantity,1,0,0,0,0,0,0,0,0,0,0,0
-MATH,Complex numbers,Number & Quantity,2,0,0,0,0,0,0,0,0,0,0,0
-MATH,Complex numbers,Number & Quantity,3,0,0,0,0,0,0,0,0,0,0,0
-MATH,Complex numbers,Number & Quantity,4,0,0,0,1,0,0,0,0,0,0,0
-MATH,Complex numbers,Number & Quantity,5,0,0,0,0,0,0,0,0,0,0,0
-MATH,Conditional probability,Statistics & Probability,1,0,0,0,0,0,0,0,0,0,0,0
-MATH,Conditional probability,Statistics & Probability,2,0,0,0,0,0,0,0,0,0,0,0
-MATH,Conditional probability,Statistics & Probability,3,0,0,0,0,0,0,0,0,0,0,0
-MATH,Conditional probability,Statistics & Probability,4,0,0,0,1,0,0,0,0,0,0,0
-MATH,Conditional probability,Statistics & Probability,5,0,0,0,1,0,0,0,0,0,0,0
-MATH,Coordinate geometry,Geometry,1,0,0,0,0,0,0,0,0,0,0,0
-MATH,Coordinate geometry,Geometry,2,0,0,0,0,0,0,1,0,0,0,0
-MATH,Coordinate geometry,Geometry,3,0,0,0,1,0,0,1,0,0,0,0
-MATH,Coordinate geometry,Geometry,4,0,0,0,1,0,0,1,0,0,0,0
-MATH,Coordinate geometry,Geometry,5,0,0,0,0,0,0,0,0,0,0,0
-MATH,Counting methods,Statistics & Probability,1,0,0,0,0,0,0,0,0,0,0,0
-MATH,Counting methods,Statistics & Probability,2,0,0,0,0,0,0,0,0,0,0,0
-MATH,Counting methods,Statistics & Probability,3,0,0,0,0,0,0,0,0,0,0,0
-MATH,Counting methods,Statistics & Probability,4,0,0,0,1,0,0,0,0,0,0,0
-MATH,Counting methods,Statistics & Probability,5,0,0,0,0,0,0,0,0,0,0,0
-MATH,Data distributions,Statistics & Probability,1,0,0,0,0,0,0,0,0,0,0,0
-MATH,Data distributions,Statistics & Probability,2,0,0,0,0,0,0,0,0,0,0,0
-MATH,Data distributions,Statistics & Probability,3,0,0,0,1,0,0,0,0,0,0,0
-MATH,Data distributions,Statistics & Probability,4,0,0,0,1,0,0,0,0,0,0,0
-MATH,Data distributions,Statistics & Probability,5,0,0,0,0,0,0,0,0,0,0,0
-MATH,Domain and range,Functions,1,0,0,0,0,0,0,0,0,0,0,0
-MATH,Domain and range,Functions,2,0,0,0,0,0,0,0,0,0,0,0
-MATH,Domain and range,Functions,3,0,0,0,1,0,0,0,0,0,0,0
-MATH,Domain and range,Functions,4,0,0,0,0,0,0,0,0,0,0,0
-MATH,Domain and range,Functions,5,0,0,0,0,0,0,0,0,0,0,0
-MATH,Exponents and radicals,Number & Quantity,1,0,0,0,0,0,0,0,0,0,0,0
-MATH,Exponents and radicals,Number & Quantity,2,0,0,0,0,0,0,0,0,0,0,0
-MATH,Exponents and radicals,Number & Quantity,3,0,0,0,0,0,0,0,0,0,0,0
-MATH,Exponents and radicals,Number & Quantity,4,0,0,0,1,0,0,0,0,0,0,0
-MATH,Exponents and radicals,Number & Quantity,5,0,0,0,1,0,0,0,0,0,0,0
-MATH,Functions,Functions,1,0,0,0,0,0,0,0,0,0,0,0
-MATH,Functions,Functions,2,2,0,0,0,0,2,0,0,0,0,0
-MATH,Functions,Functions,3,3,0,0,1,0,3,0,0,0,0,0
-MATH,Functions,Functions,4,3,1,0,2,0,3,0,0,0,0,0
-MATH,Functions,Functions,5,2,0,0,0,0,2,0,0,0,0,0
-MATH,Geometry,Geometry,1,0,0,0,0,0,0,0,0,0,0,0
-MATH,Geometry,Geometry,2,1,0,0,1,0,0,0,0,0,0,0
-MATH,Geometry,Geometry,3,1,0,0,0,0,0,0,0,0,0,0
-MATH,Geometry,Geometry,4,1,1,0,0,0,0,0,0,0,0,0
-MATH,Geometry,Geometry,5,0,0,0,0,0,0,0,0,0,0,0
-MATH,Graphs and transformations,Functions,1,0,0,0,0,0,0,0,0,0,0,0
-MATH,Graphs and transformations,Functions,2,0,0,0,0,0,0,0,0,0,0,0
-MATH,Graphs and transformations,Functions,3,0,0,0,1,0,0,0,0,0,0,0
-MATH,Graphs and transformations,Functions,4,0,0,0,0,0,0,0,0,0,0,0
-MATH,Graphs and transformations,Functions,5,0,0,0,1,0,0,0,0,0,0,0
-MATH,Interpret model parameters,Modeling,1,0,0,0,0,0,0,0,0,0,0,0
-MATH,Interpret model parameters,Modeling,2,0,0,0,0,0,0,0,0,0,0,0
-MATH,Interpret model parameters,Modeling,3,0,0,0,0,0,0,0,0,0,0,0
-MATH,Interpret model parameters,Modeling,4,0,0,0,0,0,0,0,0,0,0,0
-MATH,Interpret model parameters,Modeling,5,0,0,0,0,0,0,0,0,0,0,0
-MATH,Linear equations,Algebra,1,0,0,0,0,0,0,0,0,0,2,0
-MATH,Linear equations,Algebra,2,1,0,0,1,0,1,0,0,0,4,0
-MATH,Linear equations,Algebra,3,1,1,0,1,0,2,0,0,0,5,0
-MATH,Linear equations,Algebra,4,0,0,0,0,0,0,0,0,0,3,0
-MATH,Linear equations,Algebra,5,0,0,0,0,0,0,0,0,0,2,0
-MATH,Logarithms,Algebra,1,0,0,0,0,0,0,0,0,0,0,0
-MATH,Logarithms,Algebra,2,0,0,0,0,0,0,0,0,0,0,0
-MATH,Logarithms,Algebra,3,0,0,0,0,0,0,0,0,0,0,0
-MATH,Logarithms,Algebra,4,0,0,0,1,0,0,0,0,0,0,0
-MATH,Logarithms,Algebra,5,0,0,0,0,0,0,0,0,0,0,0
-MATH,Modeling,Modeling,1,0,0,0,0,0,0,0,0,0,0,0
-MATH,Modeling,Modeling,2,0,0,0,0,0,0,0,0,0,0,0
-MATH,Modeling,Modeling,3,0,0,0,1,0,0,0,0,0,0,0
-MATH,Modeling,Modeling,4,2,0,0,1,0,0,0,0,0,0,0
-MATH,Modeling,Modeling,5,0,0,0,1,0,0,0,0,0,0,0
-MATH,Multistep quantities,Integrating Essential Skills,1,0,0,0,0,0,0,0,0,0,0,0
-MATH,Multistep quantities,Integrating Essential Skills,2,0,0,0,0,0,0,0,0,0,0,0
-MATH,Multistep quantities,Integrating Essential Skills,3,0,0,0,0,0,0,0,0,0,0,0
-MATH,Multistep quantities,Integrating Essential Skills,4,0,0,0,0,0,0,0,0,0,0,0
-MATH,Multistep quantities,Integrating Essential Skills,5,0,0,0,0,0,0,0,0,0,0,0
-MATH,Number and quantity,Number & Quantity,1,0,0,0,0,0,0,0,0,0,0,0
-MATH,Number and quantity,Number & Quantity,2,0,0,0,1,0,0,0,0,0,0,0
-MATH,Number and quantity,Number & Quantity,3,1,0,0,0,0,0,0,0,0,0,0
-MATH,Number and quantity,Number & Quantity,4,1,0,0,0,0,0,0,0,0,0,0
-MATH,Number and quantity,Number & Quantity,5,0,0,0,1,0,0,0,0,0,0,0
-MATH,Percentages,Integrating Essential Skills,1,0,0,0,0,0,0,0,0,0,0,0
-MATH,Percentages,Integrating Essential Skills,2,1,0,0,0,0,0,0,0,0,0,0
-MATH,Percentages,Integrating Essential Skills,3,1,0,0,1,0,0,0,0,0,0,0
-MATH,Percentages,Integrating Essential Skills,4,0,0,0,0,0,0,0,0,0,0,0
-MATH,Percentages,Integrating Essential Skills,5,0,0,0,0,0,0,0,0,0,0,0
-MATH,Polynomial and rational expressions,Algebra,1,0,0,0,0,0,0,0,0,0,0,0
-MATH,Polynomial and rational expressions,Algebra,2,0,0,0,0,0,0,0,0,0,0,0
-MATH,Polynomial and rational expressions,Algebra,3,0,0,0,0,0,0,0,0,0,0,0
-MATH,Polynomial and rational expressions,Algebra,4,0,0,0,1,0,0,0,0,0,0,0
-MATH,Polynomial and rational expressions,Algebra,5,0,0,0,0,0,0,0,0,0,0,0
-MATH,Proportional reasoning,Integrating Essential Skills,1,0,0,0,0,0,0,0,0,6,0,0
-MATH,Proportional reasoning,Integrating Essential Skills,2,0,0,0,0,0,0,1,0,9,0,0
-MATH,Proportional reasoning,Integrating Essential Skills,3,0,0,0,0,0,0,1,0,10,0,0
-MATH,Proportional reasoning,Integrating Essential Skills,4,0,0,0,0,0,0,1,0,9,0,0
-MATH,Proportional reasoning,Integrating Essential Skills,5,0,0,0,0,0,0,0,0,6,0,0
-MATH,Quadratics,Algebra,1,0,0,0,0,0,0,0,3,0,0,0
-MATH,Quadratics,Algebra,2,2,0,0,0,0,2,0,4,0,0,0
-MATH,Quadratics,Algebra,3,2,0,0,1,0,2,0,9,0,0,0
-MATH,Quadratics,Algebra,4,3,0,0,1,0,3,0,5,0,0,0
-MATH,Quadratics,Algebra,5,1,0,0,1,0,1,0,3,0,0,0
-MATH,Rates,Integrating Essential Skills,1,0,0,0,0,0,0,0,0,0,0,0
-MATH,Rates,Integrating Essential Skills,2,0,0,0,0,0,0,0,0,0,0,0
-MATH,Rates,Integrating Essential Skills,3,0,0,0,1,0,0,0,0,0,0,0
-MATH,Rates,Integrating Essential Skills,4,0,0,0,0,0,0,0,0,0,0,0
-MATH,Rates,Integrating Essential Skills,5,0,0,0,0,0,0,0,0,0,0,0
-MATH,Ratios and units,Number & Quantity,1,0,0,0,0,0,0,0,0,0,0,0
-MATH,Ratios and units,Number & Quantity,2,0,0,0,0,0,0,0,0,0,0,0
-MATH,Ratios and units,Number & Quantity,3,0,0,0,1,0,0,0,0,0,0,0
-MATH,Ratios and units,Number & Quantity,4,0,0,0,0,0,0,0,0,0,0,0
-MATH,Ratios and units,Number & Quantity,5,0,0,0,0,0,0,0,0,0,0,0
-MATH,Sequences,Functions,1,0,0,0,0,0,0,0,0,0,0,0
-MATH,Sequences,Functions,2,0,0,0,0,0,0,0,0,0,0,0
-MATH,Sequences,Functions,3,0,0,0,1,0,0,0,0,0,0,0
-MATH,Sequences,Functions,4,0,0,0,1,0,0,0,0,0,0,0
-MATH,Sequences,Functions,5,0,0,0,0,0,0,0,0,0,0,0
-MATH,Statistics and probability,Statistics & Probability,1,0,0,0,0,0,0,0,0,0,0,0
-MATH,Statistics and probability,Statistics & Probability,2,0,0,0,1,0,0,0,0,0,0,0
-MATH,Statistics and probability,Statistics & Probability,3,0,0,0,0,0,0,0,0,0,0,0
-MATH,Statistics and probability,Statistics & Probability,4,2,1,0,1,0,0,0,0,0,0,0
-MATH,Statistics and probability,Statistics & Probability,5,0,0,0,0,0,0,0,0,0,0,0
-MATH,Systems and inequalities,Algebra,1,0,0,0,0,0,0,0,0,0,0,0
-MATH,Systems and inequalities,Algebra,2,0,0,0,0,0,0,1,0,0,0,0
-MATH,Systems and inequalities,Algebra,3,0,0,0,0,0,0,1,0,0,0,0
-MATH,Systems and inequalities,Algebra,4,0,0,0,2,0,0,1,0,0,0,0
-MATH,Systems and inequalities,Algebra,5,0,0,0,0,0,0,0,0,0,0,0
-MATH,Test assumptions,Modeling,1,0,0,0,0,0,0,0,0,0,0,0
-MATH,Test assumptions,Modeling,2,0,0,0,0,0,0,0,0,0,0,0
-MATH,Test assumptions,Modeling,3,0,0,0,0,0,0,0,0,0,0,0
-MATH,Test assumptions,Modeling,4,0,0,0,0,0,0,0,0,0,0,0
-MATH,Test assumptions,Modeling,5,0,0,0,0,0,0,0,0,0,0,0
-MATH,Triangles and trigonometry,Geometry,1,0,0,0,0,0,0,0,0,0,0,0
-MATH,Triangles and trigonometry,Geometry,2,0,0,0,0,0,0,1,0,0,0,0
-MATH,Triangles and trigonometry,Geometry,3,0,0,0,1,0,0,1,0,0,0,0
-MATH,Triangles and trigonometry,Geometry,4,0,0,0,0,0,0,1,0,0,0,0
-MATH,Triangles and trigonometry,Geometry,5,0,0,0,1,0,0,0,0,0,0,0
-MATH,Trigonometric functions,Functions,1,0,0,0,0,0,0,0,0,0,0,0
-MATH,Trigonometric functions,Functions,2,0,0,0,0,0,0,0,0,0,0,0
-MATH,Trigonometric functions,Functions,3,0,0,0,0,0,0,0,0,0,0,0
-MATH,Trigonometric functions,Functions,4,0,0,0,1,0,0,0,0,0,0,0
-MATH,Trigonometric functions,Functions,5,0,0,0,0,0,0,0,0,0,0,0
-MATH,Vectors and matrices,Number & Quantity,1,0,0,0,0,0,0,0,0,0,0,0
-MATH,Vectors and matrices,Number & Quantity,2,0,0,0,0,0,0,0,0,0,0,0
-MATH,Vectors and matrices,Number & Quantity,3,0,0,0,0,0,0,0,0,0,0,0
-MATH,Vectors and matrices,Number & Quantity,4,0,0,0,1,0,0,0,0,0,0,0
-MATH,Vectors and matrices,Number & Quantity,5,0,0,0,0,0,0,0,0,0,0,0
-MATH,Volume and surface area,Geometry,1,0,0,0,0,0,0,0,0,0,0,0
-MATH,Volume and surface area,Geometry,2,0,0,0,0,0,0,0,0,0,0,0
-MATH,Volume and surface area,Geometry,3,0,0,0,1,0,0,0,0,0,0,0
-MATH,Volume and surface area,Geometry,4,0,0,0,1,0,0,0,0,0,0,0
-MATH,Volume and surface area,Geometry,5,0,0,0,0,0,0,0,0,0,0,0
-READING,Claims and reasoning,Integration of Knowledge and Ideas,1,0,0,0,0,0,0,0,0,0,0,0
-READING,Claims and reasoning,Integration of Knowledge and Ideas,2,0,0,0,0,0,0,0,0,0,0,0
-READING,Claims and reasoning,Integration of Knowledge and Ideas,3,0,0,0,0,0,0,0,0,0,0,0
-READING,Claims and reasoning,Integration of Knowledge and Ideas,4,0,0,0,1,0,0,0,0,0,0,0
-READING,Claims and reasoning,Integration of Knowledge and Ideas,5,0,0,0,2,0,0,0,0,0,0,0
-READING,Comparisons,Integration of Knowledge and Ideas,1,0,0,0,0,0,0,0,0,0,0,0
-READING,Comparisons,Integration of Knowledge and Ideas,2,0,0,0,0,0,0,0,0,0,0,0
-READING,Comparisons,Integration of Knowledge and Ideas,3,0,0,0,0,0,0,0,0,0,0,0
-READING,Comparisons,Integration of Knowledge and Ideas,4,1,0,0,2,0,0,0,0,0,0,0
-READING,Comparisons,Integration of Knowledge and Ideas,5,0,0,0,0,0,0,0,0,0,0,0
-READING,Details,Key Ideas and Details,1,0,0,0,0,0,0,0,0,0,0,0
-READING,Details,Key Ideas and Details,2,1,0,0,2,0,0,0,0,0,0,0
-READING,Details,Key Ideas and Details,3,0,0,0,1,0,0,0,0,0,0,0
-READING,Details,Key Ideas and Details,4,0,0,0,0,0,0,0,0,0,0,0
-READING,Details,Key Ideas and Details,5,0,0,0,0,0,0,0,0,0,0,0
-READING,Evidence,Integration of Knowledge and Ideas,1,0,0,0,0,0,0,0,0,0,0,0
-READING,Evidence,Integration of Knowledge and Ideas,2,1,0,0,0,0,0,0,0,0,0,0
-READING,Evidence,Integration of Knowledge and Ideas,3,0,0,0,0,0,0,0,0,0,0,0
-READING,Evidence,Integration of Knowledge and Ideas,4,1,1,0,4,0,0,0,0,0,0,0
-READING,Evidence,Integration of Knowledge and Ideas,5,0,0,0,0,0,0,0,0,0,0,0
-READING,Inference,Key Ideas and Details,1,0,0,0,0,0,0,0,0,0,0,0
-READING,Inference,Key Ideas and Details,2,1,0,0,0,0,0,0,0,0,0,0
-READING,Inference,Key Ideas and Details,3,2,0,0,0,0,0,0,0,0,0,0
-READING,Inference,Key Ideas and Details,4,0,1,0,4,0,0,0,0,0,0,0
-READING,Inference,Key Ideas and Details,5,0,0,0,0,0,0,0,0,0,0,0
-READING,Main idea,Key Ideas and Details,1,0,0,0,0,0,0,0,0,0,0,0
-READING,Main idea,Key Ideas and Details,2,1,0,0,0,0,0,0,0,0,0,0
-READING,Main idea,Key Ideas and Details,3,1,1,0,1,0,0,0,0,0,0,0
-READING,Main idea,Key Ideas and Details,4,0,0,0,3,0,0,0,0,0,0,0
-READING,Main idea,Key Ideas and Details,5,0,0,0,0,0,0,0,0,0,0,0
-READING,Paired passages,Integration of Knowledge and Ideas,1,0,0,0,0,0,0,0,0,0,0,0
-READING,Paired passages,Integration of Knowledge and Ideas,2,0,0,0,0,0,0,0,0,0,0,0
-READING,Paired passages,Integration of Knowledge and Ideas,3,0,0,0,0,0,0,0,0,0,0,0
-READING,Paired passages,Integration of Knowledge and Ideas,4,0,0,0,0,0,0,0,0,0,0,0
-READING,Paired passages,Integration of Knowledge and Ideas,5,0,0,0,0,0,0,0,0,0,0,0
-READING,Point of view,Craft and Structure,1,0,0,0,0,0,0,0,0,0,0,0
-READING,Point of view,Craft and Structure,2,0,0,0,0,0,0,0,0,0,0,0
-READING,Point of view,Craft and Structure,3,0,0,0,0,0,0,0,0,0,0,0
-READING,Point of view,Craft and Structure,4,0,0,0,1,0,0,0,0,0,0,0
-READING,Point of view,Craft and Structure,5,0,0,0,0,0,0,0,0,0,0,0
-READING,Purpose and tone,Craft and Structure,1,0,0,0,0,0,0,0,0,0,0,0
-READING,Purpose and tone,Craft and Structure,2,0,0,0,0,0,0,0,0,0,0,0
-READING,Purpose and tone,Craft and Structure,3,0,0,0,0,0,0,0,0,0,0,0
-READING,Purpose and tone,Craft and Structure,4,0,0,0,4,0,0,0,0,0,0,0
-READING,Purpose and tone,Craft and Structure,5,0,0,0,0,0,0,0,0,0,0,0
-READING,Sequence and cause,Key Ideas and Details,1,0,0,0,0,0,0,0,0,0,0,0
-READING,Sequence and cause,Key Ideas and Details,2,0,0,0,0,0,0,0,0,0,0,0
-READING,Sequence and cause,Key Ideas and Details,3,0,0,0,2,0,0,0,0,0,0,0
-READING,Sequence and cause,Key Ideas and Details,4,0,0,0,1,0,0,0,0,0,0,0
-READING,Sequence and cause,Key Ideas and Details,5,0,0,0,0,0,0,0,0,0,0,0
-READING,Text structure,Craft and Structure,1,0,0,0,0,0,0,0,0,0,0,0
-READING,Text structure,Craft and Structure,2,0,0,0,0,0,0,0,0,0,0,0
-READING,Text structure,Craft and Structure,3,0,0,0,0,0,0,0,0,0,0,0
-READING,Text structure,Craft and Structure,4,2,0,0,4,0,0,0,0,0,0,0
-READING,Text structure,Craft and Structure,5,0,0,0,0,0,0,0,0,0,0,0
-READING,Vocabulary in context,Craft and Structure,1,0,0,0,0,0,0,0,0,0,0,0
-READING,Vocabulary in context,Craft and Structure,2,1,0,0,0,0,0,0,0,0,0,0
-READING,Vocabulary in context,Craft and Structure,3,1,0,0,4,0,0,0,0,0,0,0
-READING,Vocabulary in context,Craft and Structure,4,0,1,0,0,0,0,0,0,0,0,0
-READING,Vocabulary in context,Craft and Structure,5,0,0,0,0,0,0,0,0,0,0,0
-SCIENCE,Conflicting viewpoints,Evaluating Scientific Arguments and Models with Evidence,1,0,0,0,0,0,0,0,0,0,0,0
-SCIENCE,Conflicting viewpoints,Evaluating Scientific Arguments and Models with Evidence,2,0,0,0,0,0,0,0,0,0,0,0
-SCIENCE,Conflicting viewpoints,Evaluating Scientific Arguments and Models with Evidence,3,0,0,0,0,0,0,0,0,0,0,0
-SCIENCE,Conflicting viewpoints,Evaluating Scientific Arguments and Models with Evidence,4,3,0,0,0,0,0,0,0,0,0,0
-SCIENCE,Conflicting viewpoints,Evaluating Scientific Arguments and Models with Evidence,5,0,0,0,0,0,0,0,0,0,0,0
-SCIENCE,Controls and variables,Scientific Investigation,1,0,0,0,0,0,0,0,0,0,0,0
-SCIENCE,Controls and variables,Scientific Investigation,2,0,0,0,0,0,0,0,0,0,0,0
-SCIENCE,Controls and variables,Scientific Investigation,3,0,0,0,0,0,0,0,0,0,0,0
-SCIENCE,Controls and variables,Scientific Investigation,4,0,0,0,0,0,0,0,0,0,0,0
-SCIENCE,Controls and variables,Scientific Investigation,5,0,0,0,0,0,0,0,0,0,0,0
-SCIENCE,Evaluate conclusions,Evaluating Scientific Arguments and Models with Evidence,1,0,0,0,0,0,0,0,0,0,0,0
-SCIENCE,Evaluate conclusions,Evaluating Scientific Arguments and Models with Evidence,2,0,0,0,0,0,0,0,0,0,0,0
-SCIENCE,Evaluate conclusions,Evaluating Scientific Arguments and Models with Evidence,3,0,0,0,0,0,0,0,0,0,0,0
-SCIENCE,Evaluate conclusions,Evaluating Scientific Arguments and Models with Evidence,4,0,0,0,0,0,0,0,0,0,0,0
-SCIENCE,Evaluate conclusions,Evaluating Scientific Arguments and Models with Evidence,5,0,0,0,0,0,0,0,0,0,0,0
-SCIENCE,Experimental design,Scientific Investigation,1,0,0,0,0,0,0,0,0,0,0,0
-SCIENCE,Experimental design,Scientific Investigation,2,0,0,0,0,0,0,0,0,0,0,0
-SCIENCE,Experimental design,Scientific Investigation,3,3,0,0,0,0,0,0,0,0,0,0
-SCIENCE,Experimental design,Scientific Investigation,4,1,0,0,0,0,0,0,0,0,0,0
-SCIENCE,Experimental design,Scientific Investigation,5,0,0,0,0,0,0,0,0,0,0,0
-SCIENCE,Graphs and tables,Interpretation of Data,1,0,0,0,0,0,0,0,0,0,0,0
-SCIENCE,Graphs and tables,Interpretation of Data,2,0,0,0,0,0,0,0,0,0,0,0
-SCIENCE,Graphs and tables,Interpretation of Data,3,0,0,0,0,0,0,0,0,0,0,0
-SCIENCE,Graphs and tables,Interpretation of Data,4,0,0,0,0,0,0,0,0,0,0,0
-SCIENCE,Graphs and tables,Interpretation of Data,5,0,0,0,0,0,0,0,0,0,0,0
-SCIENCE,Interpolation,Interpretation of Data,1,0,0,0,0,0,0,0,0,0,0,0
-SCIENCE,Interpolation,Interpretation of Data,2,0,0,0,0,0,0,0,0,0,0,0
-SCIENCE,Interpolation,Interpretation of Data,3,0,0,0,0,0,0,0,0,0,0,0
-SCIENCE,Interpolation,Interpretation of Data,4,0,0,0,0,0,0,0,0,0,0,0
-SCIENCE,Interpolation,Interpretation of Data,5,0,0,0,0,0,0,0,0,0,0,0
-SCIENCE,Interpreting data,Interpretation of Data,1,0,0,0,0,0,0,0,0,0,0,0
-SCIENCE,Interpreting data,Interpretation of Data,2,2,0,0,0,0,0,0,0,0,0,0
-SCIENCE,Interpreting data,Interpretation of Data,3,1,0,0,0,0,0,0,0,0,0,0
-SCIENCE,Interpreting data,Interpretation of Data,4,1,0,0,0,0,0,0,0,0,0,0
-SCIENCE,Interpreting data,Interpretation of Data,5,0,0,0,0,0,0,0,0,0,0,0
-SCIENCE,Model predictions,Evaluating Scientific Arguments and Models with Evidence,1,0,0,0,0,0,0,0,0,0,0,0
-SCIENCE,Model predictions,Evaluating Scientific Arguments and Models with Evidence,2,0,0,0,0,0,0,0,0,0,0,0
-SCIENCE,Model predictions,Evaluating Scientific Arguments and Models with Evidence,3,0,0,0,0,0,0,0,0,0,0,0
-SCIENCE,Model predictions,Evaluating Scientific Arguments and Models with Evidence,4,0,0,0,0,0,0,0,0,0,0,0
-SCIENCE,Model predictions,Evaluating Scientific Arguments and Models with Evidence,5,0,0,0,0,0,0,0,0,0,0,0
-SCIENCE,Predict additional trials,Scientific Investigation,1,0,0,0,0,0,0,0,0,0,0,0
-SCIENCE,Predict additional trials,Scientific Investigation,2,0,0,0,0,0,0,0,0,0,0,0
-SCIENCE,Predict additional trials,Scientific Investigation,3,0,0,0,0,0,0,0,0,0,0,0
-SCIENCE,Predict additional trials,Scientific Investigation,4,0,0,0,0,0,0,0,0,0,0,0
-SCIENCE,Predict additional trials,Scientific Investigation,5,0,0,0,0,0,0,0,0,0,0,0
-SCIENCE,Translate representations,Interpretation of Data,1,0,0,0,0,0,0,0,0,0,0,0
-SCIENCE,Translate representations,Interpretation of Data,2,0,0,0,0,0,0,0,0,0,0,0
-SCIENCE,Translate representations,Interpretation of Data,3,0,0,0,0,0,0,0,0,0,0,0
-SCIENCE,Translate representations,Interpretation of Data,4,0,0,0,0,0,0,0,0,0,0,0
-SCIENCE,Translate representations,Interpretation of Data,5,0,0,0,0,0,0,0,0,0,0,0
-WRITING,Analyze perspectives,Ideas and Analysis,1,0,0,0,0,0,0,0,0,0,0,0
-WRITING,Analyze perspectives,Ideas and Analysis,2,0,0,0,0,0,0,0,0,0,0,0
-WRITING,Analyze perspectives,Ideas and Analysis,3,0,0,0,0,0,0,0,0,0,0,0
-WRITING,Analyze perspectives,Ideas and Analysis,4,0,0,0,0,0,0,0,0,0,0,0
-WRITING,Analyze perspectives,Ideas and Analysis,5,0,0,0,0,0,0,0,0,0,0,0
-WRITING,Develop reasoning,Development and Support,1,0,0,0,0,0,0,0,0,0,0,0
-WRITING,Develop reasoning,Development and Support,2,0,0,0,0,0,0,0,0,0,0,0
-WRITING,Develop reasoning,Development and Support,3,0,0,0,0,0,0,0,0,0,0,0
-WRITING,Develop reasoning,Development and Support,4,0,0,0,0,0,0,0,0,0,0,0
-WRITING,Develop reasoning,Development and Support,5,0,0,0,0,0,0,0,0,0,0,0
-WRITING,Organize an argument,Organization,1,0,0,0,0,0,0,0,0,0,0,0
-WRITING,Organize an argument,Organization,2,0,0,0,0,0,0,0,0,0,0,0
-WRITING,Organize an argument,Organization,3,0,0,0,0,0,0,0,0,0,0,0
-WRITING,Organize an argument,Organization,4,0,0,0,0,0,0,0,0,0,0,0
-WRITING,Organize an argument,Organization,5,0,0,0,0,0,0,0,0,0,0,0
-WRITING,Use precise language,Language Use and Conventions,1,0,0,0,0,0,0,0,0,0,0,0
-WRITING,Use precise language,Language Use and Conventions,2,0,0,0,0,0,0,0,0,0,0,0
-WRITING,Use precise language,Language Use and Conventions,3,0,0,0,0,0,0,0,0,0,0,0
-WRITING,Use precise language,Language Use and Conventions,4,0,0,0,0,0,0,0,0,0,0,0
-WRITING,Use precise language,Language Use and Conventions,5,0,0,0,0,0,0,0,0,0,0,0
+subject,topic,reporting_category,level,live_published_practice,live_published_diagnostic,live_draft,repository_mock_draft,independently_verified,workspace_learning_profiles_for_live_items,new_local_practice_drafts,workspace_textbook_practice_seed,workspace_proportional_reasoning_practice_drafts,workspace_linear_equations_practice_drafts,workspace_sentence_boundaries_practice_drafts,workspace_number_and_quantity_practice_drafts
+ENGLISH,Concision,Knowledge of Language,1,0,0,0,0,0,0,0,0,0,0,0,0
+ENGLISH,Concision,Knowledge of Language,2,2,0,0,0,0,0,0,0,0,0,0,0
+ENGLISH,Concision,Knowledge of Language,3,3,1,0,5,0,0,0,0,0,0,0,0
+ENGLISH,Concision,Knowledge of Language,4,3,0,0,0,0,0,0,0,0,0,0,0
+ENGLISH,Concision,Knowledge of Language,5,0,0,0,0,0,0,0,0,0,0,0,0
+ENGLISH,Conventions,,1,0,0,0,0,0,0,0,0,0,0,0,0
+ENGLISH,Conventions,,2,0,0,0,0,0,0,0,0,0,0,0,0
+ENGLISH,Conventions,,3,0,1,0,0,0,0,0,0,0,0,0,0
+ENGLISH,Conventions,,4,0,0,0,0,0,0,0,0,0,0,0,0
+ENGLISH,Conventions,,5,0,0,0,0,0,0,0,0,0,0,0,0
+ENGLISH,Modifiers,Conventions of Standard English,1,0,0,0,0,0,0,0,0,0,0,0,0
+ENGLISH,Modifiers,Conventions of Standard English,2,0,0,0,0,0,0,0,0,0,0,0,0
+ENGLISH,Modifiers,Conventions of Standard English,3,0,0,0,0,0,0,0,0,0,0,0,0
+ENGLISH,Modifiers,Conventions of Standard English,4,0,0,0,1,0,0,0,0,0,0,0,0
+ENGLISH,Modifiers,Conventions of Standard English,5,0,0,0,0,0,0,0,0,0,0,0,0
+ENGLISH,Organization,Production of Writing,1,0,0,0,0,0,0,0,0,0,0,0,0
+ENGLISH,Organization,Production of Writing,2,0,0,0,0,0,0,0,0,0,0,0,0
+ENGLISH,Organization,Production of Writing,3,2,0,0,0,0,0,0,0,0,0,0,0
+ENGLISH,Organization,Production of Writing,4,0,1,0,5,0,0,0,0,0,0,0,0
+ENGLISH,Organization,Production of Writing,5,0,0,0,0,0,0,0,0,0,0,0,0
+ENGLISH,Parallel structure,Conventions of Standard English,1,0,0,0,0,0,0,0,0,0,0,0,0
+ENGLISH,Parallel structure,Conventions of Standard English,2,0,0,0,0,0,0,0,0,0,0,0,0
+ENGLISH,Parallel structure,Conventions of Standard English,3,0,0,0,0,0,0,0,0,0,0,0,0
+ENGLISH,Parallel structure,Conventions of Standard English,4,0,0,0,3,0,0,0,0,0,0,0,0
+ENGLISH,Parallel structure,Conventions of Standard English,5,0,0,0,0,0,0,0,0,0,0,0,0
+ENGLISH,Pronouns,Conventions of Standard English,1,0,0,0,0,0,0,0,0,0,0,0,0
+ENGLISH,Pronouns,Conventions of Standard English,2,1,0,0,0,0,0,0,0,0,0,0,0
+ENGLISH,Pronouns,Conventions of Standard English,3,0,0,0,3,0,0,0,0,0,0,0,0
+ENGLISH,Pronouns,Conventions of Standard English,4,0,0,0,0,0,0,0,0,0,0,0,0
+ENGLISH,Pronouns,Conventions of Standard English,5,0,0,0,0,0,0,0,0,0,0,0,0
+ENGLISH,Punctuation,Conventions of Standard English,1,0,0,0,0,0,0,0,0,0,0,0,0
+ENGLISH,Punctuation,Conventions of Standard English,2,1,0,0,0,0,1,0,0,0,0,0,0
+ENGLISH,Punctuation,Conventions of Standard English,3,2,0,0,6,0,2,0,0,0,0,0,0
+ENGLISH,Punctuation,Conventions of Standard English,4,0,1,0,0,0,1,0,0,0,0,0,0
+ENGLISH,Punctuation,Conventions of Standard English,5,0,0,0,0,0,0,0,0,0,0,0,0
+ENGLISH,Purpose and relevance,Production of Writing,1,0,0,0,0,0,0,0,0,0,0,0,0
+ENGLISH,Purpose and relevance,Production of Writing,2,0,0,0,0,0,0,0,0,0,0,0,0
+ENGLISH,Purpose and relevance,Production of Writing,3,0,0,0,0,0,0,0,0,0,0,0,0
+ENGLISH,Purpose and relevance,Production of Writing,4,0,0,0,8,0,0,0,0,0,0,0,0
+ENGLISH,Purpose and relevance,Production of Writing,5,0,0,0,0,0,0,0,0,0,0,0,0
+ENGLISH,Sentence boundaries,Conventions of Standard English,1,0,0,0,0,0,0,0,0,0,0,1,0
+ENGLISH,Sentence boundaries,Conventions of Standard English,2,0,0,0,0,0,0,0,0,0,0,3,0
+ENGLISH,Sentence boundaries,Conventions of Standard English,3,0,0,0,1,0,0,0,0,0,0,4,0
+ENGLISH,Sentence boundaries,Conventions of Standard English,4,0,0,0,1,0,0,0,0,0,0,2,0
+ENGLISH,Sentence boundaries,Conventions of Standard English,5,0,0,0,0,0,0,0,0,0,0,2,0
+ENGLISH,Subject-verb agreement,Conventions of Standard English,1,0,0,0,0,0,0,0,0,0,0,0,0
+ENGLISH,Subject-verb agreement,Conventions of Standard English,2,1,0,0,0,0,0,0,0,0,0,0,0
+ENGLISH,Subject-verb agreement,Conventions of Standard English,3,1,0,0,2,0,0,0,0,0,0,0,0
+ENGLISH,Subject-verb agreement,Conventions of Standard English,4,0,0,0,0,0,0,0,0,0,0,0,0
+ENGLISH,Subject-verb agreement,Conventions of Standard English,5,0,0,0,0,0,0,0,0,0,0,0,0
+ENGLISH,Tone and style,Knowledge of Language,1,0,0,0,0,0,0,0,0,0,0,0,0
+ENGLISH,Tone and style,Knowledge of Language,2,0,0,0,0,0,0,0,0,0,0,0,0
+ENGLISH,Tone and style,Knowledge of Language,3,0,0,0,0,0,0,0,0,0,0,0,0
+ENGLISH,Tone and style,Knowledge of Language,4,0,0,0,1,0,0,0,0,0,0,0,0
+ENGLISH,Tone and style,Knowledge of Language,5,0,0,0,0,0,0,0,0,0,0,0,0
+ENGLISH,Transitions,Production of Writing,1,0,0,0,0,0,0,0,0,0,0,0,0
+ENGLISH,Transitions,Production of Writing,2,0,0,0,0,0,0,0,0,0,0,0,0
+ENGLISH,Transitions,Production of Writing,3,0,0,0,2,0,0,0,0,0,0,0,0
+ENGLISH,Transitions,Production of Writing,4,0,0,0,4,0,0,0,0,0,0,0,0
+ENGLISH,Transitions,Production of Writing,5,0,0,0,0,0,0,0,0,0,0,0,0
+ENGLISH,Verb tense,Conventions of Standard English,1,0,0,0,0,0,0,0,0,0,0,0,0
+ENGLISH,Verb tense,Conventions of Standard English,2,0,0,0,0,0,0,0,0,0,0,0,0
+ENGLISH,Verb tense,Conventions of Standard English,3,0,0,0,2,0,0,0,0,0,0,0,0
+ENGLISH,Verb tense,Conventions of Standard English,4,0,0,0,0,0,0,0,0,0,0,0,0
+ENGLISH,Verb tense,Conventions of Standard English,5,0,0,0,0,0,0,0,0,0,0,0,0
+ENGLISH,Word choice,Knowledge of Language,1,0,0,0,0,0,0,0,0,0,0,0,0
+ENGLISH,Word choice,Knowledge of Language,2,0,0,0,0,0,0,0,0,0,0,0,0
+ENGLISH,Word choice,Knowledge of Language,3,1,0,0,5,0,0,0,0,0,0,0,0
+ENGLISH,Word choice,Knowledge of Language,4,1,0,0,1,0,0,0,0,0,0,0,0
+ENGLISH,Word choice,Knowledge of Language,5,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Circles,Geometry,1,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Circles,Geometry,2,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Circles,Geometry,3,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Circles,Geometry,4,0,0,0,1,0,0,0,0,0,0,0,0
+MATH,Circles,Geometry,5,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Complex numbers,Number & Quantity,1,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Complex numbers,Number & Quantity,2,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Complex numbers,Number & Quantity,3,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Complex numbers,Number & Quantity,4,0,0,0,1,0,0,0,0,0,0,0,0
+MATH,Complex numbers,Number & Quantity,5,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Conditional probability,Statistics & Probability,1,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Conditional probability,Statistics & Probability,2,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Conditional probability,Statistics & Probability,3,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Conditional probability,Statistics & Probability,4,0,0,0,1,0,0,0,0,0,0,0,0
+MATH,Conditional probability,Statistics & Probability,5,0,0,0,1,0,0,0,0,0,0,0,0
+MATH,Coordinate geometry,Geometry,1,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Coordinate geometry,Geometry,2,0,0,0,0,0,0,1,0,0,0,0,0
+MATH,Coordinate geometry,Geometry,3,0,0,0,1,0,0,1,0,0,0,0,0
+MATH,Coordinate geometry,Geometry,4,0,0,0,1,0,0,1,0,0,0,0,0
+MATH,Coordinate geometry,Geometry,5,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Counting methods,Statistics & Probability,1,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Counting methods,Statistics & Probability,2,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Counting methods,Statistics & Probability,3,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Counting methods,Statistics & Probability,4,0,0,0,1,0,0,0,0,0,0,0,0
+MATH,Counting methods,Statistics & Probability,5,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Data distributions,Statistics & Probability,1,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Data distributions,Statistics & Probability,2,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Data distributions,Statistics & Probability,3,0,0,0,1,0,0,0,0,0,0,0,0
+MATH,Data distributions,Statistics & Probability,4,0,0,0,1,0,0,0,0,0,0,0,0
+MATH,Data distributions,Statistics & Probability,5,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Domain and range,Functions,1,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Domain and range,Functions,2,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Domain and range,Functions,3,0,0,0,1,0,0,0,0,0,0,0,0
+MATH,Domain and range,Functions,4,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Domain and range,Functions,5,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Exponents and radicals,Number & Quantity,1,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Exponents and radicals,Number & Quantity,2,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Exponents and radicals,Number & Quantity,3,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Exponents and radicals,Number & Quantity,4,0,0,0,1,0,0,0,0,0,0,0,0
+MATH,Exponents and radicals,Number & Quantity,5,0,0,0,1,0,0,0,0,0,0,0,0
+MATH,Functions,Functions,1,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Functions,Functions,2,2,0,0,0,0,2,0,0,0,0,0,0
+MATH,Functions,Functions,3,3,0,0,1,0,3,0,0,0,0,0,0
+MATH,Functions,Functions,4,3,1,0,2,0,3,0,0,0,0,0,0
+MATH,Functions,Functions,5,2,0,0,0,0,2,0,0,0,0,0,0
+MATH,Geometry,Geometry,1,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Geometry,Geometry,2,1,0,0,1,0,0,0,0,0,0,0,0
+MATH,Geometry,Geometry,3,1,0,0,0,0,0,0,0,0,0,0,0
+MATH,Geometry,Geometry,4,1,1,0,0,0,0,0,0,0,0,0,0
+MATH,Geometry,Geometry,5,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Graphs and transformations,Functions,1,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Graphs and transformations,Functions,2,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Graphs and transformations,Functions,3,0,0,0,1,0,0,0,0,0,0,0,0
+MATH,Graphs and transformations,Functions,4,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Graphs and transformations,Functions,5,0,0,0,1,0,0,0,0,0,0,0,0
+MATH,Interpret model parameters,Modeling,1,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Interpret model parameters,Modeling,2,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Interpret model parameters,Modeling,3,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Interpret model parameters,Modeling,4,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Interpret model parameters,Modeling,5,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Linear equations,Algebra,1,0,0,0,0,0,0,0,0,0,2,0,0
+MATH,Linear equations,Algebra,2,1,0,0,1,0,1,0,0,0,4,0,0
+MATH,Linear equations,Algebra,3,1,1,0,1,0,2,0,0,0,5,0,0
+MATH,Linear equations,Algebra,4,0,0,0,0,0,0,0,0,0,3,0,0
+MATH,Linear equations,Algebra,5,0,0,0,0,0,0,0,0,0,2,0,0
+MATH,Logarithms,Algebra,1,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Logarithms,Algebra,2,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Logarithms,Algebra,3,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Logarithms,Algebra,4,0,0,0,1,0,0,0,0,0,0,0,0
+MATH,Logarithms,Algebra,5,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Modeling,Modeling,1,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Modeling,Modeling,2,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Modeling,Modeling,3,0,0,0,1,0,0,0,0,0,0,0,0
+MATH,Modeling,Modeling,4,2,0,0,1,0,0,0,0,0,0,0,0
+MATH,Modeling,Modeling,5,0,0,0,1,0,0,0,0,0,0,0,0
+MATH,Multistep quantities,Integrating Essential Skills,1,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Multistep quantities,Integrating Essential Skills,2,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Multistep quantities,Integrating Essential Skills,3,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Multistep quantities,Integrating Essential Skills,4,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Multistep quantities,Integrating Essential Skills,5,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Number and quantity,Number & Quantity,1,0,0,0,0,0,0,0,0,0,0,0,2
+MATH,Number and quantity,Number & Quantity,2,0,0,0,1,0,0,0,0,0,0,0,5
+MATH,Number and quantity,Number & Quantity,3,1,0,0,0,0,0,0,0,0,0,0,4
+MATH,Number and quantity,Number & Quantity,4,1,0,0,0,0,0,0,0,0,0,0,2
+MATH,Number and quantity,Number & Quantity,5,0,0,0,1,0,0,0,0,0,0,0,2
+MATH,Percentages,Integrating Essential Skills,1,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Percentages,Integrating Essential Skills,2,1,0,0,0,0,0,0,0,0,0,0,0
+MATH,Percentages,Integrating Essential Skills,3,1,0,0,1,0,0,0,0,0,0,0,0
+MATH,Percentages,Integrating Essential Skills,4,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Percentages,Integrating Essential Skills,5,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Polynomial and rational expressions,Algebra,1,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Polynomial and rational expressions,Algebra,2,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Polynomial and rational expressions,Algebra,3,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Polynomial and rational expressions,Algebra,4,0,0,0,1,0,0,0,0,0,0,0,0
+MATH,Polynomial and rational expressions,Algebra,5,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Proportional reasoning,Integrating Essential Skills,1,0,0,0,0,0,0,0,0,6,0,0,0
+MATH,Proportional reasoning,Integrating Essential Skills,2,0,0,0,0,0,0,1,0,9,0,0,0
+MATH,Proportional reasoning,Integrating Essential Skills,3,0,0,0,0,0,0,1,0,10,0,0,0
+MATH,Proportional reasoning,Integrating Essential Skills,4,0,0,0,0,0,0,1,0,9,0,0,0
+MATH,Proportional reasoning,Integrating Essential Skills,5,0,0,0,0,0,0,0,0,6,0,0,0
+MATH,Quadratics,Algebra,1,0,0,0,0,0,0,0,3,0,0,0,0
+MATH,Quadratics,Algebra,2,2,0,0,0,0,2,0,4,0,0,0,0
+MATH,Quadratics,Algebra,3,2,0,0,1,0,2,0,9,0,0,0,0
+MATH,Quadratics,Algebra,4,3,0,0,1,0,3,0,5,0,0,0,0
+MATH,Quadratics,Algebra,5,1,0,0,1,0,1,0,3,0,0,0,0
+MATH,Rates,Integrating Essential Skills,1,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Rates,Integrating Essential Skills,2,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Rates,Integrating Essential Skills,3,0,0,0,1,0,0,0,0,0,0,0,0
+MATH,Rates,Integrating Essential Skills,4,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Rates,Integrating Essential Skills,5,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Ratios and units,Number & Quantity,1,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Ratios and units,Number & Quantity,2,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Ratios and units,Number & Quantity,3,0,0,0,1,0,0,0,0,0,0,0,0
+MATH,Ratios and units,Number & Quantity,4,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Ratios and units,Number & Quantity,5,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Sequences,Functions,1,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Sequences,Functions,2,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Sequences,Functions,3,0,0,0,1,0,0,0,0,0,0,0,0
+MATH,Sequences,Functions,4,0,0,0,1,0,0,0,0,0,0,0,0
+MATH,Sequences,Functions,5,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Statistics and probability,Statistics & Probability,1,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Statistics and probability,Statistics & Probability,2,0,0,0,1,0,0,0,0,0,0,0,0
+MATH,Statistics and probability,Statistics & Probability,3,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Statistics and probability,Statistics & Probability,4,2,1,0,1,0,0,0,0,0,0,0,0
+MATH,Statistics and probability,Statistics & Probability,5,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Systems and inequalities,Algebra,1,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Systems and inequalities,Algebra,2,0,0,0,0,0,0,1,0,0,0,0,0
+MATH,Systems and inequalities,Algebra,3,0,0,0,0,0,0,1,0,0,0,0,0
+MATH,Systems and inequalities,Algebra,4,0,0,0,2,0,0,1,0,0,0,0,0
+MATH,Systems and inequalities,Algebra,5,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Test assumptions,Modeling,1,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Test assumptions,Modeling,2,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Test assumptions,Modeling,3,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Test assumptions,Modeling,4,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Test assumptions,Modeling,5,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Triangles and trigonometry,Geometry,1,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Triangles and trigonometry,Geometry,2,0,0,0,0,0,0,1,0,0,0,0,0
+MATH,Triangles and trigonometry,Geometry,3,0,0,0,1,0,0,1,0,0,0,0,0
+MATH,Triangles and trigonometry,Geometry,4,0,0,0,0,0,0,1,0,0,0,0,0
+MATH,Triangles and trigonometry,Geometry,5,0,0,0,1,0,0,0,0,0,0,0,0
+MATH,Trigonometric functions,Functions,1,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Trigonometric functions,Functions,2,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Trigonometric functions,Functions,3,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Trigonometric functions,Functions,4,0,0,0,1,0,0,0,0,0,0,0,0
+MATH,Trigonometric functions,Functions,5,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Vectors and matrices,Number & Quantity,1,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Vectors and matrices,Number & Quantity,2,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Vectors and matrices,Number & Quantity,3,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Vectors and matrices,Number & Quantity,4,0,0,0,1,0,0,0,0,0,0,0,0
+MATH,Vectors and matrices,Number & Quantity,5,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Volume and surface area,Geometry,1,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Volume and surface area,Geometry,2,0,0,0,0,0,0,0,0,0,0,0,0
+MATH,Volume and surface area,Geometry,3,0,0,0,1,0,0,0,0,0,0,0,0
+MATH,Volume and surface area,Geometry,4,0,0,0,1,0,0,0,0,0,0,0,0
+MATH,Volume and surface area,Geometry,5,0,0,0,0,0,0,0,0,0,0,0,0
+READING,Claims and reasoning,Integration of Knowledge and Ideas,1,0,0,0,0,0,0,0,0,0,0,0,0
+READING,Claims and reasoning,Integration of Knowledge and Ideas,2,0,0,0,0,0,0,0,0,0,0,0,0
+READING,Claims and reasoning,Integration of Knowledge and Ideas,3,0,0,0,0,0,0,0,0,0,0,0,0
+READING,Claims and reasoning,Integration of Knowledge and Ideas,4,0,0,0,1,0,0,0,0,0,0,0,0
+READING,Claims and reasoning,Integration of Knowledge and Ideas,5,0,0,0,2,0,0,0,0,0,0,0,0
+READING,Comparisons,Integration of Knowledge and Ideas,1,0,0,0,0,0,0,0,0,0,0,0,0
+READING,Comparisons,Integration of Knowledge and Ideas,2,0,0,0,0,0,0,0,0,0,0,0,0
+READING,Comparisons,Integration of Knowledge and Ideas,3,0,0,0,0,0,0,0,0,0,0,0,0
+READING,Comparisons,Integration of Knowledge and Ideas,4,1,0,0,2,0,0,0,0,0,0,0,0
+READING,Comparisons,Integration of Knowledge and Ideas,5,0,0,0,0,0,0,0,0,0,0,0,0
+READING,Details,Key Ideas and Details,1,0,0,0,0,0,0,0,0,0,0,0,0
+READING,Details,Key Ideas and Details,2,1,0,0,2,0,0,0,0,0,0,0,0
+READING,Details,Key Ideas and Details,3,0,0,0,1,0,0,0,0,0,0,0,0
+READING,Details,Key Ideas and Details,4,0,0,0,0,0,0,0,0,0,0,0,0
+READING,Details,Key Ideas and Details,5,0,0,0,0,0,0,0,0,0,0,0,0
+READING,Evidence,Integration of Knowledge and Ideas,1,0,0,0,0,0,0,0,0,0,0,0,0
+READING,Evidence,Integration of Knowledge and Ideas,2,1,0,0,0,0,0,0,0,0,0,0,0
+READING,Evidence,Integration of Knowledge and Ideas,3,0,0,0,0,0,0,0,0,0,0,0,0
+READING,Evidence,Integration of Knowledge and Ideas,4,1,1,0,4,0,0,0,0,0,0,0,0
+READING,Evidence,Integration of Knowledge and Ideas,5,0,0,0,0,0,0,0,0,0,0,0,0
+READING,Inference,Key Ideas and Details,1,0,0,0,0,0,0,0,0,0,0,0,0
+READING,Inference,Key Ideas and Details,2,1,0,0,0,0,0,0,0,0,0,0,0
+READING,Inference,Key Ideas and Details,3,2,0,0,0,0,0,0,0,0,0,0,0
+READING,Inference,Key Ideas and Details,4,0,1,0,4,0,0,0,0,0,0,0,0
+READING,Inference,Key Ideas and Details,5,0,0,0,0,0,0,0,0,0,0,0,0
+READING,Main idea,Key Ideas and Details,1,0,0,0,0,0,0,0,0,0,0,0,0
+READING,Main idea,Key Ideas and Details,2,1,0,0,0,0,0,0,0,0,0,0,0
+READING,Main idea,Key Ideas and Details,3,1,1,0,1,0,0,0,0,0,0,0,0
+READING,Main idea,Key Ideas and Details,4,0,0,0,3,0,0,0,0,0,0,0,0
+READING,Main idea,Key Ideas and Details,5,0,0,0,0,0,0,0,0,0,0,0,0
+READING,Paired passages,Integration of Knowledge and Ideas,1,0,0,0,0,0,0,0,0,0,0,0,0
+READING,Paired passages,Integration of Knowledge and Ideas,2,0,0,0,0,0,0,0,0,0,0,0,0
+READING,Paired passages,Integration of Knowledge and Ideas,3,0,0,0,0,0,0,0,0,0,0,0,0
+READING,Paired passages,Integration of Knowledge and Ideas,4,0,0,0,0,0,0,0,0,0,0,0,0
+READING,Paired passages,Integration of Knowledge and Ideas,5,0,0,0,0,0,0,0,0,0,0,0,0
+READING,Point of view,Craft and Structure,1,0,0,0,0,0,0,0,0,0,0,0,0
+READING,Point of view,Craft and Structure,2,0,0,0,0,0,0,0,0,0,0,0,0
+READING,Point of view,Craft and Structure,3,0,0,0,0,0,0,0,0,0,0,0,0
+READING,Point of view,Craft and Structure,4,0,0,0,1,0,0,0,0,0,0,0,0
+READING,Point of view,Craft and Structure,5,0,0,0,0,0,0,0,0,0,0,0,0
+READING,Purpose and tone,Craft and Structure,1,0,0,0,0,0,0,0,0,0,0,0,0
+READING,Purpose and tone,Craft and Structure,2,0,0,0,0,0,0,0,0,0,0,0,0
+READING,Purpose and tone,Craft and Structure,3,0,0,0,0,0,0,0,0,0,0,0,0
+READING,Purpose and tone,Craft and Structure,4,0,0,0,4,0,0,0,0,0,0,0,0
+READING,Purpose and tone,Craft and Structure,5,0,0,0,0,0,0,0,0,0,0,0,0
+READING,Sequence and cause,Key Ideas and Details,1,0,0,0,0,0,0,0,0,0,0,0,0
+READING,Sequence and cause,Key Ideas and Details,2,0,0,0,0,0,0,0,0,0,0,0,0
+READING,Sequence and cause,Key Ideas and Details,3,0,0,0,2,0,0,0,0,0,0,0,0
+READING,Sequence and cause,Key Ideas and Details,4,0,0,0,1,0,0,0,0,0,0,0,0
+READING,Sequence and cause,Key Ideas and Details,5,0,0,0,0,0,0,0,0,0,0,0,0
+READING,Text structure,Craft and Structure,1,0,0,0,0,0,0,0,0,0,0,0,0
+READING,Text structure,Craft and Structure,2,0,0,0,0,0,0,0,0,0,0,0,0
+READING,Text structure,Craft and Structure,3,0,0,0,0,0,0,0,0,0,0,0,0
+READING,Text structure,Craft and Structure,4,2,0,0,4,0,0,0,0,0,0,0,0
+READING,Text structure,Craft and Structure,5,0,0,0,0,0,0,0,0,0,0,0,0
+READING,Vocabulary in context,Craft and Structure,1,0,0,0,0,0,0,0,0,0,0,0,0
+READING,Vocabulary in context,Craft and Structure,2,1,0,0,0,0,0,0,0,0,0,0,0
+READING,Vocabulary in context,Craft and Structure,3,1,0,0,4,0,0,0,0,0,0,0,0
+READING,Vocabulary in context,Craft and Structure,4,0,1,0,0,0,0,0,0,0,0,0,0
+READING,Vocabulary in context,Craft and Structure,5,0,0,0,0,0,0,0,0,0,0,0,0
+SCIENCE,Conflicting viewpoints,Evaluating Scientific Arguments and Models with Evidence,1,0,0,0,0,0,0,0,0,0,0,0,0
+SCIENCE,Conflicting viewpoints,Evaluating Scientific Arguments and Models with Evidence,2,0,0,0,0,0,0,0,0,0,0,0,0
+SCIENCE,Conflicting viewpoints,Evaluating Scientific Arguments and Models with Evidence,3,0,0,0,0,0,0,0,0,0,0,0,0
+SCIENCE,Conflicting viewpoints,Evaluating Scientific Arguments and Models with Evidence,4,3,0,0,0,0,0,0,0,0,0,0,0
+SCIENCE,Conflicting viewpoints,Evaluating Scientific Arguments and Models with Evidence,5,0,0,0,0,0,0,0,0,0,0,0,0
+SCIENCE,Controls and variables,Scientific Investigation,1,0,0,0,0,0,0,0,0,0,0,0,0
+SCIENCE,Controls and variables,Scientific Investigation,2,0,0,0,0,0,0,0,0,0,0,0,0
+SCIENCE,Controls and variables,Scientific Investigation,3,0,0,0,0,0,0,0,0,0,0,0,0
+SCIENCE,Controls and variables,Scientific Investigation,4,0,0,0,0,0,0,0,0,0,0,0,0
+SCIENCE,Controls and variables,Scientific Investigation,5,0,0,0,0,0,0,0,0,0,0,0,0
+SCIENCE,Evaluate conclusions,Evaluating Scientific Arguments and Models with Evidence,1,0,0,0,0,0,0,0,0,0,0,0,0
+SCIENCE,Evaluate conclusions,Evaluating Scientific Arguments and Models with Evidence,2,0,0,0,0,0,0,0,0,0,0,0,0
+SCIENCE,Evaluate conclusions,Evaluating Scientific Arguments and Models with Evidence,3,0,0,0,0,0,0,0,0,0,0,0,0
+SCIENCE,Evaluate conclusions,Evaluating Scientific Arguments and Models with Evidence,4,0,0,0,0,0,0,0,0,0,0,0,0
+SCIENCE,Evaluate conclusions,Evaluating Scientific Arguments and Models with Evidence,5,0,0,0,0,0,0,0,0,0,0,0,0
+SCIENCE,Experimental design,Scientific Investigation,1,0,0,0,0,0,0,0,0,0,0,0,0
+SCIENCE,Experimental design,Scientific Investigation,2,0,0,0,0,0,0,0,0,0,0,0,0
+SCIENCE,Experimental design,Scientific Investigation,3,3,0,0,0,0,0,0,0,0,0,0,0
+SCIENCE,Experimental design,Scientific Investigation,4,1,0,0,0,0,0,0,0,0,0,0,0
+SCIENCE,Experimental design,Scientific Investigation,5,0,0,0,0,0,0,0,0,0,0,0,0
+SCIENCE,Graphs and tables,Interpretation of Data,1,0,0,0,0,0,0,0,0,0,0,0,0
+SCIENCE,Graphs and tables,Interpretation of Data,2,0,0,0,0,0,0,0,0,0,0,0,0
+SCIENCE,Graphs and tables,Interpretation of Data,3,0,0,0,0,0,0,0,0,0,0,0,0
+SCIENCE,Graphs and tables,Interpretation of Data,4,0,0,0,0,0,0,0,0,0,0,0,0
+SCIENCE,Graphs and tables,Interpretation of Data,5,0,0,0,0,0,0,0,0,0,0,0,0
+SCIENCE,Interpolation,Interpretation of Data,1,0,0,0,0,0,0,0,0,0,0,0,0
+SCIENCE,Interpolation,Interpretation of Data,2,0,0,0,0,0,0,0,0,0,0,0,0
+SCIENCE,Interpolation,Interpretation of Data,3,0,0,0,0,0,0,0,0,0,0,0,0
+SCIENCE,Interpolation,Interpretation of Data,4,0,0,0,0,0,0,0,0,0,0,0,0
+SCIENCE,Interpolation,Interpretation of Data,5,0,0,0,0,0,0,0,0,0,0,0,0
+SCIENCE,Interpreting data,Interpretation of Data,1,0,0,0,0,0,0,0,0,0,0,0,0
+SCIENCE,Interpreting data,Interpretation of Data,2,2,0,0,0,0,0,0,0,0,0,0,0
+SCIENCE,Interpreting data,Interpretation of Data,3,1,0,0,0,0,0,0,0,0,0,0,0
+SCIENCE,Interpreting data,Interpretation of Data,4,1,0,0,0,0,0,0,0,0,0,0,0
+SCIENCE,Interpreting data,Interpretation of Data,5,0,0,0,0,0,0,0,0,0,0,0,0
+SCIENCE,Model predictions,Evaluating Scientific Arguments and Models with Evidence,1,0,0,0,0,0,0,0,0,0,0,0,0
+SCIENCE,Model predictions,Evaluating Scientific Arguments and Models with Evidence,2,0,0,0,0,0,0,0,0,0,0,0,0
+SCIENCE,Model predictions,Evaluating Scientific Arguments and Models with Evidence,3,0,0,0,0,0,0,0,0,0,0,0,0
+SCIENCE,Model predictions,Evaluating Scientific Arguments and Models with Evidence,4,0,0,0,0,0,0,0,0,0,0,0,0
+SCIENCE,Model predictions,Evaluating Scientific Arguments and Models with Evidence,5,0,0,0,0,0,0,0,0,0,0,0,0
+SCIENCE,Predict additional trials,Scientific Investigation,1,0,0,0,0,0,0,0,0,0,0,0,0
+SCIENCE,Predict additional trials,Scientific Investigation,2,0,0,0,0,0,0,0,0,0,0,0,0
+SCIENCE,Predict additional trials,Scientific Investigation,3,0,0,0,0,0,0,0,0,0,0,0,0
+SCIENCE,Predict additional trials,Scientific Investigation,4,0,0,0,0,0,0,0,0,0,0,0,0
+SCIENCE,Predict additional trials,Scientific Investigation,5,0,0,0,0,0,0,0,0,0,0,0,0
+SCIENCE,Translate representations,Interpretation of Data,1,0,0,0,0,0,0,0,0,0,0,0,0
+SCIENCE,Translate representations,Interpretation of Data,2,0,0,0,0,0,0,0,0,0,0,0,0
+SCIENCE,Translate representations,Interpretation of Data,3,0,0,0,0,0,0,0,0,0,0,0,0
+SCIENCE,Translate representations,Interpretation of Data,4,0,0,0,0,0,0,0,0,0,0,0,0
+SCIENCE,Translate representations,Interpretation of Data,5,0,0,0,0,0,0,0,0,0,0,0,0
+WRITING,Analyze perspectives,Ideas and Analysis,1,0,0,0,0,0,0,0,0,0,0,0,0
+WRITING,Analyze perspectives,Ideas and Analysis,2,0,0,0,0,0,0,0,0,0,0,0,0
+WRITING,Analyze perspectives,Ideas and Analysis,3,0,0,0,0,0,0,0,0,0,0,0,0
+WRITING,Analyze perspectives,Ideas and Analysis,4,0,0,0,0,0,0,0,0,0,0,0,0
+WRITING,Analyze perspectives,Ideas and Analysis,5,0,0,0,0,0,0,0,0,0,0,0,0
+WRITING,Develop reasoning,Development and Support,1,0,0,0,0,0,0,0,0,0,0,0,0
+WRITING,Develop reasoning,Development and Support,2,0,0,0,0,0,0,0,0,0,0,0,0
+WRITING,Develop reasoning,Development and Support,3,0,0,0,0,0,0,0,0,0,0,0,0
+WRITING,Develop reasoning,Development and Support,4,0,0,0,0,0,0,0,0,0,0,0,0
+WRITING,Develop reasoning,Development and Support,5,0,0,0,0,0,0,0,0,0,0,0,0
+WRITING,Organize an argument,Organization,1,0,0,0,0,0,0,0,0,0,0,0,0
+WRITING,Organize an argument,Organization,2,0,0,0,0,0,0,0,0,0,0,0,0
+WRITING,Organize an argument,Organization,3,0,0,0,0,0,0,0,0,0,0,0,0
+WRITING,Organize an argument,Organization,4,0,0,0,0,0,0,0,0,0,0,0,0
+WRITING,Organize an argument,Organization,5,0,0,0,0,0,0,0,0,0,0,0,0
+WRITING,Use precise language,Language Use and Conventions,1,0,0,0,0,0,0,0,0,0,0,0,0
+WRITING,Use precise language,Language Use and Conventions,2,0,0,0,0,0,0,0,0,0,0,0,0
+WRITING,Use precise language,Language Use and Conventions,3,0,0,0,0,0,0,0,0,0,0,0,0
+WRITING,Use precise language,Language Use and Conventions,4,0,0,0,0,0,0,0,0,0,0,0,0
+WRITING,Use precise language,Language Use and Conventions,5,0,0,0,0,0,0,0,0,0,0,0,0

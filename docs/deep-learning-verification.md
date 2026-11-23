@@ -17,3 +17,9 @@ Ten production Chromium regression cases passed, including the walkthrough of al
 The existing checkpoint key was retained. Three new lessons add nine examples, one structured table, and three guided checks. Twelve unpublished questions on two original passages have 36 specific distractor explanations and focused lesson links. Four existing hosted English questions now resolve to workspace profiles without changing their hosted IDs or grading.
 
 The build, lint, 27 unit tests, six disposable SQL suites, and two signed-out browser checks passed. SQL verified draft import and blocked release against a changed passage until a current synthetic approval was recorded. It also blocked an in-place change to a passage with released linked items. Synthetic approvals rolled back. No authenticated browser flow was run for this batch, and no hosted migration or question publication took place.
+
+## Number and Quantity foundations
+
+Added five lessons, 15 worked examples, five checkpoints and 15 protected drafts. Four cross-chapter links connect them to Proportional Reasoning, Linear Equations and Quadratics. The tests numerically recompute every key, check the uniqueness of the numeric answer and the 45 wrong-choice routes, and verify the combined dependency graph. Two existing hosted questions in this topic cover rational powers and complex numbers and remain outside this arithmetic batch.
+
+Lint, TypeScript, the production build, 29 unit tests, seven disposable SQL suites and two signed-out Chromium tests passed. SQL verified that the drafts were ineligible, an unapproved release was refused, and a synthetic approved revision was eligible. The synthetic approval and release rolled back. No authenticated browser walkthrough or hosted writes occurred.

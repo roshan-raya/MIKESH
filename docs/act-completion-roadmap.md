@@ -12,7 +12,7 @@
 | Order | Batch | Reason |
 | ---: | --- | --- |
 | 1 | English Sentence Boundaries | Four-level instruction and 12 passage drafts implemented. Expand the pool, then independently review items and their passage revisions. |
-| 2 | Math Number and Quantity foundations | Signed arithmetic, fractions and decimals support almost every following Math chapter. |
+| 2 | Math Number and Quantity foundations | Implemented five foundational lessons and 15 drafts. Review and expand the pool before release. |
 | 3 | Math Exponents and Radicals | Connect arithmetic, polynomial reasoning, quadratics and trigonometry. |
 | 4 | Math Systems and Inequalities | Expand the starter chapter and build on Linear Equations. |
 | 5 | Reading Details and Evidence | Create substantial passages and line-level reasoning that support inference and claims. |

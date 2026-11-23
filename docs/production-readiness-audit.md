@@ -133,3 +133,9 @@ Three existing Linear Equations items gained learning profiles using stable keys
 ## Sentence Boundaries checkpoint
 
 Read-only hosted verification returned 71 topics, 85 published questions, signup enabled, accepted legacy credentials, PGRST202 for both counts RPCs, and PGRST205 for the editorial ledger. The workspace now contains 36 detailed lessons, 108 examples and 36 checkpoints across 11 courses. Four courses span all levels. The census contains 320 unique questions, 211 drafts and 24 unpublished seed-eligible items. Profiles cover 129 families, including 25 of 85 hosted items. This batch created 12 draft English items and neither approved nor published any questions. Migration 009 and the new items were exercised in a disposable database only. See the [acceptance report](act-mastery-final-acceptance.md).
+
+## Number and Quantity foundations checkpoint
+
+Five lessons, 15 worked examples, five checkpoints and 15 protected drafts were added. The workspace now has 12 detailed chapters, 41 lessons, 123 examples, 41 checkpoints and 335 unique question families. The bank has 226 explicit drafts, 24 seed-only items and 85 hosted published items. Complete learning profiles cover 144 families, including 25 of 85 hosted items. Four new cross-chapter edges connect three existing Math chapters to these foundations. No approvals or releases were added.
+
+Fresh read-only checks returned the same live security and production blockers. The build, lint, TypeScript, 29 unit tests, seven local SQL suites and two signed-out browser checks passed. The six [acceptance outcomes](act-mastery-final-acceptance.md) remain three FAIL and three BLOCKED.

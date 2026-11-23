@@ -2,12 +2,12 @@
 
 ## Last verified checkpoint
 
-Sentence Boundaries is implemented across four levels. The existing joining-clauses checkpoint is intact. Three lessons, nine examples, three checkpoints, two passages and 12 draft practice items were added. Four existing hosted English questions gained workspace profiles. The repository inventory is 320 questions and the live published inventory is 85. No independent approvals or publications were added.
+Number and Quantity foundations is implemented across four levels. It adds five lessons, 15 worked examples, five checkpoints, 15 protected drafts, and four prerequisite links to existing Math chapters. All numeric keys and wrong-choice routes passed automated checks. The repository holds 335 question families and the hosted published inventory holds 85. No independent approval or publication was added. The hosted topic's two older complex-number and rational-power exercises remain outside the arithmetic profile scope.
 
-Migration 009 now protects reviewed passage revisions. Unit tests (27), lint, the production build, six disposable SQL suites, and two signed-out browser checks passed. Run the authenticated English lesson and remediation walkthrough in staging when authorized. The six acceptance results and missing gates are in [the acceptance report](act-mastery-final-acceptance.md).
+Lint, TypeScript, the production build, 29 unit tests, seven disposable SQL suites, and two signed-out browser checks passed. A synthetic local release rolled back. The deployed authenticated learning path was not tested in this batch. See [acceptance](act-mastery-final-acceptance.md).
 
 ## Next actionable batch
 
-Prioritize Math Number and Quantity foundations because signed arithmetic, fractions, decimals and operation order support Proportional Reasoning, Linear Equations and later Exponents and Radicals. Wire these to real prerequisite lessons, create a protected draft pool, and update the census and tests. Do not restage or rewrite the verified Sentence Boundaries batch. Add English passage variation in a later editorial batch.
+Build **Exponents and Radicals**, using operation order and exact rational quantities as prerequisites. Cover integer exponents, zero and negative powers with domain restrictions, principal roots, rational exponents, and ACT applications. Add protected drafts and scope-appropriate remediation to the existing rational exponent question while preserving its identity. Complex Numbers remains a separate later chapter. Continue with Systems and Inequalities after this checkpoint.
 
-Production work remains blocked on owner authorization and the runbook. Keep all new items as drafts. Apply 009 after 008 in a disposable database first, and take a verified backup before any approved hosted migration.
+Production work remains blocked on owner authorization and the security runbook. Apply migrations only after an authorized backup and staging verification. Keep new questions as drafts until independently approved.

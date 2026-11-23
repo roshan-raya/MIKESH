@@ -1,0 +1,117 @@
+import type {Course} from './types';
+import bank from '../../../content/exponents-and-radicals-draft.json';
+
+export const exponentsAndRadicals:Course={
+  slug:'exponents-and-radicals',subject:'MATH',domain:'Number & Quantity',topic:'Exponents and radicals',
+  overview:'Read the base, combine integer powers, and use real roots to evaluate rational exponents. Apply the rules to equations, geometry, and scientific notation.',
+  draftPracticeCount:bank.items.length,
+  concepts:[
+    {id:'integer-powers',level:'beginner',prerequisites:[]},
+    {id:'reciprocal-powers',level:'intermediate',prerequisites:['integer-powers']},
+    {id:'principal-roots',level:'standard',prerequisites:['integer-powers']},
+    {id:'rational-powers',level:'standard',prerequisites:['reciprocal-powers','principal-roots']},
+    {id:'power-applications',level:'advanced',prerequisites:['rational-powers']},
+  ],
+  lessons:[
+    {
+      id:'integer-powers',title:'Read the base and combine powers',minutes:20,
+      objectives:['Identify the base and scope of an exponent.','Derive product, quotient, and power rules from repeated factors.','Recognize when an exponent rule does not apply.'],
+      prerequisites:['Read parentheses and evaluate signed products.'],
+      instruction:[
+        {title:'Count factors of one base',body:'In $7^3$, the base is 7 and the exponent is 3. It means $7×7×7$. In $(-7)^2$, the minus sign is inside the base, so the two negative factors multiply to a positive. In $-7^2$, the negative is applied after squaring.'},
+        {title:'Combine factors only when justified',body:'Multiplying powers of the same base adds factor counts: $x^3x^2=x^5$. A power of a power creates groups of factors: $(x^3)^2=x^6$. For positive integer exponents, $(ab)^n=a^nb^n$ because each copy of $ab$ contributes one copy of each factor.'},
+        {title:'Cancel factors in a quotient',body:'In $x^6/x^4$, four factors cancel and two remain, so the result is $x^2$ when $x≠0$. Cancellation and exponent rules apply to factors. A sum such as $x^3+x^2$ can be factored as $x^2(x+1)$, but the terms do not combine into $x^5$.'},
+      ],
+      examples:[
+        {title:'Compare signs and bases',prompt:'Compare $(-4)^2$ and $-4^2$.',steps:['The parenthesized base is −4, so its two factors give 16.','In the second expression the base is 4.','The leading minus acts on 16, giving −16.'],table:{caption:'Grouping determines what is squared',headings:['Expression','Base','Value'],rows:[['$(-4)^2$','−4','16'],['$-4^2$','4','−16']]}},
+        {title:'Count factors through nested powers',prompt:'Simplify $(x^2)^3x^4$.',steps:['Three groups of $x^2$ have six factors.','Multiply by four more factors.','The expression is $x^{10}$.']},
+        {title:'Preserve the original domain',prompt:'Simplify $(3a)^4/(9a^2)$.',steps:['Raise both factors in $3a$ to the fourth power, giving $81a^4$.','The denominator requires $a≠0$.','Divide the coefficients and cancel two factors of $a$ to get $9a^2$ for $a≠0$.']},
+      ],
+      pitfalls:['Multiplying exponents in a same-base product.','Distributing an exponent over addition.','Canceling a factor and silently admitting a zero denominator.'],
+      timing:'Underline the base first. If the same base repeats, count its factors before calculating.',
+      guided:{prompt:'Which value equals $(2^3)^2÷2^4$?',hint:'Count six factors in the numerator and cancel four.',choices:['2','4','16','256'],answer:1,feedback:['Two factors remain, so compute $2^2$.','The exponent is $3×2-4=2$, giving 4.','Four factors are canceled.','This treats the division as an additional product.']},
+      summary:'Add exponents in same-base products, multiply in nested powers, subtract in same-base quotients, and retain denominator restrictions.',
+      sources:['act-math','openstax-exponents-notation'],
+    },
+    {
+      id:'reciprocal-powers',title:'Handle zero and negative exponents',minutes:20,dependsOn:'integer-powers',
+      objectives:['Explain why nonzero bases raised to zero equal 1.','Rewrite negative exponents as reciprocals.','Track exclusions after simplification.'],
+      prerequisites:['Use quotient rules and find a reciprocal.'],
+      instruction:[
+        {title:'Look at successive quotients',body:'Reducing an exponent by 1 divides the value by the base. The sequence $5^2,5^1,5^0$ is $25,5,1$. At the next step $5^{-1}=1/5$. Each step is valid because 5 is nonzero.'},
+        {title:'A negative exponent changes magnitude through reciprocation',body:'For $a≠0$, $a^{-n}=1/a^n$ for positive integer $n$. The exponent sign alone does not decide whether the output is positive or negative. For example $(-2)^{-2}=1/4$ while $(-2)^{-3}=-1/8$.'},
+        {title:'Keep excluded values visible',body:'A zero base is allowed for a positive integer power. It cannot appear in a denominator or in a negative power. The algebraic rule $a^0=1$ assumes $a≠0$. In this chapter $0^0$ is excluded unless a problem explicitly defines a convention.'},
+      ],
+      examples:[
+        {title:'Use a zero exponent safely',prompt:'Evaluate $(p-4)^0$ and name its domain for this rule.',steps:['The base is $p-4$.','Require $p-4≠0$, so $p≠4$.','Every allowed input gives 1.']},
+        {title:'Take a reciprocal of a fraction',prompt:'Evaluate $(3/5)^{-2}$.',steps:['Square the original fraction to get $9/25$.','Take the reciprocal of the entire result.','The value is $25/9$.']},
+        {title:'Cancel powers while retaining the restriction',prompt:'Simplify $x^{-2}/x^{-5}$.',steps:['Both negative powers require $x≠0$.','Subtract the exponents: $-2-(-5)=3$.','The simplified value is $x^3$ on the original domain.']},
+      ],
+      pitfalls:['Reading a negative exponent as a negative output.','Turning a zero exponent into a zero result.','Ignoring an excluded input after removing a denominator.'],
+      timing:'Rewrite negative powers once as positive powers on the opposite side of the fraction bar.',
+      guided:{prompt:'What is $(2/7)^{-2}$?',hint:'Invert the base and square it.',choices:['$-4/49$','$4/49$','$7/2$','$49/4$'],answer:3,feedback:['The exponent sign calls for a reciprocal.','This would be the result for exponent 2.','Square the reciprocal.','$(7/2)^2=49/4$.']},
+      summary:'A nonzero base to power zero gives 1. A negative power gives a reciprocal and excludes zero.',
+      sources:['act-math','openstax-exponents-notation'],
+    },
+    {
+      id:'principal-roots',title:'Separate principal roots from equation solutions',minutes:24,dependsOn:'integer-powers',
+      objectives:['Read a radical index and determine when a real root exists.','Explain why the square root of a square gives absolute value.','Simplify like radicals using perfect-power factors.'],
+      prerequisites:['Recognize perfect squares and cubes.'],
+      instruction:[
+        {title:'The radical symbol chooses a value',body:'The principal square root is the nonnegative number whose square is the radicand. Thus $√49=7$, while the equation $x^2=49$ has the two solutions 7 and −7. An even-index real root has a nonnegative radicand. An odd-index root can be negative because an odd power preserves the input sign.'},
+        {title:'Squaring hides the original sign',body:'For real $t$, $√(t^2)=|t|$. Both $t$ and $-t$ have the same square, so taking the principal root returns distance from zero. On the other hand, $(√a)^2=a$ for $a≥0$.'},
+        {title:'Simplify radicals before combining',body:'Extract perfect-square factors inside a square root. For nonnegative $a$ and $b$, $√(ab)=√a√b$. After extraction, combine coefficients only for matching radicals. Addition inside a radical is a different operation and has no corresponding distribution rule.'},
+      ],
+      examples:[
+        {title:'Distinguish expression and equation',prompt:'Evaluate $√81$, then solve $z^2=81$.',steps:['The principal root is 9 because it is nonnegative.','Squaring either 9 or −9 gives 81.','Thus the expression has one value while the equation has two solutions.']},
+        {title:'Extract and combine like radicals',prompt:'Simplify $√75-√12$.',steps:['Write 75 as $25×3$, giving $5√3$.','Write 12 as $4×3$, giving $2√3$.','Subtract the coefficients to obtain $3√3$.']},
+        {title:'Read the sign of a cube root',prompt:'Compare the cube root and square root of −125 in the real numbers.',steps:['$(-5)^3=-125$, so its cube root is −5.','Every real square is nonnegative.','The square root of −125 has no real value.']},
+      ],
+      pitfalls:['Writing two values for a principal root.','Dropping absolute value from the square root of a square.','Subtracting radicands instead of simplifying.'],
+      timing:'Look for perfect-square factors before reaching for a decimal approximation.',
+      guided:{prompt:'For real $x$, which expression always equals $√((x-2)^2)$?',hint:'The principal root can never be negative.',choices:['$x-2$','$2-x$','$|x-2|$','$(x-2)^2$'],answer:2,feedback:['This is negative when $x<2$.','This is negative when $x>2$.','The principal root returns the magnitude of $x-2$.','Taking the square root removes the square up to sign.']},
+      summary:'Check the index and radicand. Keep principal roots nonnegative when the index is even, and combine only like radicals.',
+      sources:['act-math','openstax-radicals-rational-powers'],
+    },
+    {
+      id:'rational-powers',title:'Translate rational exponents into real roots',minutes:23,dependsOn:'principal-roots',
+      objectives:['Interpret the denominator as a root and the numerator as a power.','Apply reduced-exponent domain checks.','Use a negative sign on the exponent to take a reciprocal.'],
+      prerequisites:['Evaluate principal roots and negative integer powers.'],
+      instruction:[
+        {title:'The denominator names the root',body:'For $a>0$ and integers $m,n$ with $n>0$, take the $n$th root of $a$ and raise that result to power $m$ to evaluate $a^{m/n}$. For a positive base, taking a power and taking the root can also be reversed.'},
+        {title:'Reduce before checking negative bases',body:'For a negative base in real arithmetic, use the exponent in lowest terms. If its denominator is odd, take the real odd root and then the integer power. If the reduced denominator is even, the power has no real value. Keep parentheses around a negative base.'},
+        {title:'Zero and reciprocal restrictions',body:'If the exponent is negative, first compute the corresponding positive power, then take its reciprocal. A zero base cannot have a negative rational exponent because the reciprocal would divide by zero. A positive rational exponent of zero gives zero.'},
+      ],
+      examples:[
+        {title:'Take the root before raising the power',prompt:'Evaluate $81^{3/4}$.',steps:['The denominator 4 means fourth root.','The fourth root of 81 is 3.','Cube 3 to get 27.']},
+        {title:'Use an odd root of a negative base',prompt:'Evaluate $(-125)^{2/3}$ in the real numbers.',steps:['The denominator 3 is odd.','The cube root of −125 is −5.','Squaring −5 gives 25.']},
+        {title:'Retain the negative exponent',prompt:'Evaluate $32^{-2/5}$.',steps:['The fifth root of 32 is 2.','Squaring 2 gives 4.','Take the reciprocal to get $1/4$.']},
+      ],
+      pitfalls:['Using the numerator as the radical index.','Dropping a negative sign on the exponent.','Applying an even root to a negative base.'],
+      timing:'Take out the easy root first so the intermediate numbers stay small.',
+      guided:{prompt:'What is $64^{-2/3}$?',hint:'Take the cube root, square, and reciprocate.',choices:['$1/16$','$1/8$','16','−16'],answer:0,feedback:['The cube root is 4 and its square is 16.','The root is 4, and it must be squared.','This omits the reciprocal.','A negative exponent does not make the result negative.']},
+      summary:'Root by denominator, power by numerator, reciprocate for a negative exponent, and check the real domain.',
+      sources:['act-math','openstax-radicals-rational-powers'],
+    },
+    {
+      id:'power-applications',title:'Solve and check power and radical models',minutes:27,dependsOn:'rational-powers',
+      objectives:['Check squared equations for extraneous candidates.','Use matching bases in a power equation.','Normalize scientific notation and interpret scale.'],
+      prerequisites:['Solve a basic linear equation and evaluate real rational powers.'],
+      instruction:[
+        {title:'An equation may gain false candidates when squared',body:'If two real quantities are equal, their squares agree. Equal squares alone allow opposite signs. In a radical equation, isolate the root and require its opposite side to be nonnegative. After squaring and solving, check candidates in the original equation.'},
+        {title:'Rewrite before calculating',body:'If both sides are powers of the same positive base other than 1, the exponents must agree because that exponential function is one-to-one. For powers of ten, normalize a nonzero measurement so its coefficient magnitude is at least 1 and less than 10.'},
+        {title:'Interpret the operation in context',body:'Scientific notation makes scale explicit. A ratio of two measurements divides their coefficients and subtracts the powers of ten. In a square model for an area, solving for side length takes the nonnegative root because length cannot be negative.'},
+      ],
+      examples:[
+        {title:'Reject the extraneous root',prompt:'Solve $√(2x+3)=x$ in the real numbers.',steps:['The right side must be nonnegative.','Squaring gives $x^2-2x-3=(x-3)(x+1)=0$.','Reject −1. Substituting 3 gives $√9=3$, so 3 is the only solution.']},
+        {title:'Match powers of a common base',prompt:'Find $k$ if $9^{k-1}=27^2$.',steps:['Use base 3: $9=3^2$ and $27=3^3$.','Match the exponents, giving $2(k-1)=6$.','Then $k=4$.']},
+        {title:'Normalize a ratio of measurements',prompt:'How many times larger is $4.8×10^{-3}$ than $1.2×10^{-6}$?',steps:['Divide the coefficients: $4.8/1.2=4$.','Subtract exponents: $-3-(-6)=3$.','The ratio is $4×10^3=4000$.']},
+      ],
+      pitfalls:['Keeping every root of a squared equation.','Matching exponents before the bases agree.','Moving the decimal in a coefficient without compensating in the power of ten.'],
+      timing:'Reject sign-incompatible candidates before substitution. Match bases when possible.',
+      guided:{prompt:'Which value solves $√(x+6)=x$?',hint:'Square both sides, then keep only a solution that satisfies the original equation.',choices:['−2','3','Both −2 and 3','Neither'],answer:1,feedback:['The radical cannot equal a negative number.','Squaring yields −2 and 3, but only 3 works in the original equation.','The value −2 was introduced by squaring.','Substituting 3 gives the true statement $√9=3$.']},
+      summary:'Preserve the original domain and check transformed equations against it. Use matched bases and normalized units to simplify.',
+      sources:['act-math','openstax-exponents-notation','openstax-radicals-rational-powers'],
+    },
+  ],
+};

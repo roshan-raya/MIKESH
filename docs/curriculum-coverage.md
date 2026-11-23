@@ -36,7 +36,7 @@ The linear equations progression moves from inverse operations to equivalent equ
 | MATH | Algebra | Logarithms | Detailed chapter pending | 0 | 0 | Expand objectives, prerequisites, examples and assessments |
 | MATH | Modeling | Modeling | Detailed chapter pending | 2 | 0 | Expand objectives, prerequisites, examples and assessments |
 | MATH | Integrating Essential Skills | Multistep quantities | Detailed chapter pending | 0 | 0 | Expand objectives, prerequisites, examples and assessments |
-| MATH | Number & Quantity | Number and quantity | Detailed chapter pending | 2 | 0 | Expand objectives, prerequisites, examples and assessments |
+| MATH | Number & Quantity | Number and quantity | Four-level instruction | 2 | 0 | Expand objectives, prerequisites, examples and assessments |
 | MATH | Integrating Essential Skills | Percentages | Detailed chapter pending | 2 | 0 | Expand objectives, prerequisites, examples and assessments |
 | MATH | Algebra | Polynomial and rational expressions | Detailed chapter pending | 0 | 0 | Expand objectives, prerequisites, examples and assessments |
 | MATH | Integrating Essential Skills | Proportional reasoning | Four-level instruction | 0 | 0 | Editorial review and hosted retests |
@@ -80,4 +80,4 @@ The linear equations progression moves from inverse operations to equivalent equ
 
 ## Next batches
 
-Review and expand the staged English Sentence Boundaries bank. Number and Quantity foundations lead into Exponents and Radicals and Systems and Inequalities. Follow with Reading evidence and paired passages, optional Science interpretation and experimental design, and a separate Writing sequence with original prompts, annotated responses, revisions, and domain-based self-review.
+Review and expand the staged English Sentence Boundaries bank. Number and Quantity foundations now lead into existing Math chapters. Expand Exponents and Radicals next, followed by Systems and Inequalities. Follow with Reading evidence and paired passages, optional Science interpretation and experimental design, and a separate Writing sequence with original prompts, annotated responses, revisions, and domain-based self-review.

@@ -39,6 +39,6 @@
 
 ## Graph checks
 
-41 real lesson nodes and 49 directed prerequisite relationships. Zero broken node references, cycles, or unreachable authored chapters relative to Textbook and the hosted syllabus. 0 unresolved profile routes in the static route check.
+41 real lesson nodes and 49 within-chapter prerequisite relationships plus 4 cross-chapter edges. Zero broken node references, cycles, or unreachable authored chapters relative to Textbook and the hosted syllabus. 0 unresolved profile routes in the static route check.
 
-The course graphs have separate entry nodes. Link fractions and arithmetic to proportional reasoning and Algebra, Linear Equations to Systems, clause structure to punctuation, evidence to inference and author purpose, and graph interpretation to Science experimental design. These cross-chapter prerequisite edges are absent. The planned syllabus hints are separate from the teachable graph.
+The course graphs have separate entry nodes. Number and Quantity now links fractions to ratio parts, decimal representations to percentage bases, signed arithmetic to linear equations, and operation order to the Quadratics exponent refresher. Still missing are Linear Equations to Systems, clause structure to punctuation, evidence to inference and author purpose, and graph interpretation to Science experimental design. The planned syllabus hints are separate from the teachable graph.
