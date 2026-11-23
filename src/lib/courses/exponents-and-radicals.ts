@@ -1,10 +1,9 @@
 import type {Course} from './types';
-import bank from '../../../content/exponents-and-radicals-draft.json';
 
 export const exponentsAndRadicals:Course={
   slug:'exponents-and-radicals',subject:'MATH',domain:'Number & Quantity',topic:'Exponents and radicals',
   overview:'Read the base, combine integer powers, and use real roots to evaluate rational exponents. Apply the rules to equations, geometry, and scientific notation.',
-  draftPracticeCount:bank.items.length,
+  draftPracticeCount:0,
   concepts:[
     {id:'integer-powers',level:'beginner',prerequisites:[]},
     {id:'reciprocal-powers',level:'intermediate',prerequisites:['integer-powers']},
