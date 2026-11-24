@@ -23,3 +23,9 @@ The build, lint, 27 unit tests, six disposable SQL suites, and two signed-out br
 Added five lessons, 15 worked examples, five checkpoints and 15 protected drafts. Four cross-chapter links connect them to Proportional Reasoning, Linear Equations and Quadratics. The tests numerically recompute every key, check the uniqueness of the numeric answer and the 45 wrong-choice routes, and verify the combined dependency graph. Two existing hosted questions in this topic cover rational powers and complex numbers and remain outside this arithmetic batch.
 
 Lint, TypeScript, the production build, 29 unit tests, seven disposable SQL suites and two signed-out Chromium tests passed. SQL verified that the drafts were ineligible, an unapproved release was refused, and a synthetic approved revision was eligible. The synthetic approval and release rolled back. No authenticated browser walkthrough or hosted writes occurred.
+
+## Exponents and Radicals
+
+Integrated five lessons, 15 worked examples, five guided checkpoints, four cross-chapter links, and 15 practice drafts. Automated checks cover all keys, 45 wrong-choice routes, strict rendering of lesson math, and the combined dependency graph. The existing rational-power item has a remediation profile without a change to its hosted ID or classification.
+
+Lint, TypeScript, the production build, 31 unit tests, eight disposable SQL suites and two signed-out browser checks passed. The initial lint run included generated Vercel code. The lint configuration now excludes it. A stale generated type cache was cleared before the build passed. SQL proved the unpublished bank was ineligible for practice and required approval before release. The synthetic approval rolled back. No signed-in browser run, hosted writes, or deployment occurred.

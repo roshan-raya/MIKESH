@@ -139,3 +139,9 @@ Read-only hosted verification returned 71 topics, 85 published questions, signup
 Five lessons, 15 worked examples, five checkpoints and 15 protected drafts were added. The workspace now has 12 detailed chapters, 41 lessons, 123 examples, 41 checkpoints and 335 unique question families. The bank has 226 explicit drafts, 24 seed-only items and 85 hosted published items. Complete learning profiles cover 144 families, including 25 of 85 hosted items. Four new cross-chapter edges connect three existing Math chapters to these foundations. No approvals or releases were added.
 
 Fresh read-only checks returned the same live security and production blockers. The build, lint, TypeScript, 29 unit tests, seven local SQL suites and two signed-out browser checks passed. The six [acceptance outcomes](act-mastery-final-acceptance.md) remain three FAIL and three BLOCKED.
+
+## Exponents and Radicals checkpoint
+
+The workspace contains 13 detailed chapters, 46 lessons, 138 worked examples, 46 checkpoints, and 350 question families. The bank includes 241 explicit drafts, 24 seed-only items, and 85 hosted published items. Complete profiles cover 160 families, including 26 hosted items. The batch integrated five lessons and 15 drafts, linked arithmetic, Linear Equations and Quadratics, and added a profile to the existing rational-power item. No approvals or releases were added.
+
+Lint, TypeScript, the production build, 31 unit tests, eight disposable SQL suites, and two signed-out browser checks passed. Fresh read-only hosted checks confirmed that public signup is enabled, the legacy key still works, and the retest RPCs and editorial ledger remain unavailable.

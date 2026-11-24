@@ -8,6 +8,10 @@ export const chapterConnections:ReadonlyArray<{from:LessonRef;to:LessonRef}> = [
   {from:{course:'number-and-quantity',lesson:'decimal-representations'},to:{course:'proportional-reasoning',lesson:'percent-base'}},
   {from:{course:'number-and-quantity',lesson:'signed-numbers'},to:{course:'linear-equations',lesson:'balance'}},
   {from:{course:'number-and-quantity',lesson:'operation-order'},to:{course:'quadratics',lesson:'exponents'}},
+  {from:{course:'number-and-quantity',lesson:'operation-order'},to:{course:'exponents-and-radicals',lesson:'integer-powers'}},
+  {from:{course:'number-and-quantity',lesson:'fraction-operations'},to:{course:'exponents-and-radicals',lesson:'reciprocal-powers'}},
+  {from:{course:'linear-equations',lesson:'balance'},to:{course:'exponents-and-radicals',lesson:'power-applications'}},
+  {from:{course:'exponents-and-radicals',lesson:'principal-roots'},to:{course:'quadratics',lesson:'exponents'}},
 ];
 
 function lessonLink(ref:LessonRef) {

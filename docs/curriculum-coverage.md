@@ -27,7 +27,7 @@ The linear equations progression moves from inverse operations to equivalent equ
 | MATH | Statistics & Probability | Counting methods | Detailed chapter pending | 0 | 0 | Expand objectives, prerequisites, examples and assessments |
 | MATH | Statistics & Probability | Data distributions | Detailed chapter pending | 0 | 0 | Expand objectives, prerequisites, examples and assessments |
 | MATH | Functions | Domain and range | Detailed chapter pending | 0 | 0 | Expand objectives, prerequisites, examples and assessments |
-| MATH | Number & Quantity | Exponents and radicals | Detailed chapter pending | 0 | 0 | Expand objectives, prerequisites, examples and assessments |
+| MATH | Number & Quantity | Exponents and radicals | Four-level instruction | 0 | 0 | Expand objectives, prerequisites, examples and assessments |
 | MATH | Functions | Functions | Selected lessons | 10 | 1 | Expand objectives, prerequisites, examples and assessments |
 | MATH | Geometry | Geometry | Detailed chapter pending | 3 | 1 | Expand objectives, prerequisites, examples and assessments |
 | MATH | Functions | Graphs and transformations | Detailed chapter pending | 0 | 0 | Expand objectives, prerequisites, examples and assessments |
@@ -80,4 +80,4 @@ The linear equations progression moves from inverse operations to equivalent equ
 
 ## Next batches
 
-Review and expand the staged English Sentence Boundaries bank. Number and Quantity foundations now lead into existing Math chapters. Expand Exponents and Radicals next, followed by Systems and Inequalities. Follow with Reading evidence and paired passages, optional Science interpretation and experimental design, and a separate Writing sequence with original prompts, annotated responses, revisions, and domain-based self-review.
+Review and expand the staged English Sentence Boundaries bank. Number and Quantity foundations now lead into existing Math chapters. Exponents and Radicals now uses the foundations. Expand Systems and Inequalities next. Follow with Reading evidence and paired passages, optional Science interpretation and experimental design, and a separate Writing sequence with original prompts, annotated responses, revisions, and domain-based self-review.

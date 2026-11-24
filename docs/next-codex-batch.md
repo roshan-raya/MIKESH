@@ -2,12 +2,10 @@
 
 ## Last verified checkpoint
 
-Number and Quantity foundations is implemented across four levels. It adds five lessons, 15 worked examples, five checkpoints, 15 protected drafts, and four prerequisite links to existing Math chapters. All numeric keys and wrong-choice routes passed automated checks. The repository holds 335 question families and the hosted published inventory holds 85. No independent approval or publication was added. The hosted topic's two older complex-number and rational-power exercises remain outside the arithmetic profile scope.
-
-Lint, TypeScript, the production build, 29 unit tests, seven disposable SQL suites, and two signed-out browser checks passed. A synthetic local release rolled back. The deployed authenticated learning path was not tested in this batch. See [acceptance](act-mastery-final-acceptance.md).
+Exponents and Radicals is implemented across four levels. It adds five lessons, 15 worked examples, five guided checkpoints, 15 protected drafts, and four cross-chapter edges. The existing rational-exponent item has a remediation profile. The 15 draft keys, 45 wrong-choice routes, all lesson math and the combined prerequisite graph passed automated checks. The repository contains 350 question families, the live bank contains 85, and no approval or publication was added. Lint, TypeScript, the production build, 31 unit tests, eight disposable SQL suites and two signed-out browser checks passed. An authenticated browser walkthrough remains unverified.
 
 ## Next actionable batch
 
-Build **Exponents and Radicals**, using operation order and exact rational quantities as prerequisites. Cover integer exponents, zero and negative powers with domain restrictions, principal roots, rational exponents, and ACT applications. Add protected drafts and scope-appropriate remediation to the existing rational exponent question while preserving its identity. Complex Numbers remains a separate later chapter. Continue with Systems and Inequalities after this checkpoint.
+Expand **Systems and Inequalities**. Preserve its existing lesson and progress key. Teach substitution, elimination, classification of linear systems, signed inequalities, feasible regions, and ACT word problems. Wire Linear Equations to the chapter as a prerequisite. Create protected drafts and check each answer and distractor. Complex Numbers remains a separate future chapter.
 
-Production work remains blocked on owner authorization and the security runbook. Apply migrations only after an authorized backup and staging verification. Keep new questions as drafts until independently approved.
+Production remains blocked on owner cutover, independent editorial review, and staging verification. Keep new items unpublished.

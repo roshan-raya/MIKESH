@@ -1,0 +1,545 @@
+{
+  "passages": [],
+  "items": [
+    {
+      "slug": "chapter-practice-er-01",
+      "subject": "MATH",
+      "topic": "Exponents and radicals",
+      "subtopic": "integer-powers",
+      "difficulty": 1,
+      "seconds": 35,
+      "prompt": "What is (−3)⁴ + (−3⁴)?",
+      "choices": [
+        "162",
+        "0",
+        "−162",
+        "78"
+      ],
+      "correctIndex": 1,
+      "explanation": "The first term is 81. The second has the minus outside the fourth power and equals −81. Their sum is zero.",
+      "distractors": {
+        "A": "The second term has a leading negative outside the power.",
+        "C": "The first term squares the negative base twice and is positive.",
+        "D": "A fourth power represents four factors, not multiplication by four."
+      },
+      "objective": "Read the scope of a leading minus.",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery question. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "reference:act-math",
+        "reference:openstax-exponents-notation",
+        "supporting-skill:Exact algebraic reasoning",
+        "skill:integer-powers",
+        "remediation:A:integer-powers",
+        "remediation:C:integer-powers",
+        "remediation:D:integer-powers"
+      ]
+    },
+    {
+      "slug": "chapter-practice-er-02",
+      "subject": "MATH",
+      "topic": "Exponents and radicals",
+      "subtopic": "integer-powers",
+      "difficulty": 2,
+      "seconds": 50,
+      "prompt": "For nonzero t, which power of t equals (t³)⁴ ÷ t⁵?",
+      "choices": [
+        "t²",
+        "t⁹",
+        "t¹⁷",
+        "t⁷"
+      ],
+      "correctIndex": 3,
+      "explanation": "The nested power has exponent 3×4=12. Dividing by t⁵ leaves exponent 7.",
+      "distractors": {
+        "A": "Add neither the inner and outer exponents nor their signs. Multiply 3 and 4 first.",
+        "B": "Subtract five from 12 after evaluating the nested power.",
+        "C": "The quotient removes five factors instead of adding them."
+      },
+      "objective": "Combine the power and quotient rules.",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery question. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "reference:act-math",
+        "reference:openstax-exponents-notation",
+        "supporting-skill:Exact algebraic reasoning",
+        "skill:integer-powers",
+        "remediation:A:integer-powers",
+        "remediation:B:integer-powers",
+        "remediation:C:integer-powers"
+      ]
+    },
+    {
+      "slug": "chapter-practice-er-03",
+      "subject": "MATH",
+      "topic": "Exponents and radicals",
+      "subtopic": "integer-powers",
+      "difficulty": 2,
+      "seconds": 50,
+      "prompt": "For nonzero x, simplify (2x³)² ÷ (4x).",
+      "choices": [
+        "x⁵",
+        "x⁶",
+        "2x⁵",
+        "x⁴"
+      ],
+      "correctIndex": 0,
+      "explanation": "Squaring gives 4x⁶. Dividing by 4x cancels the coefficient and removes one factor of x.",
+      "distractors": {
+        "B": "The denominator includes one factor of x.",
+        "C": "The ² applies to the 2, so the coefficient becomes 4 before division.",
+        "D": "The numerator contains six factors of x and the denominator removes only one."
+      },
+      "objective": "Distribute an exponent over a product before dividing.",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery question. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "reference:act-math",
+        "reference:openstax-exponents-notation",
+        "supporting-skill:Exact algebraic reasoning",
+        "skill:integer-powers",
+        "remediation:B:integer-powers",
+        "remediation:C:integer-powers",
+        "remediation:D:integer-powers"
+      ]
+    },
+    {
+      "slug": "chapter-practice-er-04",
+      "subject": "MATH",
+      "topic": "Exponents and radicals",
+      "subtopic": "reciprocal-powers",
+      "difficulty": 2,
+      "seconds": 50,
+      "prompt": "What is (4/3)⁻²?",
+      "choices": [
+        "16/9",
+        "−16/9",
+        "9/16",
+        "3/4"
+      ],
+      "correctIndex": 2,
+      "explanation": "A negative exponent takes a reciprocal. The resulting base is 3/4 and its square is 9/16.",
+      "distractors": {
+        "A": "This evaluates the positive power without taking the reciprocal.",
+        "B": "A negative exponent does not change a positive output to a negative one.",
+        "D": "The exponent magnitude requires squaring after inverting."
+      },
+      "objective": "Evaluate a negative power of a rational base.",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery question. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "reference:act-math",
+        "reference:openstax-exponents-notation",
+        "supporting-skill:Exact algebraic reasoning",
+        "skill:reciprocal-powers",
+        "remediation:A:reciprocal-powers",
+        "remediation:B:reciprocal-powers",
+        "remediation:D:reciprocal-powers"
+      ]
+    },
+    {
+      "slug": "chapter-practice-er-05",
+      "subject": "MATH",
+      "topic": "Exponents and radicals",
+      "subtopic": "reciprocal-powers",
+      "difficulty": 3,
+      "seconds": 65,
+      "prompt": "Which expression and restriction are equivalent to (y−7)⁰ ÷ (y−7)⁻²?",
+      "choices": [
+        "(y−7)², all real y",
+        "(y−7)², y≠7",
+        "1/(y−7)², y≠7",
+        "0, y≠7"
+      ],
+      "correctIndex": 1,
+      "explanation": "The exponent becomes 0−(−2)=2. The original negative power excludes y=7.",
+      "distractors": {
+        "A": "The simplified square does not retain the original restriction by itself.",
+        "C": "Subtracting a negative exponent gives positive 2.",
+        "D": "A nonzero base raised to zero is 1."
+      },
+      "objective": "Keep a domain restriction after canceling negative powers.",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery question. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "reference:act-math",
+        "reference:openstax-exponents-notation",
+        "supporting-skill:Exact algebraic reasoning",
+        "skill:reciprocal-powers",
+        "remediation:A:reciprocal-powers",
+        "remediation:C:reciprocal-powers",
+        "remediation:D:reciprocal-powers"
+      ]
+    },
+    {
+      "slug": "chapter-practice-er-06",
+      "subject": "MATH",
+      "topic": "Exponents and radicals",
+      "subtopic": "reciprocal-powers",
+      "difficulty": 3,
+      "seconds": 65,
+      "prompt": "For nonzero p and q, which is equivalent to 3p⁻²q³ ÷ (6pq⁻¹)?",
+      "choices": [
+        "q²/(2p³)",
+        "p³q⁴/2",
+        "2q⁴/p³",
+        "q⁴/(2p³)"
+      ],
+      "correctIndex": 3,
+      "explanation": "The coefficient is 1/2, the exponent of p is −3, and the exponent of q is 4.",
+      "distractors": {
+        "A": "Subtracting −1 adds one to the exponent of q.",
+        "B": "A negative power of p moves p³ to the denominator.",
+        "C": "The coefficient is 3/6, not 6/3."
+      },
+      "objective": "Combine negative exponents in a quotient of products.",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery question. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "reference:act-math",
+        "reference:openstax-exponents-notation",
+        "supporting-skill:Exact algebraic reasoning",
+        "skill:reciprocal-powers",
+        "remediation:A:reciprocal-powers",
+        "remediation:B:reciprocal-powers",
+        "remediation:C:reciprocal-powers"
+      ]
+    },
+    {
+      "slug": "chapter-practice-er-07",
+      "subject": "MATH",
+      "topic": "Exponents and radicals",
+      "subtopic": "principal-roots",
+      "difficulty": 1,
+      "seconds": 35,
+      "prompt": "What is the principal square root of 121?",
+      "choices": [
+        "−11",
+        "11 and −11",
+        "11",
+        "60.5"
+      ],
+      "correctIndex": 2,
+      "explanation": "The nonnegative number with square 121 is 11.",
+      "distractors": {
+        "A": "The principal root is nonnegative.",
+        "B": "Both are solutions of x²=121, but the radical returns one value.",
+        "D": "A square root is not found by dividing by 2."
+      },
+      "objective": "Read one principal root rather than both equation solutions.",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery question. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "reference:act-math",
+        "reference:openstax-radicals-rational-powers",
+        "supporting-skill:Exact algebraic reasoning",
+        "skill:principal-roots",
+        "remediation:A:principal-roots",
+        "remediation:B:principal-roots",
+        "remediation:D:principal-roots"
+      ]
+    },
+    {
+      "slug": "chapter-practice-er-08",
+      "subject": "MATH",
+      "topic": "Exponents and radicals",
+      "subtopic": "principal-roots",
+      "difficulty": 3,
+      "seconds": 65,
+      "prompt": "Which expression equals √98 − √8?",
+      "choices": [
+        "5√2",
+        "9√2",
+        "√90",
+        "45√2"
+      ],
+      "correctIndex": 0,
+      "explanation": "Extract squares: √98=7√2 and √8=2√2. Subtract their coefficients.",
+      "distractors": {
+        "B": "The original operation is subtraction, not addition.",
+        "C": "Separate square roots cannot be subtracted by subtracting radicands.",
+        "D": "Extract square roots of perfect-square factors, not the factors themselves."
+      },
+      "objective": "Simplify radicals before combining them.",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery question. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "reference:act-math",
+        "reference:openstax-radicals-rational-powers",
+        "supporting-skill:Exact algebraic reasoning",
+        "skill:principal-roots",
+        "remediation:B:principal-roots",
+        "remediation:C:principal-roots",
+        "remediation:D:principal-roots"
+      ]
+    },
+    {
+      "slug": "chapter-practice-er-09",
+      "subject": "MATH",
+      "topic": "Exponents and radicals",
+      "subtopic": "principal-roots",
+      "difficulty": 3,
+      "seconds": 65,
+      "prompt": "If x<−4, what is √((x+4)²)?",
+      "choices": [
+        "x+4",
+        "−x−4",
+        "x−4",
+        "−x+4"
+      ],
+      "correctIndex": 1,
+      "explanation": "The square root gives the absolute value of x+4. Under the stated condition x+4 is negative, so its magnitude is −x−4.",
+      "distractors": {
+        "A": "This is negative under the stated condition.",
+        "C": "The quantity being squared includes +4.",
+        "D": "Negating the entire sum changes both signs."
+      },
+      "objective": "Evaluate an absolute value using its sign condition.",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery question. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "reference:act-math",
+        "reference:openstax-radicals-rational-powers",
+        "supporting-skill:Exact algebraic reasoning",
+        "skill:principal-roots",
+        "remediation:A:principal-roots",
+        "remediation:C:principal-roots",
+        "remediation:D:principal-roots"
+      ]
+    },
+    {
+      "slug": "chapter-practice-er-10",
+      "subject": "MATH",
+      "topic": "Exponents and radicals",
+      "subtopic": "rational-powers",
+      "difficulty": 3,
+      "seconds": 65,
+      "prompt": "What is 625^(3/4)?",
+      "choices": [
+        "125",
+        "15",
+        "25",
+        "3125"
+      ],
+      "correctIndex": 0,
+      "explanation": "The fourth root of 625 is 5. Cubing 5 yields 125.",
+      "distractors": {
+        "B": "The numerator 3 is a power, not a multiplier.",
+        "C": "This squares 5 instead of cubing it.",
+        "D": "This uses too large a power of 5."
+      },
+      "objective": "Use the denominator as a root and the numerator as a power.",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery question. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "reference:act-math",
+        "reference:openstax-radicals-rational-powers",
+        "supporting-skill:Exact algebraic reasoning",
+        "skill:rational-powers",
+        "remediation:B:rational-powers",
+        "remediation:C:rational-powers",
+        "remediation:D:rational-powers"
+      ]
+    },
+    {
+      "slug": "chapter-practice-er-11",
+      "subject": "MATH",
+      "topic": "Exponents and radicals",
+      "subtopic": "rational-powers",
+      "difficulty": 4,
+      "seconds": 80,
+      "prompt": "In the real numbers, what is (−216)^(2/3)?",
+      "choices": [
+        "−36",
+        "−6",
+        "Undefined",
+        "36"
+      ],
+      "correctIndex": 3,
+      "explanation": "The cube root is −6. Squaring gives 36.",
+      "distractors": {
+        "A": "The square of −6 is positive.",
+        "B": "The exponent requires an additional square after taking the root.",
+        "C": "An odd-index real root exists for a negative number."
+      },
+      "objective": "Apply a rational power to a negative base with odd root index.",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery question. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "reference:act-math",
+        "reference:openstax-radicals-rational-powers",
+        "supporting-skill:Exact algebraic reasoning",
+        "skill:rational-powers",
+        "remediation:A:rational-powers",
+        "remediation:B:rational-powers",
+        "remediation:C:rational-powers"
+      ]
+    },
+    {
+      "slug": "chapter-practice-er-12",
+      "subject": "MATH",
+      "topic": "Exponents and radicals",
+      "subtopic": "rational-powers",
+      "difficulty": 4,
+      "seconds": 80,
+      "prompt": "What is 125^(−2/3)?",
+      "choices": [
+        "25",
+        "−1/25",
+        "1/25",
+        "1/5"
+      ],
+      "correctIndex": 2,
+      "explanation": "The cube root of 125 is 5. Its square is 25, and the negative exponent requires its reciprocal.",
+      "distractors": {
+        "A": "This drops the negative exponent's reciprocal step.",
+        "B": "The reciprocal of the positive square remains positive.",
+        "D": "Square the cube root before taking the reciprocal."
+      },
+      "objective": "Evaluate a negative rational exponent in stages.",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery question. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "reference:act-math",
+        "reference:openstax-radicals-rational-powers",
+        "supporting-skill:Exact algebraic reasoning",
+        "skill:rational-powers",
+        "remediation:A:rational-powers",
+        "remediation:B:rational-powers",
+        "remediation:D:rational-powers"
+      ]
+    },
+    {
+      "slug": "chapter-practice-er-13",
+      "subject": "MATH",
+      "topic": "Exponents and radicals",
+      "subtopic": "power-applications",
+      "difficulty": 4,
+      "seconds": 80,
+      "prompt": "What real value satisfies √(3x+4)=x?",
+      "choices": [
+        "−1",
+        "4",
+        "−1 and 4",
+        "No real value"
+      ],
+      "correctIndex": 1,
+      "explanation": "Squaring gives x²−3x−4=0, with candidates −1 and 4. The original radical cannot equal −1. Substituting 4 gives 4.",
+      "distractors": {
+        "A": "The principal square root cannot equal a negative number.",
+        "C": "One candidate fails the original equation.",
+        "D": "Substitution shows that √16 equals 4."
+      },
+      "objective": "Filter squared-equation candidates using the original equation.",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery question. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "reference:act-math",
+        "reference:openstax-radicals-rational-powers",
+        "supporting-skill:Exact algebraic reasoning",
+        "skill:power-applications",
+        "remediation:A:power-applications",
+        "remediation:C:power-applications",
+        "remediation:D:power-applications"
+      ]
+    },
+    {
+      "slug": "chapter-practice-er-14",
+      "subject": "MATH",
+      "topic": "Exponents and radicals",
+      "subtopic": "power-applications",
+      "difficulty": 5,
+      "seconds": 100,
+      "prompt": "A signal strength of 1.2×10⁻⁵ is divided by a calibration value of 8×10⁻⁸. What is the ratio in normalized scientific notation?",
+      "choices": [
+        "1.5×10²",
+        "1.5×10³",
+        "1.5×10⁻²",
+        "1.5×10⁻³"
+      ],
+      "correctIndex": 0,
+      "explanation": "The quotient is 0.15×10³. Moving the coefficient one place right decreases the exponent by one, giving 1.5×10².",
+      "distractors": {
+        "B": "Moving the coefficient from 0.15 to 1.5 must be offset by reducing the exponent.",
+        "C": "The original exponent difference is positive three.",
+        "D": "Subtract the denominator exponent instead of adding it."
+      },
+      "objective": "Normalize a quotient involving two powers of ten.",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery question. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "reference:act-math",
+        "reference:openstax-radicals-rational-powers",
+        "supporting-skill:Exact algebraic reasoning",
+        "skill:power-applications",
+        "remediation:B:power-applications",
+        "remediation:C:power-applications",
+        "remediation:D:power-applications"
+      ]
+    },
+    {
+      "slug": "chapter-practice-er-15",
+      "subject": "MATH",
+      "topic": "Exponents and radicals",
+      "subtopic": "power-applications",
+      "difficulty": 5,
+      "seconds": 100,
+      "prompt": "For what value of k does 16^(k+1)=8^(2k−1)?",
+      "choices": [
+        "1/2",
+        "−7/2",
+        "2",
+        "7/2"
+      ],
+      "correctIndex": 3,
+      "explanation": "Use base 2. Equal exponents give 4(k+1)=3(2k−1). Then 7=2k and k=7/2.",
+      "distractors": {
+        "A": "The constants are 4 and −3, so moving them produces 7 rather than 1.",
+        "B": "After collecting exponents, the equation is 7=2k with a positive right side for the answer.",
+        "C": "Substituting 2 gives exponents 12 and 9, which differ."
+      },
+      "objective": "Match common bases before solving a linear exponent equation.",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery question. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "reference:act-math",
+        "reference:openstax-radicals-rational-powers",
+        "supporting-skill:Exact algebraic reasoning",
+        "skill:power-applications",
+        "remediation:A:power-applications",
+        "remediation:B:power-applications",
+        "remediation:C:power-applications"
+      ]
+    }
+  ]
+}

@@ -10,7 +10,7 @@ const practice=['content/starter.json','content/practice-expansion.json','conten
 
 it('connects every curated wrong choice to an explanation and a valid lesson',()=>{
   const items=practice.filter(q=>Object.hasOwn(questionProfiles,q.bank_key));
-  expect(items).toHaveLength(22);
+  expect(items).toHaveLength(23);
   for(const item of items){
     for(const {id} of item.options.filter(choice=>choice.id!==item.correct_answer)){
       const learning=questionLearning(item,id);

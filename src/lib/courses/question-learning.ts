@@ -1,3 +1,4 @@
+import exponentBank from '../../../content/exponents-and-radicals-draft.json';
 import numberQuantityBank from '../../../content/number-and-quantity-draft.json';
 import {connectedPrerequisites} from './connections';
 import sentenceBoundaryBank from '../../../content/sentence-boundaries-draft.json';
@@ -29,6 +30,12 @@ const quad=(lesson:string,skill:string,secondary:string[],objective:string,wrong
   profile('quadratics',lesson,skill,secondary,objective,wrong);
 
 export const questionProfiles:Record<string,Profile>={
+  'px-m13@1':profile('exponents-and-radicals','rational-powers','Evaluate a fractional exponent',['Principal roots','Integer powers'],
+    'Take the fourth root of 16, then raise the result to the third power.',{
+      A:['Treat the numerator as a power','The fourth root is 2. Multiplying 2 by 3 gives 6, while cubing 2 gives 8.'],
+      C:['Use the denominator as a root index','Multiplying 16 by 3/4 gives 12. The exponent instead calls for a fourth root followed by a cube.'],
+      D:['Check the result using the power definition','The fourth root of 16 is 2. Three factors of 2 give 8. A result of 32 would use five factors.'],
+    }),
   'ag02@1':profile('sentence-boundaries','joining-clauses','Join two independent clauses',['Finite verbs','Punctuation'],
     'Use a semicolon to preserve the complete statements about settings and uploads.',{
       A:['Fused sentence','The two independent clauses need a separator or a suitable conjunction.'],
@@ -220,6 +227,7 @@ const textbookProfiles=Object.fromEntries(textbookBank.items.map(item=>{
 }));
 
 const chapterBatches = [
+  {slug:'exponents-and-radicals',items:exponentBank.items},
   {slug:'number-and-quantity',items:numberQuantityBank.items},
   {slug:'sentence-boundaries',items:sentenceBoundaryBank.items},
   {slug:'proportional-reasoning',items:proportionsBank.items},
@@ -238,7 +246,8 @@ const chapterProfiles=Object.fromEntries(chapterBatches.flatMap(({slug,items})=>
 })));
 
 const relatedChapters:Readonly<Record<string,readonly string[]>>={
-  'number-and-quantity':['proportional-reasoning','linear-equations','quadratics'],
+  'number-and-quantity':['proportional-reasoning','linear-equations','quadratics','exponents-and-radicals'],
+  'exponents-and-radicals':['number-and-quantity','linear-equations','quadratics'],
   'linear-equations':['functions','systems-inequalities','coordinate-geometry'],
   quadratics:['functions','coordinate-geometry'],
   functions:['quadratics','coordinate-geometry'],

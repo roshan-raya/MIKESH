@@ -3,7 +3,7 @@ import {fileURLToPath} from 'node:url';
 
 const compat=new FlatCompat({baseDirectory:fileURLToPath(new URL('.',import.meta.url))});
 const config = [
-  {ignores:['.next/**','node_modules/**','next-env.d.ts','playwright-report/**','test-results/**']},
+  {ignores:['.next/**','.vercel/**','node_modules/**','next-env.d.ts','playwright-report/**','test-results/**']},
   ...compat.extends('next/core-web-vitals'),
 ];
 

@@ -19,7 +19,7 @@ it('keeps published and draft prompts distinct across the authored batches',()=>
   const priority=batch('content/priority-math-draft.json');
   const textbook=batch('content/quadratic-textbook.json');
   const proportions=batch('content/proportional-reasoning-draft.json');
-  const prompts=[...published,...mock,...priority,...textbook,...proportions,...batch('content/linear-equations-draft.json'),...batch('content/sentence-boundaries-draft.json'),...batch('content/number-and-quantity-draft.json')].map(item=>item.prompt.normalize('NFKC').toLowerCase().replace(/[^\p{L}\p{N}]/gu,''));
+  const prompts=[...published,...mock,...priority,...textbook,...proportions,...batch('content/linear-equations-draft.json'),...batch('content/sentence-boundaries-draft.json'),...batch('content/number-and-quantity-draft.json'),...batch('content/exponents-and-radicals-draft.json')].map(item=>item.prompt.normalize('NFKC').toLowerCase().replace(/[^\p{L}\p{N}]/gu,''));
   expect(new Set(prompts).size).toBe(prompts.length);
   expect(published.every(item=>item.status==='verified')).toBe(true);
   expect(mock).toHaveLength(131);

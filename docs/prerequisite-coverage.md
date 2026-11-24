@@ -6,12 +6,13 @@
 - **Quadratics** · variables (entry); multiplication ← variables; exponents ← variables, multiplication; polynomials ← exponents, multiplication; factoring ← polynomials, multiplication; zero-product ← factoring, variables; complete-square ← polynomials, exponents; quadratic-formula ← complete-square, polynomials; roots-and-vertex ← complete-square, quadratic-formula, zero-product; quadratic-models ← roots-and-vertex, factoring, zero-product
 - **Linear equations** · balance (entry); equivalent-forms ← balance; linear-graphs ← balance, equivalent-forms; constraints ← equivalent-forms, linear-graphs
 - **Number and quantity** · signed-numbers (entry); fraction-operations ← signed-numbers; decimal-representations ← fraction-operations; operation-order ← signed-numbers, fraction-operations; exact-and-estimated ← decimal-representations, operation-order
+- **Exponents and radicals** · integer-powers (entry); reciprocal-powers ← integer-powers; principal-roots ← integer-powers; rational-powers ← reciprocal-powers, principal-roots; power-applications ← rational-powers
 - **Proportional reasoning** · ratio-parts (entry); ratios-and-rates ← ratio-parts; unit-conversion ← ratios-and-rates; direct-proportion ← ratios-and-rates; percent-base ← ratio-parts, direct-proportion; percent-change ← percent-base; scale-dimensions ← direct-proportion, unit-conversion; combined-models ← direct-proportion, percent-change, scale-dimensions
 - **Systems and inequalities** · systems-and-bounds (entry)
 - **Coordinate geometry** · points-and-lines (entry)
 - **Triangles and trigonometry** · right-triangle-ratios (entry)
 
-128 of 187 question families have a profile.
+144 of 202 question families have a profile.
 
 ## ENGLISH
 
@@ -39,6 +40,6 @@
 
 ## Graph checks
 
-41 real lesson nodes and 49 within-chapter prerequisite relationships plus 4 cross-chapter edges. Zero broken node references, cycles, or unreachable authored chapters relative to Textbook and the hosted syllabus. 0 unresolved profile routes in the static route check.
+46 real lesson nodes and 54 internal relationships and eight cross-chapter edges. Zero broken node references, cycles, or unreachable authored chapters relative to Textbook and the hosted syllabus. 0 unresolved profile routes in the static route check.
 
-The course graphs have separate entry nodes. Number and Quantity now links fractions to ratio parts, decimal representations to percentage bases, signed arithmetic to linear equations, and operation order to the Quadratics exponent refresher. Still missing are Linear Equations to Systems, clause structure to punctuation, evidence to inference and author purpose, and graph interpretation to Science experimental design. The planned syllabus hints are separate from the teachable graph.
+Number and Quantity links fractions to ratio parts and reciprocal powers, decimals to percentage bases, signed arithmetic to linear equations, and operation order to Quadratics and integer exponents. Linear Equations links to power applications. The principal-root lesson links to Quadratics. Cross-chapter links from Linear Equations to Systems, clause structure to punctuation, evidence to inference and author purpose, and graph interpretation to experimental design are still missing.

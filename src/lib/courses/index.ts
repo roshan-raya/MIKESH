@@ -8,7 +8,9 @@ import {linearEquations} from './linear-equations';
 
 import {numberAndQuantity} from './number-and-quantity';
 
-export const courses = [functions,quadratics,linearEquations,numberAndQuantity,...priorityMath,...otherCourses];
+import {exponentsAndRadicals} from './exponents-and-radicals';
+
+export const courses = [functions,quadratics,linearEquations,numberAndQuantity,exponentsAndRadicals,...priorityMath,...otherCourses];
 export function bySlug(slug:string) { return courses.find(course=>course.slug===slug); }
 export function byTopic(subject:string,topic:string) {
   return courses.find(course=>course.subject===subject&&course.topic===topic);
