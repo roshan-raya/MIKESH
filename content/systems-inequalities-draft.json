@@ -1,0 +1,653 @@
+{
+  "passages": [],
+  "items": [
+    {
+      "slug": "chapter-practice-si-01",
+      "subject": "MATH",
+      "topic": "Systems and inequalities",
+      "subtopic": "substitution",
+      "difficulty": 1,
+      "seconds": 35,
+      "prompt": "Which ordered pair satisfies both y = x + 1 and x + y = 7?",
+      "choices": [
+        "(4,3)",
+        "(2,3)",
+        "(3,4)",
+        "(3,3)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Substitution gives 2x + 1 = 7, so x = 3 and y = 4. Both equations hold.",
+      "distractors": {
+        "A": "This pair has the correct sum but y would need to be 5.",
+        "B": "This pair satisfies the first equation but sums to 5.",
+        "D": "The coordinates neither differ by one nor sum to seven."
+      },
+      "objective": "Check a candidate in both equations.",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery question. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "reference:act-math",
+        "reference:openstax-systems",
+        "supporting-skill:Equation and constraint reasoning",
+        "skill:substitution",
+        "remediation:A:substitution",
+        "remediation:B:substitution",
+        "remediation:D:substitution"
+      ]
+    },
+    {
+      "slug": "chapter-practice-si-02",
+      "subject": "MATH",
+      "topic": "Systems and inequalities",
+      "subtopic": "substitution",
+      "difficulty": 2,
+      "seconds": 50,
+      "prompt": "If x = 3y − 2 and 2x + y = 17, what is y?",
+      "choices": [
+        "3",
+        "7",
+        "13/7",
+        "19/7"
+      ],
+      "correctIndex": 0,
+      "explanation": "Distribute to obtain 6y − 4 + y = 17. Then 7y = 21 and y = 3.",
+      "distractors": {
+        "B": "Seven is the corresponding value of x.",
+        "C": "The left constant is −4, so add 4 to the right side.",
+        "D": "The 2 multiplies both terms of 3y − 2."
+      },
+      "objective": "Substitute and distribute across a full expression.",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery question. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "reference:act-math",
+        "reference:openstax-systems",
+        "supporting-skill:Equation and constraint reasoning",
+        "skill:substitution",
+        "remediation:B:substitution",
+        "remediation:C:substitution",
+        "remediation:D:substitution"
+      ]
+    },
+    {
+      "slug": "chapter-practice-si-03",
+      "subject": "MATH",
+      "topic": "Systems and inequalities",
+      "subtopic": "substitution",
+      "difficulty": 2,
+      "seconds": 50,
+      "prompt": "Solve y = 5 − 2x and 3x − y = 10. What is x?",
+      "choices": [
+        "1",
+        "5",
+        "15",
+        "3"
+      ],
+      "correctIndex": 3,
+      "explanation": "Substituting gives 3x − (5 − 2x) = 10. This becomes 5x − 5 = 10, hence x = 3.",
+      "distractors": {
+        "A": "Negating the grouped expression changes both signs.",
+        "B": "Five is the coefficient of x after combining.",
+        "C": "Fifteen is the value of 5x, so divide by five."
+      },
+      "objective": "Apply a minus sign to an entire substitution.",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery question. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "reference:act-math",
+        "reference:openstax-systems",
+        "supporting-skill:Equation and constraint reasoning",
+        "skill:substitution",
+        "remediation:A:substitution",
+        "remediation:B:substitution",
+        "remediation:C:substitution"
+      ]
+    },
+    {
+      "slug": "chapter-practice-si-04",
+      "subject": "MATH",
+      "topic": "Systems and inequalities",
+      "subtopic": "systems-and-bounds",
+      "difficulty": 1,
+      "seconds": 35,
+      "prompt": "Which integer satisfies x ≥ −2 and x < 1?",
+      "choices": [
+        "−3",
+        "0",
+        "1",
+        "2"
+      ],
+      "correctIndex": 1,
+      "explanation": "The overlap includes −2 and ends before 1. Of these choices, only 0 lies inside.",
+      "distractors": {
+        "A": "This is below the inclusive lower bound.",
+        "C": "This equals the excluded upper bound.",
+        "D": "This is above the upper bound."
+      },
+      "objective": "Test the intersection of two one-variable bounds.",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery question. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "reference:act-math",
+        "reference:openstax-systems",
+        "supporting-skill:Equation and constraint reasoning",
+        "skill:systems-and-bounds",
+        "remediation:A:systems-and-bounds",
+        "remediation:C:systems-and-bounds",
+        "remediation:D:systems-and-bounds"
+      ]
+    },
+    {
+      "slug": "chapter-practice-si-05",
+      "subject": "MATH",
+      "topic": "Systems and inequalities",
+      "subtopic": "systems-and-bounds",
+      "difficulty": 2,
+      "seconds": 50,
+      "prompt": "Which equation should replace the second equation when adding x + y = 6 to x − y = 2 and keeping the first equation?",
+      "choices": [
+        "2x = 6",
+        "2y = 8",
+        "2x = 8",
+        "2x = 4"
+      ],
+      "correctIndex": 2,
+      "explanation": "Adding the left sides gives 2x because y and −y cancel. Adding the right sides gives 8.",
+      "distractors": {
+        "A": "The right-side constants must also be added.",
+        "B": "The y terms cancel while x + x gives 2x.",
+        "D": "Four is the difference of the constants."
+      },
+      "objective": "Combine equations while retaining each side.",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery question. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "reference:act-math",
+        "reference:openstax-systems",
+        "supporting-skill:Equation and constraint reasoning",
+        "skill:systems-and-bounds",
+        "remediation:A:systems-and-bounds",
+        "remediation:B:systems-and-bounds",
+        "remediation:D:systems-and-bounds"
+      ]
+    },
+    {
+      "slug": "chapter-practice-si-06",
+      "subject": "MATH",
+      "topic": "Systems and inequalities",
+      "subtopic": "systems-and-bounds",
+      "difficulty": 3,
+      "seconds": 65,
+      "prompt": "A system simplifies to 0 = 0 after both variables cancel, and one original equation is 2x + y = 8. How many solutions are there?",
+      "choices": [
+        "None",
+        "Exactly one",
+        "Exactly two",
+        "Infinitely many"
+      ],
+      "correctIndex": 3,
+      "explanation": "The identity places no further restriction. Every point on the original line is a common solution.",
+      "distractors": {
+        "A": "A true identity does not rule out any point on the remaining line.",
+        "B": "There is no equation fixing a unique coordinate.",
+        "C": "A single line has infinitely many points."
+      },
+      "objective": "Interpret a true identity after elimination.",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery question. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "reference:act-math",
+        "reference:openstax-systems",
+        "supporting-skill:Equation and constraint reasoning",
+        "skill:systems-and-bounds",
+        "remediation:A:systems-and-bounds",
+        "remediation:B:systems-and-bounds",
+        "remediation:C:systems-and-bounds"
+      ]
+    },
+    {
+      "slug": "chapter-practice-si-07",
+      "subject": "MATH",
+      "topic": "Systems and inequalities",
+      "subtopic": "elimination",
+      "difficulty": 3,
+      "seconds": 65,
+      "prompt": "What is x in 2x + 3y = 13 and 3x − 2y = 0?",
+      "choices": [
+        "3",
+        "2",
+        "4",
+        "13"
+      ],
+      "correctIndex": 1,
+      "explanation": "Multiply the equations by 2 and 3, respectively, and add. This gives 13x = 26, so x = 2.",
+      "distractors": {
+        "A": "Three is the corresponding y coordinate.",
+        "C": "The scaled constants are 26 and 0.",
+        "D": "Thirteen is the combined coefficient of x."
+      },
+      "objective": "Scale both equations before eliminating a variable.",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery question. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "reference:act-math",
+        "reference:openstax-systems",
+        "supporting-skill:Equation and constraint reasoning",
+        "skill:elimination",
+        "remediation:A:elimination",
+        "remediation:C:elimination",
+        "remediation:D:elimination"
+      ]
+    },
+    {
+      "slug": "chapter-practice-si-08",
+      "subject": "MATH",
+      "topic": "Systems and inequalities",
+      "subtopic": "elimination",
+      "difficulty": 3,
+      "seconds": 65,
+      "prompt": "For which value of k does 3x + 2y = 7 and 6x + 4y = k have infinitely many solutions?",
+      "choices": [
+        "14",
+        "7",
+        "0",
+        "21"
+      ],
+      "correctIndex": 0,
+      "explanation": "The second left side doubles the first. The right side must also double, so k is 14.",
+      "distractors": {
+        "B": "Matching the unscaled constant gives a contradiction.",
+        "C": "Zero would give a distinct parallel line.",
+        "D": "Twenty-one triples the constant rather than doubling it."
+      },
+      "objective": "Classify a parameter-dependent system using proportional rows.",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery question. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "reference:act-math",
+        "reference:openstax-systems",
+        "supporting-skill:Equation and constraint reasoning",
+        "skill:elimination",
+        "remediation:B:elimination",
+        "remediation:C:elimination",
+        "remediation:D:elimination"
+      ]
+    },
+    {
+      "slug": "chapter-practice-si-09",
+      "subject": "MATH",
+      "topic": "Systems and inequalities",
+      "subtopic": "elimination",
+      "difficulty": 4,
+      "seconds": 80,
+      "prompt": "An augmented matrix has rows (1, −2, −5) and (3, 2, 13). What common ordered pair does it represent?",
+      "choices": [
+        "(7/2,2)",
+        "(2,−7/2)",
+        "(2,7/2)",
+        "(8,13)"
+      ],
+      "correctIndex": 2,
+      "explanation": "The rows represent x−2y=−5 and 3x+2y=13. Adding gives 4x=8, so x=2. The first row then gives y=7/2.",
+      "distractors": {
+        "A": "The coordinates are reversed.",
+        "B": "Substituting −7/2 in the first row gives 9, not −5.",
+        "D": "The sum of the constants is 8, which is the value of 4x."
+      },
+      "objective": "Translate and solve a system presented as augmented rows.",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery question. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "reference:act-math",
+        "reference:openstax-systems",
+        "supporting-skill:Equation and constraint reasoning",
+        "skill:elimination",
+        "remediation:A:elimination",
+        "remediation:B:elimination",
+        "remediation:D:elimination"
+      ]
+    },
+    {
+      "slug": "chapter-practice-si-10",
+      "subject": "MATH",
+      "topic": "Systems and inequalities",
+      "subtopic": "signed-inequalities",
+      "difficulty": 2,
+      "seconds": 50,
+      "prompt": "Which condition is equivalent to 4 − 5x ≥ 19?",
+      "choices": [
+        "x ≥ −3",
+        "x < −3",
+        "x ≤ 3",
+        "x ≤ −3"
+      ],
+      "correctIndex": 3,
+      "explanation": "Subtract 4 to get −5x≥15. Divide by −5, reverse the comparison, and keep equality.",
+      "distractors": {
+        "A": "Division by a negative reverses the comparison.",
+        "B": "The original includes equality, so the endpoint stays included.",
+        "C": "Fifteen divided by −5 is negative three."
+      },
+      "objective": "Reverse an inclusive inequality without losing equality.",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery question. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "reference:act-math",
+        "reference:openstax-inequalities",
+        "supporting-skill:Equation and constraint reasoning",
+        "skill:signed-inequalities",
+        "remediation:A:signed-inequalities",
+        "remediation:B:signed-inequalities",
+        "remediation:C:signed-inequalities"
+      ]
+    },
+    {
+      "slug": "chapter-practice-si-11",
+      "subject": "MATH",
+      "topic": "Systems and inequalities",
+      "subtopic": "signed-inequalities",
+      "difficulty": 3,
+      "seconds": 65,
+      "prompt": "How many integers satisfy −5 < 2x + 1 ≤ 5?",
+      "choices": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctIndex": 1,
+      "explanation": "Subtract 1 and divide by 2 to get −3 < x ≤ 2. The integers are −2, −1, 0, 1 and 2.",
+      "distractors": {
+        "A": "The upper endpoint 2 is included.",
+        "C": "The lower endpoint −3 is excluded.",
+        "D": "Count only integers from −2 through 2."
+      },
+      "objective": "Count integers between one excluded and one included endpoint.",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery question. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "reference:act-math",
+        "reference:openstax-inequalities",
+        "supporting-skill:Equation and constraint reasoning",
+        "skill:signed-inequalities",
+        "remediation:A:signed-inequalities",
+        "remediation:C:signed-inequalities",
+        "remediation:D:signed-inequalities"
+      ]
+    },
+    {
+      "slug": "chapter-practice-si-12",
+      "subject": "MATH",
+      "topic": "Systems and inequalities",
+      "subtopic": "signed-inequalities",
+      "difficulty": 4,
+      "seconds": 80,
+      "prompt": "Which condition is equivalent to 2x + 1 < −3 or 5 − x ≤ 0?",
+      "choices": [
+        "x < −2 or x ≥ 5",
+        "x < −2 and x ≥ 5",
+        "x ≤ −2 or x ≤ 5",
+        "x > −2 or x < 5"
+      ],
+      "correctIndex": 0,
+      "explanation": "The first inequality gives x<−2. The second gives x≥5 after dividing by −1. OR retains either ray.",
+      "distractors": {
+        "B": "OR keeps values in either ray, not only their intersection.",
+        "C": "The first endpoint is strict and the second ray points right.",
+        "D": "The first ray points left, and dividing the second inequality by −1 gives a rightward ray."
+      },
+      "objective": "Solve and combine two inequality rays with OR.",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery question. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "reference:act-math",
+        "reference:openstax-inequalities",
+        "supporting-skill:Equation and constraint reasoning",
+        "skill:signed-inequalities",
+        "remediation:B:signed-inequalities",
+        "remediation:C:signed-inequalities",
+        "remediation:D:signed-inequalities"
+      ]
+    },
+    {
+      "slug": "chapter-practice-si-13",
+      "subject": "MATH",
+      "topic": "Systems and inequalities",
+      "subtopic": "feasible-regions",
+      "difficulty": 3,
+      "seconds": 65,
+      "prompt": "Which pair satisfies y > x − 1 and 2x + y ≤ 7?",
+      "choices": [
+        "(2,1)",
+        "(3,3)",
+        "(2,3)",
+        "(4,0)"
+      ],
+      "correctIndex": 2,
+      "explanation": "For (2,3), 3>1 and 2(2)+3=7. Both comparisons hold.",
+      "distractors": {
+        "A": "The first comparison fails because 1 equals 2−1.",
+        "B": "The second left side equals 9.",
+        "D": "The first comparison fails because 0 is not greater than 3."
+      },
+      "objective": "Evaluate a candidate against a strict and an inclusive boundary.",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery question. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "reference:act-math",
+        "reference:openstax-system-regions",
+        "supporting-skill:Equation and constraint reasoning",
+        "skill:feasible-regions",
+        "remediation:A:feasible-regions",
+        "remediation:B:feasible-regions",
+        "remediation:D:feasible-regions"
+      ]
+    },
+    {
+      "slug": "chapter-practice-si-14",
+      "subject": "MATH",
+      "topic": "Systems and inequalities",
+      "subtopic": "feasible-regions",
+      "difficulty": 4,
+      "seconds": 80,
+      "prompt": "Where do the boundary lines y = 2x and x + y = 9 intersect?",
+      "choices": [
+        "(6,3)",
+        "(3,6)",
+        "(4,5)",
+        "(0,9)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Replace y with 2x in the sum. Then 3x=9, so x=3 and y=6.",
+      "distractors": {
+        "A": "This pair satisfies the sum but not y=2x.",
+        "C": "This pair satisfies the sum but 5 is not twice 4.",
+        "D": "This is the y-intercept of the second line only."
+      },
+      "objective": "Find the common boundary point by substitution.",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery question. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "reference:act-math",
+        "reference:openstax-system-regions",
+        "supporting-skill:Equation and constraint reasoning",
+        "skill:feasible-regions",
+        "remediation:A:feasible-regions",
+        "remediation:C:feasible-regions",
+        "remediation:D:feasible-regions"
+      ]
+    },
+    {
+      "slug": "chapter-practice-si-15",
+      "subject": "MATH",
+      "topic": "Systems and inequalities",
+      "subtopic": "feasible-regions",
+      "difficulty": 4,
+      "seconds": 80,
+      "prompt": "What is the greatest integer y for which some x satisfies x ≥ 2, y ≥ 0 and x + 2y < 11?",
+      "choices": [
+        "3",
+        "5",
+        "9",
+        "4"
+      ],
+      "correctIndex": 3,
+      "explanation": "The smallest allowable x maximizes the available room: 2+2y<11 gives y<4.5. Thus y=4 is feasible and 5 is not.",
+      "distractors": {
+        "A": "Four works with x=2.",
+        "B": "Five gives at least 12 in the sum, above the strict cap.",
+        "C": "The budget of 9 remaining units must be divided by two for y."
+      },
+      "objective": "Use the active bound to find the largest feasible integer.",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery question. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "reference:act-math",
+        "reference:openstax-system-regions",
+        "supporting-skill:Equation and constraint reasoning",
+        "skill:feasible-regions",
+        "remediation:A:feasible-regions",
+        "remediation:B:feasible-regions",
+        "remediation:C:feasible-regions"
+      ]
+    },
+    {
+      "slug": "chapter-practice-si-16",
+      "subject": "MATH",
+      "topic": "Systems and inequalities",
+      "subtopic": "constraint-models",
+      "difficulty": 3,
+      "seconds": 65,
+      "prompt": "A stall sells 19 drinks at either 2 or 6 credits and receives 66 credits. How many sold for 6 credits?",
+      "choices": [
+        "7",
+        "6",
+        "8",
+        "12"
+      ],
+      "correctIndex": 0,
+      "explanation": "If all drinks cost 2, the total would be 38. Each premium drink adds 4. The extra 28 credits require seven premium drinks.",
+      "distractors": {
+        "B": "Six upgrades add only 24 credits.",
+        "C": "Eight upgrades add 32 credits, too much.",
+        "D": "Twelve is the count of lower-priced drinks after solving."
+      },
+      "objective": "Use baseline subtraction to find a premium-item count.",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery question. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "reference:act-math",
+        "reference:openstax-linear-programming",
+        "supporting-skill:Equation and constraint reasoning",
+        "skill:constraint-models",
+        "remediation:B:constraint-models",
+        "remediation:C:constraint-models",
+        "remediation:D:constraint-models"
+      ]
+    },
+    {
+      "slug": "chapter-practice-si-17",
+      "subject": "MATH",
+      "topic": "Systems and inequalities",
+      "subtopic": "constraint-models",
+      "difficulty": 5,
+      "seconds": 100,
+      "prompt": "A workshop makes x and y items with x,y ≥ 0, x + y ≤ 8, and y ≤ 3. What is the maximum value of 2x + 5y?",
+      "choices": [
+        "16",
+        "15",
+        "25",
+        "40"
+      ],
+      "correctIndex": 2,
+      "explanation": "For a fixed y, use x=8−y. The objective becomes 16+3y and is largest at y=3, giving 25 at (5,3).",
+      "distractors": {
+        "A": "This is the value at (8,0), but y adds more value per item.",
+        "B": "This is the value at (0,3), leaving five item slots unused.",
+        "D": "Eight units of y would violate y≤3."
+      },
+      "objective": "Optimize a linear score subject to two resource limits.",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery question. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "reference:act-math",
+        "reference:openstax-linear-programming",
+        "supporting-skill:Equation and constraint reasoning",
+        "skill:constraint-models",
+        "remediation:A:constraint-models",
+        "remediation:B:constraint-models",
+        "remediation:D:constraint-models"
+      ]
+    },
+    {
+      "slug": "chapter-practice-si-18",
+      "subject": "MATH",
+      "topic": "Systems and inequalities",
+      "subtopic": "constraint-models",
+      "difficulty": 5,
+      "seconds": 100,
+      "prompt": "A booth earns 3 credits per small kit and 5 per large kit. Small kits use 2 slots and large kits use 4. There are 10 slots and at least one large kit must be made. What is the greatest whole-number revenue?",
+      "choices": [
+        "13",
+        "14",
+        "15",
+        "18"
+      ],
+      "correctIndex": 1,
+      "explanation": "One large kit leaves six slots for three small kits, for 14. Two large kits leave two slots for one small kit, for 13. Three large kits cannot fit.",
+      "distractors": {
+        "A": "Two large kits and one small earn 13, but one large with three small earns more.",
+        "C": "Five small kits would earn 15 but use no large kit.",
+        "D": "Making three large kits would require at least 12 slots, and any revenue of 18 is infeasible."
+      },
+      "objective": "Enumerate allowable whole counts under a capacity constraint.",
+      "status": "draft",
+      "holdout": false,
+      "provenance": "Original ACT Mastery question. Independent editorial review pending.",
+      "tags": [
+        "original",
+        "reference:act-math",
+        "reference:openstax-linear-programming",
+        "supporting-skill:Equation and constraint reasoning",
+        "skill:constraint-models",
+        "remediation:A:constraint-models",
+        "remediation:C:constraint-models",
+        "remediation:D:constraint-models"
+      ]
+    }
+  ]
+}
